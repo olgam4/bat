@@ -1,0 +1,21 @@
+{
+  "name": "mandalore",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "solid-js": "1.4.2"
+  },
+  "devDependencies": {
+    "typescript": "4.6.4",
+    "vite": "2.9.9",
+    "vite-plugin-solid": "2.2.6",
+    "vite-tsconfig-paths": "3.5.0"
+  }
+}
