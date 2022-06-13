@@ -2,7 +2,7 @@ import {
   defineConfig,
   presetIcons,
   presetUno
-} from "unocss"
+} from 'unocss'
 
 export default defineConfig({
   presets: [

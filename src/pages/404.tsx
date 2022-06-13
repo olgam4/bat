@@ -1,4 +1,4 @@
-import { useI18n } from "solid-i18n"
+import { useI18n } from 'solid-i18n'
 
 export default function () {
   const i18n = useI18n()

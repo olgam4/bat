@@ -15,8 +15,9 @@ module.exports = {
   ],
   rules: {
     semi: [2, 'never'],
-    "@typescript-eslint/no-unused-vars": "off",
-    "unused-imports/no-unused-vars": [2, { args: 'after-used', argsIgnorePattern: '^_' }],
-    "unused-imports/no-unused-imports": "error",
+    '@typescript-eslint/no-unused-vars': 'off',
+    'unused-imports/no-unused-vars': [2, { args: 'after-used', argsIgnorePattern: '^_' }],
+    'unused-imports/no-unused-imports': 'error',
+    quotes: [2, 'single', 'avoid-escape'],
   },
 }
