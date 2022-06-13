@@ -6,8 +6,8 @@ specifiers:
   cssnano: 5.1.11
   pnpm: 7.2.1
   postcss: 8.4.14
-  postcss-nesting: 10.1.8
   postcss-preset-env: 7.7.1
+  solid-i18n: 1.0.2
   solid-js: 1.4.2
   typescript: 4.6.4
   unocss: 0.39.0
@@ -19,6 +19,7 @@ specifiers:
   workbox-window: 6.5.3
 
 dependencies:
+  solid-i18n: 1.0.2_solid-js@1.4.2
   solid-js: 1.4.2
 
 devDependencies:
@@ -27,7 +28,6 @@ devDependencies:
   cssnano: 5.1.11_postcss@8.4.14
   pnpm: 7.2.1
   postcss: 8.4.14
-  postcss-nesting: 10.1.8_postcss@8.4.14
   postcss-preset-env: 7.7.1_postcss@8.4.14
   typescript: 4.6.4
   unocss: 0.39.0_vite@2.9.9
@@ -2898,6 +2898,10 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
+  /i18n-mini/1.1.0:
+    resolution: {integrity: sha512-Y7R8/ITtjYAAklY9a8vizkFpUlgJDFLGWUlppH7Lcx2R3dXQaZXrugJtGXYjL9vK1ym5CzhbN2kU4lj8ELA6vg==}
+    dev: false
+
   /idb/6.1.5:
     resolution: {integrity: sha512-IJtugpKkiVXQn5Y+LteyBCNk1N8xpGV3wWZk9EVtZWH8DYkjBn0bX1XnGP9RkyZF0sAcywa6unHqSWKe7q4LGw==}
     dev: true
@@ -4233,6 +4237,15 @@ packages:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
     dev: true
+
+  /solid-i18n/1.0.2_solid-js@1.4.2:
+    resolution: {integrity: sha512-+WJQLlkB4H/TLr7YcthBcrWdvOL3FMGs+gyJhltcj5Y7lrDRZvGIzw1o/vcO0WiQDEfsvK1mMPu2gqAIs1l8gQ==}
+    peerDependencies:
+      solid-js: 1.x.x
+    dependencies:
+      i18n-mini: 1.1.0
+      solid-js: 1.4.2
+    dev: false
 
   /solid-js/1.4.2:
     resolution: {integrity: sha512-IU5yKuT8P/n5F5g8j1rTXqxUdPYmoZDk/074TG94AEYf/nyXAeG82BSge4/lLIbCfUcnGUJ6DRdebIjujOAYyg==}

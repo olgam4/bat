@@ -11,4 +11,4 @@ bat
 * 🗿 [Solid](https://www.solidjs.com/)
 * 🎨 [unocss](https://uno.antfu.me/), [postcss](https://postcss.org/)
 * 📱 [PWA](https://vite-plugin-pwa.netlify.app/)
-
+* 🌎 [i18n](https://github.com/SanichKotikov/solid-i18n)
