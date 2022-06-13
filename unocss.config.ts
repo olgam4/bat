@@ -1,12 +1,16 @@
 import {
   defineConfig,
   presetIcons,
-  presetUno
+  presetUno,
+  transformerVariantGroup
 } from 'unocss'
 
 export default defineConfig({
   presets: [
     presetUno(),
     presetIcons(),
-  ]
+  ],
+  transformers: [
+    transformerVariantGroup(),
+  ],
 }) 

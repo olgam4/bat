@@ -6,6 +6,7 @@ specifiers:
   '@typescript-eslint/parser': 5.27.1
   '@unocss/preset-icons': 0.39.0
   '@unocss/reset': 0.39.0
+  '@unocss/transformer-variant-group': 0.39.0
   autoprefixer: 10.4.7
   cssnano: 5.1.11
   eslint: 7.32.0 || 8.2.0
@@ -38,6 +39,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.27.1_ogtsbilvmnqulayzf7jnhxqxu4
   '@unocss/preset-icons': 0.39.0
   '@unocss/reset': 0.39.0
+  '@unocss/transformer-variant-group': 0.39.0
   autoprefixer: 10.4.7_postcss@8.4.14
   cssnano: 5.1.11_postcss@8.4.14
   eslint: 8.2.0
