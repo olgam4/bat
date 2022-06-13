@@ -7,9 +7,11 @@ bat
 
 # Features
 
-* ⚡️ [Vite 2](https://vitejs.dev/), [pnpm](pnpm.js.org)
+* ⚡️ [Vite 2](https://vitejs.dev/), [pnpm](https://pnpm.js.org/)
 * 🗿 [Solid](https://www.solidjs.com/)
-* 🎨 [unocss](https://uno.antfu.me/), [postcss](https://postcss.org/)
+* 🎨 [UnoCSS](https://uno.antfu.me/), [PostCSS](https://postcss.org/)
+* 🙂 [Iconify with UnoCSS](https://github.com/unocss/unocss/tree/main/packages/preset-icons/)
 * 📱 [PWA](https://vite-plugin-pwa.netlify.app/)
 * 🌎 [i18n](https://github.com/SanichKotikov/solid-i18n/)
-* [eslint](https://eslint.org/)
+* 🧽 [eslint](https://eslint.org/)
+* 🦾 [TypeScript](https://www.typescriptlang.org/)
