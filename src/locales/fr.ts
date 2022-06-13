@@ -2,4 +2,4 @@ const fr = {
   title: "Solide",
 }
 
-export default fr;
+export default fr

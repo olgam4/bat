@@ -1,8 +1,8 @@
-import Button from "@components/Button";
-import Example from "@components/Example";
-import { createI18n, I18nProvider } from "solid-i18n";
-import en from "./locales/en";
-import fr from "./locales/fr";
+import Button from "@components/Button"
+import Example from "@components/Example"
+import { createI18n, I18nProvider } from "solid-i18n"
+import en from "./locales/en"
+import fr from "./locales/fr"
 
 const i18n = createI18n({
   language: 'en',

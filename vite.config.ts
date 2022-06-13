@@ -1,10 +1,9 @@
-import { defineConfig } from 'vite';
-import solidPlugin from 'vite-plugin-solid';
-import { VitePWA } from 'vite-plugin-pwa';
-import tsconfigPaths from 'vite-tsconfig-paths';
-import AutoImport from 'unplugin-auto-import/vite';
-import Unocss from 'unocss/vite';
-import presetIcons from '@unocss/preset-icons';
+import { defineConfig } from 'vite'
+import solidPlugin from 'vite-plugin-solid'
+import { VitePWA } from 'vite-plugin-pwa'
+import tsconfigPaths from 'vite-tsconfig-paths'
+import AutoImport from 'unplugin-auto-import/vite'
+import Unocss from 'unocss/vite'
 
 export default defineConfig({
   plugins: [
@@ -18,4 +17,4 @@ export default defineConfig({
     target: 'esnext',
     polyfillDynamicImport: false,
   },
-});
+})

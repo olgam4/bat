@@ -2,4 +2,4 @@ const en = {
   title: "Solid",
 }
 
-export default en;
+export default en

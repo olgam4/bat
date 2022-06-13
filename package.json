@@ -5,7 +5,9 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint . --ext .ts,.tsx,.js",
+    "lint:fix": "pnpm lint --fix"
   },
   "license": "MIT",
   "dependencies": {
@@ -14,10 +16,15 @@
   },
   "devDependencies": {
     "@iconify-json/carbon": "1.1.5",
+    "@typescript-eslint/eslint-plugin": "5.27.1",
+    "@typescript-eslint/parser": "5.27.1",
     "@unocss/preset-icons": "0.39.0",
     "@unocss/reset": "0.39.0",
     "autoprefixer": "10.4.7",
     "cssnano": "5.1.11",
+    "eslint": "7.32.0 || 8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.2",
     "pnpm": "7.2.1",
     "postcss": "8.4.14",
     "postcss-preset-env": "7.7.1",
