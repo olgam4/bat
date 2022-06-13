@@ -11,6 +11,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "solid-app-router": "0.3.3",
     "solid-i18n": "1.0.2",
     "solid-js": "1.4.2"
   },
