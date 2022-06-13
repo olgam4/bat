@@ -7,8 +7,8 @@ bat
 
 # Features
 
-* [Vite 2](https://vitejs.dev/)
-* [Solid](https://www.solidjs.com/)
-* [pnpm](pnpm.js.org)
+* ⚡️ [Vite 2](https://vitejs.dev/), [pnpm](pnpm.js.org)
+* 🗿 [Solid](https://www.solidjs.com/)
+* 🎨 [unocss](https://uno.antfu.me/), [postcss](https://postcss.org/)
 * 📱 [PWA](https://vite-plugin-pwa.netlify.app/)
 
