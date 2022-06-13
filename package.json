@@ -14,6 +14,7 @@
   "devDependencies": {
     "pnpm": "7.2.1",
     "typescript": "4.6.4",
+    "unocss": "0.39.0",
     "unplugin-auto-import": "0.8.8",
     "vite": "2.9.9",
     "vite-plugin-pwa": "0.12.0",
