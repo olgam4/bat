@@ -1,13 +1,17 @@
 import Button from '@components/Button'
-import Example from '@components/Example'
+import Image from '@components/Image'
 import { Link } from 'solid-app-router'
 import { useI18n } from 'solid-i18n'
+
+import bat from '@assets/bat.png'
+import Counter, { createCounter } from '@components/Counter'
 
 export default function () {
   const i18n = useI18n()
   const changeLanguage = () => {
     i18n.language === 'en' ? i18n.setLanguage('fr') : i18n.setLanguage('en')
   }
+  const counter = createCounter()
 
   return (
     <div class="p-10">
@@ -16,7 +20,9 @@ export default function () {
         <Link href="/about" children={i18n.t('about')}/>
         <Link href="/random" children={<p>202</p>}/>
       </nav>
-      <Example className='text-blue-400 px-4'/>
+      <p>{counter.counter()}</p>
+      <Image image={bat} />
+      <Counter {...counter}/>
       <Button onClick={changeLanguage}>
         <div class="i-carbon-language" />
       </Button>
