@@ -1,25 +1,14 @@
-import { useI18n } from "solid-i18n"
-import { Component, createSignal } from "solid-js"
+import { FlowComponent } from "solid-js"
 
-const Button: Component = () => {
-  const i18n = useI18n()
+interface Props {
+  onClick: () => void
+}
 
-  const [lang, setLang] = createSignal('en')
-
-  const changeLang = () => {
-    setLang(lang() === "en" ? "fr" : "en")
-    i18n.setLanguage(lang())
-  }
-
+const Button: FlowComponent<Props> = (props) => {
   return (
-    <>
-      <button class="btn mx-2" onClick={changeLang}>
-        <div class="i-carbon-language" />
-      </button>
-      <button class="btn">
-        {i18n.t('title')}
-      </button>
-    </>
+    <button class="p-4 border border-gray-400 rounded-md" onClick={props.onClick}>
+      {props.children}
+    </button>
   )
 }
 
