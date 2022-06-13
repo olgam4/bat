@@ -1,7 +1,7 @@
 import Button from "@components/Button"
 import Example from "@components/Example"
 import { en, fr } from "@locales"
-import { createI18n, I18nProvider, useI18n } from "solid-i18n"
+import { createI18n, I18nProvider } from "solid-i18n"
 import { createSignal } from "solid-js"
 
 const i18n = createI18n({

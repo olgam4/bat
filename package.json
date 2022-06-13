@@ -25,6 +25,7 @@
     "eslint": "7.32.0 || 8.2.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-unused-imports": "2.0.0",
     "pnpm": "7.2.1",
     "postcss": "8.4.14",
     "postcss-preset-env": "7.7.1",

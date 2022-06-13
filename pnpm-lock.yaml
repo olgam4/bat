@@ -11,6 +11,7 @@ specifiers:
   eslint: 7.32.0 || 8.2.0
   eslint-config-airbnb-base: 15.0.0
   eslint-plugin-import: 2.25.2
+  eslint-plugin-unused-imports: 2.0.0
   pnpm: 7.2.1
   postcss: 8.4.14
   postcss-preset-env: 7.7.1
@@ -40,6 +41,7 @@ devDependencies:
   eslint: 8.2.0
   eslint-config-airbnb-base: 15.0.0_h4atgnglkjca4iautdg3nmuxta
   eslint-plugin-import: 2.25.2_pwqfkdfeqwbw2yd6co5mr5qtyy
+  eslint-plugin-unused-imports: 2.0.0_iuv3bjqsbwi3gnnf3s7mairdom
   pnpm: 7.2.1
   postcss: 8.4.14
   postcss-preset-env: 7.7.1_postcss@8.4.14
@@ -3056,6 +3058,26 @@ packages:
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - supports-color
+    dev: true
+
+  /eslint-plugin-unused-imports/2.0.0_iuv3bjqsbwi3gnnf3s7mairdom:
+    resolution: {integrity: sha512-3APeS/tQlTrFa167ThtP0Zm0vctjr4M44HMpeg1P4bK6wItarumq0Ma82xorMKdFsWpphQBlRPzw/pxiVELX1A==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      '@typescript-eslint/eslint-plugin': ^5.0.0
+      eslint: ^8.0.0
+    peerDependenciesMeta:
+      '@typescript-eslint/eslint-plugin':
+        optional: true
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 5.27.1_3cujwkgp7mgaeexiowqosf4tn4
+      eslint: 8.2.0
+      eslint-rule-composer: 0.3.0
+    dev: true
+
+  /eslint-rule-composer/0.3.0:
+    resolution: {integrity: sha512-bt+Sh8CtDmn2OajxvNO+BX7Wn4CIWMpTRm3MaiKPCQcnnlm0CS2mhui6QaoeQugs+3Kj2ESKEEGJUdVafwhiCg==}
+    engines: {node: '>=4.0.0'}
     dev: true
 
   /eslint-scope/5.1.1:
