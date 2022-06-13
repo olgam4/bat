@@ -1,0 +1,11 @@
+@import '@unocss/reset/tailwind.css';
+
+.btn {
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+
+  &:hover {
+    background-color: #f0f;
+    border-color: #f0f;
+  }
+}

@@ -12,7 +12,12 @@
     "solid-js": "1.4.2"
   },
   "devDependencies": {
+    "@unocss/reset": "0.39.0",
+    "autoprefixer": "10.4.7",
+    "cssnano": "5.1.11",
     "pnpm": "7.2.1",
+    "postcss": "8.4.14",
+    "postcss-preset-env": "7.7.1",
     "typescript": "4.6.4",
     "unocss": "0.39.0",
     "unplugin-auto-import": "0.8.8",
