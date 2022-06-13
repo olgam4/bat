@@ -14,7 +14,7 @@ const Button: Component = () => {
   return (
     <>
       <button class="btn mx-2" onClick={changeLang}>
-        lang
+        <div class="i-carbon-language" />
       </button>
       <button class="btn">
         {i18n.t('title')}

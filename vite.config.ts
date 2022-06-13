@@ -4,6 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import AutoImport from 'unplugin-auto-import/vite';
 import Unocss from 'unocss/vite';
+import presetIcons from '@unocss/preset-icons';
 
 export default defineConfig({
   plugins: [

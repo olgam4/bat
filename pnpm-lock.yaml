@@ -1,6 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/carbon': 1.1.5
+  '@unocss/preset-icons': 0.39.0
   '@unocss/reset': 0.39.0
   autoprefixer: 10.4.7
   cssnano: 5.1.11
@@ -23,6 +25,8 @@ dependencies:
   solid-js: 1.4.2
 
 devDependencies:
+  '@iconify-json/carbon': 1.1.5
+  '@unocss/preset-icons': 0.39.0
   '@unocss/reset': 0.39.0
   autoprefixer: 10.4.7_postcss@8.4.14
   cssnano: 5.1.11_postcss@8.4.14
@@ -1543,6 +1547,12 @@ packages:
 
   /@cush/relative/1.0.0:
     resolution: {integrity: sha512-RpfLEtTlyIxeNPGKcokS+p3BZII/Q3bYxryFRglh5H3A3T8q9fsLYm72VYAMEOOIBLEa8o93kFLiBDUWKrwXZA==}
+    dev: true
+
+  /@iconify-json/carbon/1.1.5:
+    resolution: {integrity: sha512-ENl8CIEo+7JcRzpJ/58i+dDc3fkNOO7gyNGg4S4JN5cAiVpvltYTVO86Oei7rpl8bKypJ0vk3B0BbzzTw7DclA==}
+    dependencies:
+      '@iconify/types': 1.1.0
     dev: true
 
   /@iconify/types/1.1.0:

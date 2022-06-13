@@ -13,6 +13,8 @@
     "solid-js": "1.4.2"
   },
   "devDependencies": {
+    "@iconify-json/carbon": "1.1.5",
+    "@unocss/preset-icons": "0.39.0",
     "@unocss/reset": "0.39.0",
     "autoprefixer": "10.4.7",
     "cssnano": "5.1.11",
