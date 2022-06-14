@@ -3,6 +3,7 @@ import { Link } from 'solid-app-router'
 
 import bat from '@assets/bat.png'
 import Counter, { createCounter } from '@components/Counter'
+import Button from '@components/Button'
 
 export default function () {
   const counter = createCounter()
@@ -15,10 +16,15 @@ export default function () {
         <Link href="/random" children={<p>202</p>}/>
       </nav>
       <Image image={bat} />
-      <div class="flex space-x-2">
+      <div class="flex space-x-4">
         <div class="flex flex-col items-center">
           <p>{counter.counter()}</p>
           <Counter {...counter}/>
+        </div>
+        <div class="h-7 self-end">
+          <a class="btn" href="https://github.com/olgam4/bat" target="_blank">
+            <div class="i-carbon-logo-github text-3xl" />
+          </a>
         </div>
       </div>
     </div>
