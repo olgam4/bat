@@ -15,3 +15,4 @@ bat
 * 🌎 [i18n](https://github.com/SanichKotikov/solid-i18n/)
 * 🧽 [eslint](https://eslint.org/)
 * 🦾 [TypeScript](https://www.typescriptlang.org/)
+* ☁️  [Vercel](https://vercel.com/) with minimal [config](./assets/vercel-config.md)
