@@ -36,7 +36,6 @@
     "unocss": "0.39.0",
     "unplugin-auto-import": "0.8.8",
     "vite": "2.9.9",
-    "vite-plugin-pwa": "0.12.0",
     "vite-tsconfig-paths": "3.5.0",
     "workbox-window": "6.5.3"
   }

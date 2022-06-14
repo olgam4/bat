@@ -13,7 +13,6 @@ bat
 * 🔮 [Auto Import](https://github.com/antfu/unplugin-auto-import/)
 * 🎨 [UnoCSS](https://uno.antfu.me/), [PostCSS](https://postcss.org/)
 * 🙂 [Iconify with UnoCSS](https://github.com/unocss/unocss/tree/main/packages/preset-icons/)
-* 📱 [PWA](https://vite-plugin-pwa.netlify.app/)
 * 🌎 [i18n](https://github.com/solidjs-community/solid-primitives/tree/main/packages/i18n)
 * 🧽 [eslint](https://eslint.org/)
 * 🦾 [TypeScript](https://www.typescriptlang.org/)
