@@ -19,3 +19,21 @@ bat
 * 🦾 [TypeScript](https://www.typescriptlang.org/)
 * ⚙️  [SSR](https://github.com/solidjs/solid-start) through Solid-SSR
 * ☁️  [Vercel](https://vercel.com/) Edge Functions with minimal [config](./assets/vercel-config.md)
+
+# Try it now!
+
+## Clone to local
+
+``` sh
+npx degit olgam4/bat my-bat-mobile
+cd my-bat-mobile
+pnpm i # If you don't use pnpm, please consider using it: npm install -g pnpm
+```
+
+## GitHub Template
+
+[Create a repo from this template](https://github.com/olgam4/bat/generate)
+
+# Acknoledgements
+
+This repo is inspired by 🏕 [antfu/vitesse](https://github.com/antfu/vitesse)
