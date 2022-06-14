@@ -10,10 +10,6 @@
   },
   "type": "module",
   "license": "MIT",
-  "dependencies": {
-    "solid-app-router": "0.3.3",
-    "solid-js": "1.4.2"
-  },
   "devDependencies": {
     "@iconify-json/carbon": "1.1.5",
     "@typescript-eslint/eslint-plugin": "5.27.1",
@@ -24,14 +20,15 @@
     "autoprefixer": "10.4.7",
     "cssnano": "5.1.11",
     "eslint": "7.32.0 || 8.2.0",
-    "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-import": "2.25.2",
     "eslint-plugin-unused-imports": "2.0.0",
     "pnpm": "7.2.1",
     "postcss": "8.4.14",
     "postcss-preset-env": "7.7.1",
     "rollup": "2.75.6",
+    "solid-app-router": "0.3.3",
     "solid-meta": "0.27.5",
+    "solid-js": "1.4.2",
     "solid-start": "0.1.0-alpha.88",
     "solid-start-vercel": "0.1.0-alpha.88",
     "typescript": "4.6.4",
@@ -39,7 +36,6 @@
     "unplugin-auto-import": "0.8.8",
     "vite": "2.9.9",
     "vite-plugin-pwa": "0.12.0",
-    "vite-plugin-solid": "2.2.6",
     "vite-tsconfig-paths": "3.5.0",
     "workbox-window": "6.5.3"
   }

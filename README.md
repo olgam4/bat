@@ -14,7 +14,6 @@ bat
 * 🎨 [UnoCSS](https://uno.antfu.me/), [PostCSS](https://postcss.org/)
 * 🙂 [Iconify with UnoCSS](https://github.com/unocss/unocss/tree/main/packages/preset-icons/)
 * 📱 [PWA](https://vite-plugin-pwa.netlify.app/)
-* 🌎 [i18n](https://github.com/SanichKotikov/solid-i18n/)
 * 🧽 [eslint](https://eslint.org/)
 * 🦾 [TypeScript](https://www.typescriptlang.org/)
 * ⚙️  [SSR](https://github.com/solidjs/solid-start) through Solid-SSR
