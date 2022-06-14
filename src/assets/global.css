@@ -1,1 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&display=swap');
 @import '@unocss/reset/tailwind.css';
+
+* {
+  font-family: 'Dosis', sans-serif;
+}
