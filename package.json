@@ -2,17 +2,16 @@
   "description": "",
   "packageManager": "pnpm@7.2.1",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
+    "start": "solid-start start",
+    "dev": "solid-start dev",
+    "build": "solid-start build",
     "lint": "eslint . --ext .ts,.tsx,.js",
     "lint:fix": "pnpm lint --fix"
   },
+  "type": "module",
   "license": "MIT",
   "dependencies": {
     "solid-app-router": "0.3.3",
-    "solid-i18n": "1.0.2",
     "solid-js": "1.4.2"
   },
   "devDependencies": {
@@ -31,6 +30,10 @@
     "pnpm": "7.2.1",
     "postcss": "8.4.14",
     "postcss-preset-env": "7.7.1",
+    "rollup": "2.75.6",
+    "solid-meta": "0.27.5",
+    "solid-start": "0.1.0-alpha.88",
+    "solid-start-vercel": "0.1.0-alpha.88",
     "typescript": "4.6.4",
     "unocss": "0.39.0",
     "unplugin-auto-import": "0.8.8",

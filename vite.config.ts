@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
-import solidPlugin from 'vite-plugin-solid'
+import solid from 'solid-start'
+import vercel from 'solid-start-vercel'
 import { VitePWA } from 'vite-plugin-pwa'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import AutoImport from 'unplugin-auto-import/vite'
@@ -7,7 +8,7 @@ import Unocss from 'unocss/vite'
 
 export default defineConfig({
   plugins: [
-    solidPlugin(),
+    solid({ adapter: vercel() }),
     tsconfigPaths(),
     VitePWA(),
     AutoImport(),
