@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@iconify-json/carbon': 1.1.5
+  '@solid-primitives/i18n': 1.1.0
   '@typescript-eslint/eslint-plugin': 5.27.1
   '@typescript-eslint/parser': 5.27.1
   '@unocss/preset-icons': 0.39.0
@@ -31,6 +32,7 @@ specifiers:
 
 devDependencies:
   '@iconify-json/carbon': 1.1.5
+  '@solid-primitives/i18n': 1.1.0_solid-js@1.4.2
   '@typescript-eslint/eslint-plugin': 5.27.1_3cujwkgp7mgaeexiowqosf4tn4
   '@typescript-eslint/parser': 5.27.1_ogtsbilvmnqulayzf7jnhxqxu4
   '@unocss/preset-icons': 0.39.0
@@ -1648,6 +1650,14 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    dev: true
+
+  /@solid-primitives/i18n/1.1.0_solid-js@1.4.2:
+    resolution: {integrity: sha512-aqJttEb8rmsQTU5VqfBfaeHFMIqKu1eXHVEahtW4DGKYBz/CDis5V25psQEyspuVTmPs7RpX99Whe9jV7ib4pg==}
+    peerDependencies:
+      solid-js: ^1.3.1
+    dependencies:
+      solid-js: 1.4.2
     dev: true
 
   /@surma/rollup-plugin-off-main-thread/2.2.3:

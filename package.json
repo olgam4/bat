@@ -12,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@iconify-json/carbon": "1.1.5",
+    "@solid-primitives/i18n": "1.1.0",
     "@typescript-eslint/eslint-plugin": "5.27.1",
     "@typescript-eslint/parser": "5.27.1",
     "@unocss/preset-icons": "0.39.0",
@@ -27,8 +28,8 @@
     "postcss-preset-env": "7.7.1",
     "rollup": "2.75.6",
     "solid-app-router": "0.3.3",
-    "solid-meta": "0.27.5",
     "solid-js": "1.4.2",
+    "solid-meta": "0.27.5",
     "solid-start": "0.1.0-alpha.88",
     "solid-start-vercel": "0.1.0-alpha.88",
     "typescript": "4.6.4",

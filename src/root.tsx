@@ -1,6 +1,7 @@
 // @refresh reload
 import { Links, Meta, Routes, Scripts } from 'solid-start/root'
 import { ErrorBoundary } from 'solid-start/error-boundary'
+import { Suspense } from 'solid-js'
 
 import './assets/global.css'
 import 'uno.css'
