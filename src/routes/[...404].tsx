@@ -1,4 +1,3 @@
-import { Link } from 'solid-app-router'
 export default function () {
   return (
     <div class="full flex-center flex-col bg-gray-100/50 text-gray-400">

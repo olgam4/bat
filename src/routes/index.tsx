@@ -1,9 +1,7 @@
 import Image from '@components/Image'
-import { Link } from 'solid-app-router'
+import Counter, { createCounter } from '@components/Counter'
 
 import bat from '@assets/bat.png'
-import Counter, { createCounter } from '@components/Counter'
-import Button from '@components/Button'
 
 export default function () {
   const counter = createCounter()

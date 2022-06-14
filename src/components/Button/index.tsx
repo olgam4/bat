@@ -1,4 +1,4 @@
-import { FlowComponent } from 'solid-js'
+import type { FlowComponent } from 'solid-js'
 
 interface Props {
   onClick: () => void

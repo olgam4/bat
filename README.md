@@ -9,10 +9,13 @@ bat
 
 * ⚡️ [Vite 2](https://vitejs.dev/), [pnpm](https://pnpm.js.org/)
 * 🗿 [Solid](https://www.solidjs.com/)
+* 📦 [File based routing](/src/routes/)
+* 🔮 [Auto Import](https://github.com/antfu/unplugin-auto-import/)
 * 🎨 [UnoCSS](https://uno.antfu.me/), [PostCSS](https://postcss.org/)
 * 🙂 [Iconify with UnoCSS](https://github.com/unocss/unocss/tree/main/packages/preset-icons/)
 * 📱 [PWA](https://vite-plugin-pwa.netlify.app/)
 * 🌎 [i18n](https://github.com/SanichKotikov/solid-i18n/)
 * 🧽 [eslint](https://eslint.org/)
 * 🦾 [TypeScript](https://www.typescriptlang.org/)
-* ☁️  [Vercel](https://vercel.com/) with minimal [config](./assets/vercel-config.md)
+* ⚙️  [SSR](https://github.com/solidjs/solid-start) through Solid-SSR
+* ☁️  [Vercel](https://vercel.com/) Edge Functions with minimal [config](./assets/vercel-config.md)

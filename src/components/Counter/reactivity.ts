@@ -1,5 +1,3 @@
-import { createSignal } from 'solid-js'
-
 const createCounter = () => {
   const [counter, setCounter] = createSignal(0)
   return {

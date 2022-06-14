@@ -11,7 +11,12 @@ export default defineConfig({
     solid({ adapter: vercel() }),
     tsconfigPaths(),
     VitePWA(),
-    AutoImport(),
+    AutoImport({
+      imports: [
+        'solid-app-router',
+        'solid-js',
+      ],
+    }),
     Unocss(),
   ],
   build: {
