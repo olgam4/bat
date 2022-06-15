@@ -4,6 +4,6 @@ interface Props {
 
 export default function (props: Props) {
   return (
-    <img src={props.image} />
+    <img src={props.image} width="200" />
   )
 }
