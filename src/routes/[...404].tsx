@@ -1,5 +1,5 @@
-import C404 from '@layouts/404';
-import { Provider } from "@locales";
+import C404 from '@layouts/404'
+import { Provider } from '@locales'
 
 export default function () {
   return (

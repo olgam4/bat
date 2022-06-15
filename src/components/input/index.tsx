@@ -1,5 +1,5 @@
-import { useI18n } from "@solid-primitives/i18n";
-import type { Component, Ref } from "solid-js";
+import { useI18n } from '@solid-primitives/i18n'
+import type { Component, Ref } from 'solid-js'
 
 const Input: Component = () => {
   let linkRef: Ref<any>
