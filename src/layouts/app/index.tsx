@@ -1,9 +1,9 @@
 import bat from '@assets/bat.png'
 import { useI18n } from '@solid-primitives/i18n'
-import Image from '@components/Image'
-import Counter, { createCounter } from '@components/Counter'
-import Button from '@components/Button'
-import ReloadPrompt from '@components/ReloadPrompt'
+import Image from '@components/image'
+import Counter, { createCounter } from '@components/counter'
+import Button from '@components/button'
+import ReloadPrompt from '@components/reload'
 import Input from '@components/input'
 
 const ReloadPromptCheck = typeof window !== 'undefined' ?
