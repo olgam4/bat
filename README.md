@@ -16,6 +16,7 @@ bat
 * 🌎 [i18n](https://github.com/solidjs-community/solid-primitives/tree/main/packages/i18n)
 * 🧽 [eslint](https://eslint.org/)
 * 🦾 [TypeScript](https://www.typescriptlang.org/)
+* 📱 [PWA](https://github.com/antfu/vite-plugin-pwa)
 * ⚙️  [SSR](https://github.com/solidjs/solid-start) through Solid-SSR
 * ☁️  [Vercel](https://vercel.com/) Edge Functions with minimal [config](./assets/vercel-config.md)
 
