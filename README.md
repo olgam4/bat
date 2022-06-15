@@ -1,9 +1,26 @@
-<img src="./assets/bat.png" width="70"/>
-bat
+<p align='center'>
+  <img src="./public/pwa-512x512.png" width="150"/>
+</p>
+
+<p align='center'>Kickstart a web app from <b>bat</b></p>
+
+<br>
 
 > I bet your parents taught you that you mean something, that you're here for a reason. My parents taught me a different lesson, dying in the gutter for no reason at all... They taught me the world only makes sense if you force it to.
 > 
 > -- batman, because our first commits never have parents
+
+<br>
+
+<p align='center'>
+  <a href="https://bat.glo.quebec" target="_blank">Live Demo</a>
+</p
+
+<br>
+
+<p align='center'><b>English</b> | <a href="/README.fr-CA.md">Français</a></p>
+
+<br>
 
 ## Features
 
