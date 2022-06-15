@@ -20,6 +20,8 @@
 
 <p align='center'><b>English</b> | <a href="/README.fr-CA.md">Français</a></p>
 
+<!-- Contributions are welcome -->
+
 <br>
 
 ## Features
