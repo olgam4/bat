@@ -4,3 +4,4 @@ dist
 tailwind.config.cjs
 .vercel
 .solid
+auto-imports.d.ts
