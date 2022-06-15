@@ -24,7 +24,7 @@
     "@unocss/transformer-variant-group": "0.39.0",
     "autoprefixer": "10.4.7",
     "cssnano": "5.1.11",
-    "eslint": "8.2.0",
+    "eslint": "8.17.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-unused-imports": "2.0.0",
     "jsdom": "19.0.0",
