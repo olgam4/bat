@@ -3,3 +3,4 @@ dist
 .DS_Store
 tailwind.config.cjs
 .vercel
+.solid

@@ -3,7 +3,7 @@
   "packageManager": "pnpm@7.2.1",
   "scripts": {
     "start": "solid-start start",
-    "dev": "solid-start dev",
+    "dev": "solid-start dev SW_DEV=true",
     "build": "solid-start build",
     "lint": "eslint . --ext .ts,.tsx,.js",
     "lint:fix": "pnpm lint --fix"
@@ -12,6 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "@iconify-json/carbon": "1.1.5",
+    "@rollup/plugin-replace": "4.0.0",
     "@solid-primitives/i18n": "1.1.0",
     "@typescript-eslint/eslint-plugin": "5.27.1",
     "@typescript-eslint/parser": "5.27.1",
@@ -36,7 +37,11 @@
     "unocss": "0.39.0",
     "unplugin-auto-import": "0.8.8",
     "vite": "2.9.9",
+    "vite-plugin-pwa": "0.12.0",
     "vite-tsconfig-paths": "3.5.0",
+    "workbox-core": "6.5.3",
+    "workbox-precaching": "6.5.3",
+    "workbox-routing": "6.5.3",
     "workbox-window": "6.5.3"
   }
 }
