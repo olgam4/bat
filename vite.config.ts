@@ -12,7 +12,7 @@ import replace from '@rollup/plugin-replace'
 const replaceOptions = { __DATE__: new Date().toISOString() }
 const pwaOptions: Partial<VitePWAOptions> = {
   base: '/',
-  includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt'],
+  includeAssets: ['favicon.ico', 'robots.txt'],
   manifest: {
     name: 'bat',
     short_name: 'bat',
