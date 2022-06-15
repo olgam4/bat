@@ -7,17 +7,28 @@ bat
 
 ## Features
 
-* ⚡️ [Vite 2](https://vitejs.dev/), [pnpm](https://pnpm.js.org/)
-* 🗿 [Solid](https://www.solidjs.com/)
+* ⚡️ [Vite 2](https://vitejs.dev/) with [Vitest](https://vitest.dev/), [pnpm](https://pnpm.js.org/)
+
+* 🗿 [Solid](https://www.solidjs.com/), [fastest](https://krausest.github.io/js-framework-benchmark/current.html) component library
+
 * 🗂 [File based routing](/src/routes/)
+
 * 🔮 [Auto Import](https://github.com/antfu/unplugin-auto-import/)
+
 * 🎨 [UnoCSS](https://uno.antfu.me/), [PostCSS](https://postcss.org/)
+
 * 🙂 [Iconify with UnoCSS](https://github.com/unocss/unocss/tree/main/packages/preset-icons/)
-* 🌎 [i18n](https://github.com/solidjs-community/solid-primitives/tree/main/packages/i18n)
+
+* 🌎 [i18n](https://github.com/solidjs-community/solid-primitives/tree/main/packages/i18n) ready
+
 * 🧽 [eslint](https://eslint.org/)
+
 * 🦾 [TypeScript](https://www.typescriptlang.org/)
+
 * 📱 [PWA](https://github.com/antfu/vite-plugin-pwa)
-* ⚙️  [SSR](https://github.com/solidjs/solid-start) through Solid-SSR
+
+* 🖨 [SSR](https://github.com/solidjs/solid-start) through [Solid-SSR](https://github.com/solidjs/solid/tree/main/packages/solid-ssr)
+
 * ☁️  [Vercel](https://vercel.com/) Edge Functions with minimal [config](./assets/vercel-config.md)
 
 ## Try it now!

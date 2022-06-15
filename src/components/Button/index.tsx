@@ -6,7 +6,7 @@ interface Props {
 
 const Button: FlowComponent<Props> = (props) => {
   return (
-    <button class="btn hover:(bg-none)" onClick={props.onClick}>
+    <button class="btn" onClick={props.onClick}>
       {props.children}
     </button>
   )

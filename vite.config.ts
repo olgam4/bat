@@ -40,6 +40,17 @@ const pwaOptions: Partial<VitePWAOptions> = {
 }
 
 export default defineConfig({
+  test: {
+    environment: 'jsdom',
+    transformMode: {
+      web: [/.[jt]sx?/],
+    },
+    deps: {
+      inline: [/solid-js/],
+    },
+    threads: false,
+    isolate: false,
+  },
   plugins: [
     solid({ adapter: vercel() }),
     tsconfigPaths(),
@@ -57,5 +68,8 @@ export default defineConfig({
     sourcemap: true,
     target: 'esnext',
     polyfillDynamicImport: false,
+  },
+  resolve: {
+    conditions: ['development', 'browser'],
   },
 })
