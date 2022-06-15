@@ -7,9 +7,13 @@ import { VitePWA } from 'vite-plugin-pwa'
 import type { VitePWAOptions } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
-import replace from '@rollup/plugin-replace'
+import replace, {RollupReplaceOptions} from '@rollup/plugin-replace'
 
-const replaceOptions = { __DATE__: new Date().toISOString() }
+const replaceOptions: Partial<RollupReplaceOptions> = {
+  __DATE__: new Date().toISOString(),
+  preventAssignment: true,
+}
+
 const pwaOptions: Partial<VitePWAOptions> = {
   base: '/',
   includeAssets: ['favicon.ico', 'robots.txt'],
@@ -65,7 +69,6 @@ export default defineConfig({
     replace(replaceOptions),
   ],
   build: {
-    sourcemap: true,
     target: 'esnext',
     polyfillDynamicImport: false,
   },
