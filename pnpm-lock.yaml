@@ -14,7 +14,7 @@ specifiers:
   autoprefixer: 10.4.7
   cssnano: 5.1.11
   eslint: 8.2.0
-  eslint-plugin-import: 2.25.2
+  eslint-plugin-import: 2.26.0
   eslint-plugin-unused-imports: 2.0.0
   jsdom: 19.0.0
   pnpm: 7.2.1
@@ -50,7 +50,7 @@ devDependencies:
   autoprefixer: 10.4.7_postcss@8.4.14
   cssnano: 5.1.11_postcss@8.4.14
   eslint: 8.2.0
-  eslint-plugin-import: 2.25.2_pwqfkdfeqwbw2yd6co5mr5qtyy
+  eslint-plugin-import: 2.26.0_pwqfkdfeqwbw2yd6co5mr5qtyy
   eslint-plugin-unused-imports: 2.0.0_iuv3bjqsbwi3gnnf3s7mairdom
   jsdom: 19.0.0
   pnpm: 7.2.1
@@ -3283,8 +3283,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-import/2.25.2_pwqfkdfeqwbw2yd6co5mr5qtyy:
-    resolution: {integrity: sha512-qCwQr9TYfoBHOFcVGKY9C9unq05uOxxdklmBXLVvcwo68y5Hta6/GzCZEMx2zQiu0woKNEER0LE7ZgaOfBU14g==}
+  /eslint-plugin-import/2.26.0_pwqfkdfeqwbw2yd6co5mr5qtyy:
+    resolution: {integrity: sha512-hYfi3FXaM8WPLf4S1cikh/r4IxnO6zrhZbEGz2b660EJRbuxgpDS5gkCuYgGWg2xxh2rBuIr4Pvhve/7c31koA==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
