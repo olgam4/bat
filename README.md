@@ -24,6 +24,10 @@
 
 <br>
 
+<br>
+
+![Vercel](https://vercelbadge.vercel.app/api/olgam4/bat)
+
 ## Features
 
 * ⚡️ [Vite 2](https://vitejs.dev/) with [Vitest](https://vitest.dev/), [pnpm](https://pnpm.js.org/)
