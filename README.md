@@ -34,6 +34,13 @@ pnpm i # If you don't use pnpm, please consider using it: npm install -g pnpm
 
 [Create a repo from this template](https://github.com/olgam4/bat/generate)
 
+## Checklist
+
+- [ ] Change the author name in `LICENSE`
+- [ ] Change the favicon in `pulic`
+- [ ] Remove the `.github` dir which contains funding info
+- [ ] Clean up the READMEs and remove routes
+
 ## Acknoledgements
 
 This repo is inspired by 🏕 [antfu/vitesse](https://github.com/antfu/vitesse)
