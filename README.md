@@ -2,13 +2,13 @@
   <img src="./public/pwa-512x512.png" width="150"/>
 </p>
 
-<p align='center'>Kickstart a web app from <b>bat</b></p>
+<p align='center'>because our first commits never have parents</p>
 
 <br>
 
 > I bet your parents taught you that you mean something, that you're here for a reason. My parents taught me a different lesson, dying in the gutter for no reason at all... They taught me the world only makes sense if you force it to.
 > 
-> -- batman, because our first commits never have parents
+> -- batman
 
 <br>
 
