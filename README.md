@@ -9,7 +9,7 @@ bat
 
 * ⚡️ [Vite 2](https://vitejs.dev/), [pnpm](https://pnpm.js.org/)
 * 🗿 [Solid](https://www.solidjs.com/)
-* 📦 [File based routing](/src/routes/)
+* 🗂 [File based routing](/src/routes/)
 * 🔮 [Auto Import](https://github.com/antfu/unplugin-auto-import/)
 * 🎨 [UnoCSS](https://uno.antfu.me/), [PostCSS](https://postcss.org/)
 * 🙂 [Iconify with UnoCSS](https://github.com/unocss/unocss/tree/main/packages/preset-icons/)
