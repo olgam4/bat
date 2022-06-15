@@ -3,7 +3,7 @@
   "packageManager": "pnpm@7.2.1",
   "scripts": {
     "start": "solid-start start",
-    "dev": "solid-start dev SW_DEV=true",
+    "dev": "solid-start dev",
     "build": "solid-start build",
     "test": "vitest",
     "lint": "eslint . --ext .ts,.tsx,.js",

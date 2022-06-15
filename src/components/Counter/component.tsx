@@ -6,9 +6,14 @@ interface Props extends ReturnType<typeof createCounter> {}
 
 const Counter: Component<Props> = (props) => {
   return (
-    <Button onClick={() => props.increment()}>
-      <div class="i-carbon-moonrise text-3xl" />
-    </Button>
+    <div class="text-center">
+      <p>{props.counter()}</p>
+      <div class="-m-1">
+      <Button onClick={() => props.increment()}>
+        <div class="i-carbon-moonrise text-3xl" />
+      </Button>
+      </div>
+    </div>
   )
 }
 

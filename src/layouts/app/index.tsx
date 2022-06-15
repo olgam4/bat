@@ -27,21 +27,14 @@ export default function () {
         <Link href="/about" children={<p>{t('about')}</p>}/>
       </nav>
       <Image image={bat} />
-      <div class="flex space-x-4">
-        <div class="flex flex-col items-center">
-          <p>{counter.counter()}</p>
-          <Counter {...counter}/>
-        </div>
-        <div class="h-7 self-end">
-          <a class="btn" href="https://github.com/olgam4/bat" target="_blank">
-            <div class="i-carbon-logo-github text-3xl" />
-          </a>
-        </div>
-        <div class="h-7 self-end">
-          <Button onClick={() => nextLanguage()}>
-            <div class="i-carbon-language text-3xl" />
-          </Button>
-        </div>
+      <div class="flex justify-end space-x-4">
+        <Counter {...counter}/>
+        <a class="btn" href="https://github.com/olgam4/bat" target="_blank">
+          <div class="i-carbon-logo-github text-3xl" />
+        </a>
+        <Button onClick={() => nextLanguage()}>
+          <div class="i-carbon-language text-3xl" />
+        </Button>
       </div>
     </div>
   )
