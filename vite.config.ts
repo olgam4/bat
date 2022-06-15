@@ -12,11 +12,7 @@ import replace from '@rollup/plugin-replace'
 const replaceOptions = { __DATE__: new Date().toISOString() }
 const pwaOptions: Partial<VitePWAOptions> = {
   mode: 'development',
-  registerType: "prompt",
   base: '/',
-  workbox: {
-    globPatterns: ['**/*.{js,css,png,jpg,jpeg,svg,gif,woff,woff2,ttf,eot}'],
-  },
   includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt'],
   manifest: {
     name: 'bat',
@@ -42,11 +38,6 @@ const pwaOptions: Partial<VitePWAOptions> = {
       }
     ]
   },
-  devOptions: {
-    enabled: process.env.SW_DEV === 'true',
-    type: 'module',
-    navigateFallback: 'index.html',
-  }
 }
 
 export default defineConfig({
