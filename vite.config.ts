@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import solid from 'solid-start'
 import vercel from 'solid-start-vercel'
 import tsconfigPaths from 'vite-tsconfig-paths'
@@ -52,8 +52,13 @@ export default defineConfig({
     deps: {
       inline: [/solid-js/],
     },
-    threads: false,
-    isolate: false,
+    coverage: {
+      all: true,
+      reporter: ['html', 'json', 'text'],
+      include: ['**/*.tsx', '**/*.ts'],
+      exclude: ['entry**', 'root.tsx', 'locales/*.ts'],
+      src: ['src'],
+    },
   },
   plugins: [
     solid({ adapter: vercel() }),
@@ -62,6 +67,7 @@ export default defineConfig({
       imports: [
         'solid-app-router',
         'solid-js',
+        'vitest',
       ],
     }),
     Unocss(),
