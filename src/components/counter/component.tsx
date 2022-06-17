@@ -5,6 +5,9 @@ import type { createCounter } from './reactivity'
 interface Props extends ReturnType<typeof createCounter> {}
 
 const Counter: Component<Props> = (props) => {
+  const { counter } = destructure(() => props)
+  const { increment } = props
+
   return (
     <div
       class="group"
@@ -12,10 +15,10 @@ const Counter: Component<Props> = (props) => {
       <p
         class="text-center transition opacity-0 cursor-pointer group-hover:opacity-100"
       >
-        {props.counter()}
+        {counter()}
       </p>
       <div class="-m-1">
-        <Button onClick={() => props.increment()}>
+        <Button onClick={() => increment()}>
           <div class="i-carbon-moonrise text-3xl" />
         </Button>
       </div>

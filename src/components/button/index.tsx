@@ -4,10 +4,10 @@ interface Props {
   onClick: () => void
 }
 
-const Button: FlowComponent<Props> = (props) => {
+const Button: FlowComponent<Props> = ({ onClick, children }) => {
   return (
-    <button class="btn" onClick={props.onClick}>
-      {props.children}
+    <button class="btn" onClick={onClick}>
+      {children}
     </button>
   )
 }
