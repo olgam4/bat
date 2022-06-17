@@ -1,5 +1,4 @@
 import bat from '@assets/bat.png'
-import { useI18n } from '@solid-primitives/i18n'
 import Image from '@components/image'
 import Counter, { createCounter } from '@components/counter'
 import Button from '@components/button'

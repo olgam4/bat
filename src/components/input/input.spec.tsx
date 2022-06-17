@@ -1,5 +1,3 @@
-import { render, getByRole } from 'solid-testing-library'
-import userEvent from '@testing-library/user-event'
 import Input from './index'
 
 vi.mock('solid-app-router', () => ({
@@ -17,7 +15,7 @@ describe('Input', () => {
   describe('Component', () => {
     test('should render the reactive value', async () => {
       const user = userEvent.setup()
-      const { container } = render(() => (
+      const { container } = renderTest(() => (
         <Input />
       ))
       

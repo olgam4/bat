@@ -1,5 +1,3 @@
-import { useI18n } from '@solid-primitives/i18n'
-
 export default function () {
   const [t] = useI18n()
 

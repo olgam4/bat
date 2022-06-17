@@ -1,5 +1,3 @@
-import { Title } from 'solid-meta'
-
 import Name from '@layouts/name'
 import { Provider } from '@locales'
 

@@ -3,11 +3,10 @@ import solid from 'solid-start'
 import vercel from 'solid-start-vercel'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { VitePWA } from 'vite-plugin-pwa'
-
+import replace, {RollupReplaceOptions} from '@rollup/plugin-replace'
 import type { VitePWAOptions } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
-import replace, {RollupReplaceOptions} from '@rollup/plugin-replace'
 
 const replaceOptions: Partial<RollupReplaceOptions> = {
   __DATE__: new Date().toISOString(),
@@ -68,6 +67,25 @@ export default defineConfig({
         'solid-app-router',
         'solid-js',
         'vitest',
+        {
+          '@solid-primitives/destructure': [
+            'destructure',
+          ],
+          'solid-testing-library': [
+            'getByRole',
+            ['render', 'renderTest'],
+          ],
+          '@solid-primitives/i18n': [
+            'useI18n',
+            'createI18nContext',
+          ],
+          '@testing-library/user-event': [
+            ['default', 'userEvent'],
+          ],
+          'solid-meta': [
+            'Title',
+          ],
+        },
       ],
     }),
     Unocss(),

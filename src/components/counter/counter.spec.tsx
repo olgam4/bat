@@ -1,5 +1,3 @@
-import { cleanup, render, screen } from 'solid-testing-library'
-
 import Counter from './index'
 import { createCounter } from './reactivity'
 
@@ -18,11 +16,10 @@ describe('Counter', () => {
     test('is reactive', async () => {
       const cb = vi.fn()
 
-      render(() => <Counter counter={() => 0} increment={cb} />)
-      screen.getByRole('button')!.click()
+      const { container } = renderTest(() => <Counter counter={() => 0} increment={cb} />)
+      getByRole(container, 'button')!.click()
 
       expect(cb).toHaveBeenCalledTimes(1)
-      cleanup()
     })
   })
 })
