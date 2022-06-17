@@ -32,9 +32,7 @@ export default function () {
           <div class="i-carbon-logo-github text-3xl" />
         </a>
         <Link href="/random">
-          <div class="btn">
-            <div class="i-carbon-location-hazard text-3xl" />
-          </div>
+          <div class="btn i-carbon-location-hazard text-3xl" />
         </Link>
         <Button onClick={() => nextLanguage()}>
           <div class="i-carbon-language text-3xl" />
