@@ -7,7 +7,7 @@ specifiers:
   '@solid-primitives/destructure': 0.1.0
   '@solid-primitives/i18n': 1.1.0
   '@testing-library/dom': 8.13.0
-  '@testing-library/user-event': 14.2.0
+  '@testing-library/user-event': 14.2.1
   '@typescript-eslint/eslint-plugin': 5.28.0
   '@typescript-eslint/parser': 5.28.0
   '@unocss/preset-icons': 0.39.0
@@ -46,7 +46,7 @@ devDependencies:
   '@solid-primitives/destructure': 0.1.0_solid-js@1.4.4
   '@solid-primitives/i18n': 1.1.0_solid-js@1.4.4
   '@testing-library/dom': 8.13.0
-  '@testing-library/user-event': 14.2.0_tlwynutqiyp5mns3woioasuxnq
+  '@testing-library/user-event': 14.2.1_tlwynutqiyp5mns3woioasuxnq
   '@typescript-eslint/eslint-plugin': 5.28.0_7yumg2qjgbp7maccqlfhx2vudu
   '@typescript-eslint/parser': 5.28.0_ud6rd4xtew5bv4yhvkvu24pzm4
   '@unocss/preset-icons': 0.39.0
@@ -1808,8 +1808,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/user-event/14.2.0_tlwynutqiyp5mns3woioasuxnq:
-    resolution: {integrity: sha512-+hIlG4nJS6ivZrKnOP7OGsDu9Fxmryj9vCl8x0ZINtTJcCHs2zLsYif5GzuRiBF2ck5GZG2aQr7Msg+EHlnYVQ==}
+  /@testing-library/user-event/14.2.1_tlwynutqiyp5mns3woioasuxnq:
+    resolution: {integrity: sha512-HOr1QiODrq+0j9lKU5i10y9TbhxMBMRMGimNx10asdmau9cb8Xb1Vyg0GvTwyIL2ziQyh2kAloOtAQFBQVuecA==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
