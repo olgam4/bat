@@ -26,7 +26,7 @@
     "@unocss/reset": "0.39.0",
     "@unocss/transformer-variant-group": "0.39.0",
     "autoprefixer": "10.4.7",
-    "c8": "^7.11.3",
+    "c8": "7.11.3",
     "cssnano": "5.1.11",
     "eslint": "8.17.0",
     "eslint-plugin-import": "2.26.0",
