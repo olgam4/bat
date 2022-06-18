@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@iconify-json/carbon': 1.1.5
-  '@mdx-js/rollup': 2.1.1
+  '@mdx-js/rollup': 2.1.2
   '@rollup/plugin-replace': 4.0.0
   '@solid-primitives/destructure': 0.1.0
   '@solid-primitives/i18n': 1.1.0
@@ -41,7 +41,7 @@ specifiers:
 
 devDependencies:
   '@iconify-json/carbon': 1.1.5
-  '@mdx-js/rollup': 2.1.1_rollup@2.75.6
+  '@mdx-js/rollup': 2.1.2_rollup@2.75.6
   '@rollup/plugin-replace': 4.0.0_rollup@2.75.6
   '@solid-primitives/destructure': 0.1.0_solid-js@1.4.4
   '@solid-primitives/i18n': 1.1.0_solid-js@1.4.4
@@ -1595,8 +1595,8 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/rollup/2.1.1_rollup@2.75.6:
-    resolution: {integrity: sha512-oOWCEpm91ewLeywxeyNmOeaORCosLAQ6O0t/4yvou33z64F14lCx3rIJUZb7K+ZIEp03q46t5mTj37ybBmI1sw==}
+  /@mdx-js/rollup/2.1.2_rollup@2.75.6:
+    resolution: {integrity: sha512-3ahqp3DCpIlGlCRuLX4z7dFEgN5kWBljrk8BpipiWkVrvB4FQpTQu1T7lmDffm8tOunjHAsZEHtb076HiW51NQ==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
@@ -1856,7 +1856,7 @@ packages:
   /@types/estree-jsx/0.0.1:
     resolution: {integrity: sha512-gcLAYiMfQklDCPjQegGn0TBAn9it05ISEsEhlKQUddIk7o2XDokOcTN7HBO8tznM0D9dGezvHEfRZBfZf6me0A==}
     dependencies:
-      '@types/estree': 0.0.39
+      '@types/estree': 0.0.51
     dev: true
 
   /@types/estree/0.0.39:
@@ -4247,13 +4247,13 @@ packages:
   /is-reference/1.2.1:
     resolution: {integrity: sha512-U82MsXXiFIrjCK4otLT+o2NA2Cd2g5MLoOVXUZjIOhLurrRxpEXzI8O0KZHr3IjLvlAH1kTPYSuqer5T9ZVBKQ==}
     dependencies:
-      '@types/estree': 0.0.39
+      '@types/estree': 0.0.51
     dev: true
 
   /is-reference/3.0.0:
     resolution: {integrity: sha512-Eo1W3wUoHWoCoVM4GVl/a+K0IgiqE5aIo4kJABFyMum1ZORlPkC+UC357sSQUL5w5QCE5kCC9upl75b7+7CY/Q==}
     dependencies:
-      '@types/estree': 0.0.39
+      '@types/estree': 0.0.51
     dev: true
 
   /is-regex/1.1.4:
