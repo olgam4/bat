@@ -10,7 +10,7 @@ specifiers:
   '@testing-library/user-event': 14.2.1
   '@typescript-eslint/eslint-plugin': 5.28.0
   '@typescript-eslint/parser': 5.28.0
-  '@unocss/preset-icons': 0.39.0
+  '@unocss/preset-icons': 0.39.3
   '@unocss/reset': 0.39.3
   '@unocss/transformer-variant-group': 0.39.0
   autoprefixer: 10.4.7
@@ -49,7 +49,7 @@ devDependencies:
   '@testing-library/user-event': 14.2.1_tlwynutqiyp5mns3woioasuxnq
   '@typescript-eslint/eslint-plugin': 5.28.0_py5roj3ykd3sga4gtxlmfvv4pa
   '@typescript-eslint/parser': 5.28.0_b5e7v2qnwxfo6hmiq56u52mz3e
-  '@unocss/preset-icons': 0.39.0
+  '@unocss/preset-icons': 0.39.3
   '@unocss/reset': 0.39.3
   '@unocss/transformer-variant-group': 0.39.0
   autoprefixer: 10.4.7_postcss@8.4.14
@@ -1505,8 +1505,8 @@ packages:
     resolution: {integrity: sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==}
     dev: true
 
-  /@iconify/utils/1.0.32:
-    resolution: {integrity: sha512-m+rnw7qKHq/XF7DAi4BcFoEAcXBfqqMgQJh8brGEHeqE/RUvgDMjmxsHgWnVpFsG+VmjGyAiI7nwXdliCwEU0Q==}
+  /@iconify/utils/1.0.33:
+    resolution: {integrity: sha512-vGeAqo7aGPxOQmGdVoXFUOuyN+0V7Lcrx2EvaiRjxUD1x6Om0Tvq2bdm7E24l2Pz++4S0mWMCVFXe/17EtKImQ==}
     dependencies:
       '@antfu/install-pkg': 0.1.0
       '@antfu/utils': 0.5.2
@@ -2098,6 +2098,10 @@ packages:
     resolution: {integrity: sha512-S6ujOluyh/VTIMYTlD2cyfiIlZ9cd/idvBXEky+7nFYHsiQHA0WCTOvCECuLt5Rv8V+njVRF3XLBSStZ+6M+pQ==}
     dev: true
 
+  /@unocss/core/0.39.3:
+    resolution: {integrity: sha512-8MnXKHNtp6xgsFIaFtWctnbsT60c8JSlxXA7XbGxEztOmSEhpZmLeLGe5AgmEGPH6MssqJtI0DCeTbzbbtOjfw==}
+    dev: true
+
   /@unocss/inspector/0.39.0:
     resolution: {integrity: sha512-vjysyEbP7+Xg7ABJPkSEbkiiPbXBuWCk0hj7U6Oosf/m/c5ExgPeyjQlyvIwSluTtmPIdp5/shlSD94dSm+1Tg==}
     dependencies:
@@ -2114,8 +2118,18 @@ packages:
   /@unocss/preset-icons/0.39.0:
     resolution: {integrity: sha512-00hJSHpA56pWjm1VMDqEGAbBeXMHDygynkAN/XbRPZuSyfuXzjMWJzNf/OTrj+hd+CDqQM20ntJuQyNDV0Rguw==}
     dependencies:
-      '@iconify/utils': 1.0.32
+      '@iconify/utils': 1.0.33
       '@unocss/core': 0.39.0
+      ohmyfetch: 0.4.18
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@unocss/preset-icons/0.39.3:
+    resolution: {integrity: sha512-zMTfP3pVaN2WREWY36adsY62gEm51R0CZd7v0gHOlltEG6kT1UCeyIQwOtn48wHRCesy92f70R6RIR3rwSVaCQ==}
+    dependencies:
+      '@iconify/utils': 1.0.33
+      '@unocss/core': 0.39.3
       ohmyfetch: 0.4.18
     transitivePeerDependencies:
       - supports-color
