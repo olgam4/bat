@@ -1,9 +1,12 @@
+import type { Ref } from 'solid-js'
+
 import bat from '@assets/bat.png'
 import Image from '@components/image'
 import Counter, { createCounter } from '@components/counter'
 import Button from '@components/button'
 import ReloadPrompt from '@components/reload'
-import Input from '@components/input'
+import Form from '@components/form'
+import { createInput } from '@components/form/input'
 
 const ReloadPromptCheck = typeof window !== 'undefined' ?
   () => <ReloadPrompt />
@@ -11,6 +14,7 @@ const ReloadPromptCheck = typeof window !== 'undefined' ?
   () => null
 
 export default function () {
+  let linkRef: Ref<any>
   const counter = createCounter()
   const [_, { locale }] = useI18n()
 
@@ -19,12 +23,21 @@ export default function () {
     locale(next)
   }
 
+  const nameHook = createInput('name')
+
+  const onSubmit = () => {
+    linkRef.click()
+  }
+
   return (
     <div class="full flex-center flex-col bg-gray-100/75">
       <ReloadPromptCheck />
       <Image image={bat} />
-      <div class="-mt-10 mb-5">
-        <Input />
+      <div class="flex -mt-10 mb-5">
+        <Form inputs={[nameHook]} onSubmit={onSubmit} />
+        <Link ref={linkRef} href={`/hi/${nameHook.value()}`}>
+          <div class="i-carbon-arrow-right btn text-3xl" />
+        </Link>
       </div>
       <div class="flex items-end space-x-6">
         <Counter {...counter}/>
