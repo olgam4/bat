@@ -6,7 +6,7 @@ specifiers:
   '@rollup/plugin-replace': 4.0.0
   '@solid-primitives/destructure': 0.1.0
   '@solid-primitives/i18n': 1.1.0
-  '@testing-library/dom': 8.13.0
+  '@testing-library/dom': 8.14.0
   '@testing-library/user-event': 14.2.1
   '@typescript-eslint/eslint-plugin': 5.29.0
   '@typescript-eslint/parser': 5.29.0
@@ -45,8 +45,8 @@ devDependencies:
   '@rollup/plugin-replace': 4.0.0_rollup@2.75.7
   '@solid-primitives/destructure': 0.1.0_solid-js@1.4.4
   '@solid-primitives/i18n': 1.1.0_solid-js@1.4.4
-  '@testing-library/dom': 8.13.0
-  '@testing-library/user-event': 14.2.1_tlwynutqiyp5mns3woioasuxnq
+  '@testing-library/dom': 8.14.0
+  '@testing-library/user-event': 14.2.1_ihvo3xlg2d6kwqju3os3zitn3y
   '@typescript-eslint/eslint-plugin': 5.29.0_qqmbkyiaixvppdwswpytuf2hgm
   '@typescript-eslint/parser': 5.29.0_b5e7v2qnwxfo6hmiq56u52mz3e
   '@unocss/preset-icons': 0.39.3
@@ -1794,8 +1794,8 @@ packages:
       pretty-format: 26.6.2
     dev: true
 
-  /@testing-library/dom/8.13.0:
-    resolution: {integrity: sha512-9VHgfIatKNXQNaZTtLnalIy0jNZzY35a4S3oi08YAt9Hv1VsfZ/DfA45lM8D/UhtHBGJ4/lGwp0PZkVndRkoOQ==}
+  /@testing-library/dom/8.14.0:
+    resolution: {integrity: sha512-m8FOdUo77iMTwVRCyzWcqxlEIk+GnopbrRI15a0EaLbpZSCinIVI4kSQzWhkShK83GogvEFJSsHF3Ws0z1vrqA==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.16.7
@@ -1808,13 +1808,13 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/user-event/14.2.1_tlwynutqiyp5mns3woioasuxnq:
+  /@testing-library/user-event/14.2.1_ihvo3xlg2d6kwqju3os3zitn3y:
     resolution: {integrity: sha512-HOr1QiODrq+0j9lKU5i10y9TbhxMBMRMGimNx10asdmau9cb8Xb1Vyg0GvTwyIL2ziQyh2kAloOtAQFBQVuecA==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
     dependencies:
-      '@testing-library/dom': 8.13.0
+      '@testing-library/dom': 8.14.0
     dev: true
 
   /@tootallnate/once/2.0.0:
