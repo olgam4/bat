@@ -1,12 +1,14 @@
 import type { FlowComponent } from 'solid-js'
 
 interface Props {
-  onClick: () => void
+  onClick?: () => void
+  datatestid?: string
+  type?: 'button' | 'submit'
 }
 
-const Button: FlowComponent<Props> = ({ onClick, children }) => {
+const Button: FlowComponent<Props> = ({ datatestid, onClick, type, children }) => {
   return (
-    <button class="btn" onClick={onClick}>
+    <button type={type} data-testid={datatestid} class="btn" onClick={onClick}>
       {children}
     </button>
   )
