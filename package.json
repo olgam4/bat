@@ -34,7 +34,7 @@
     "jsdom": "20.0.0",
     "pnpm": "7.3.0",
     "postcss": "8.4.14",
-    "postcss-preset-env": "7.7.1",
+    "postcss-preset-env": "7.7.2",
     "rollup": "2.75.7",
     "solid-app-router": "0.3.3",
     "solid-js": "1.4.5",
