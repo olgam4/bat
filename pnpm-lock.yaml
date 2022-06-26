@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify-json/carbon': 1.1.5
+  '@iconify-json/carbon': 1.1.6
   '@mdx-js/rollup': 2.1.2
   '@rollup/plugin-replace': 4.0.0
   '@solid-primitives/destructure': 0.1.0
@@ -40,7 +40,7 @@ specifiers:
   workbox-window: 6.5.3
 
 devDependencies:
-  '@iconify-json/carbon': 1.1.5
+  '@iconify-json/carbon': 1.1.6
   '@mdx-js/rollup': 2.1.2_rollup@2.75.7
   '@rollup/plugin-replace': 4.0.0_rollup@2.75.7
   '@solid-primitives/destructure': 0.1.0_solid-js@1.4.4
@@ -1495,8 +1495,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon/1.1.5:
-    resolution: {integrity: sha512-ENl8CIEo+7JcRzpJ/58i+dDc3fkNOO7gyNGg4S4JN5cAiVpvltYTVO86Oei7rpl8bKypJ0vk3B0BbzzTw7DclA==}
+  /@iconify-json/carbon/1.1.6:
+    resolution: {integrity: sha512-3a/D7qzqBO6hsDmp6/k2eFfJzL1sw1yCQOq2yr86el2CzgMmQdKYROOyCCDNBxGn+dkkc/Rx1/8OEciakAJcFg==}
     dependencies:
       '@iconify/types': 1.1.0
     dev: true
