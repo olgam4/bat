@@ -13,7 +13,7 @@
   "type": "module",
   "license": "MIT",
   "devDependencies": {
-    "@iconify-json/carbon": "1.1.5",
+    "@iconify-json/carbon": "1.1.6",
     "@mdx-js/rollup": "2.1.2",
     "@rollup/plugin-replace": "4.0.0",
     "@solid-primitives/destructure": "0.1.0",
