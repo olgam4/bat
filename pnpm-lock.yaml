@@ -10,7 +10,7 @@ specifiers:
   '@testing-library/user-event': 14.2.1
   '@typescript-eslint/eslint-plugin': 5.30.0
   '@typescript-eslint/parser': 5.30.0
-  '@unocss/preset-icons': 0.39.3
+  '@unocss/preset-icons': 0.41.2
   '@unocss/reset': 0.39.3
   '@unocss/transformer-variant-group': 0.41.2
   autoprefixer: 10.4.7
@@ -49,7 +49,7 @@ devDependencies:
   '@testing-library/user-event': 14.2.1_ihvo3xlg2d6kwqju3os3zitn3y
   '@typescript-eslint/eslint-plugin': 5.30.0_5mtqsiui4sk53pmkx7i7ue45wm
   '@typescript-eslint/parser': 5.30.0_b5e7v2qnwxfo6hmiq56u52mz3e
-  '@unocss/preset-icons': 0.39.3
+  '@unocss/preset-icons': 0.41.2
   '@unocss/reset': 0.39.3
   '@unocss/transformer-variant-group': 0.41.2
   autoprefixer: 10.4.7_postcss@8.4.14
@@ -2120,6 +2120,16 @@ packages:
     dependencies:
       '@iconify/utils': 1.0.33
       '@unocss/core': 0.39.3
+      ohmyfetch: 0.4.18
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@unocss/preset-icons/0.41.2:
+    resolution: {integrity: sha512-91J2xgPMbWPDdkRoS+vs9mOCcvhub4xB6S7siGV+UQrtbiAKs+c1+kfSMlDzAnZmfPczYItOyCGT0bcfmVNsdw==}
+    dependencies:
+      '@iconify/utils': 1.0.33
+      '@unocss/core': 0.41.2
       ohmyfetch: 0.4.18
     transitivePeerDependencies:
       - supports-color
