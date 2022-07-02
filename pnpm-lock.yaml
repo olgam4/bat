@@ -12,7 +12,7 @@ specifiers:
   '@typescript-eslint/parser': 5.30.3
   '@unocss/preset-icons': 0.42.0
   '@unocss/reset': 0.43.0
-  '@unocss/transformer-variant-group': 0.41.2
+  '@unocss/transformer-variant-group': 0.43.0
   autoprefixer: 10.4.7
   c8: 7.11.3
   cssnano: 5.1.12
@@ -51,7 +51,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.30.3_4x5o4skxv6sl53vpwefgt23khm
   '@unocss/preset-icons': 0.42.0
   '@unocss/reset': 0.43.0
-  '@unocss/transformer-variant-group': 0.41.2
+  '@unocss/transformer-variant-group': 0.43.0
   autoprefixer: 10.4.7_postcss@8.4.14
   c8: 7.11.3
   cssnano: 5.1.12_postcss@8.4.14
@@ -2203,6 +2203,7 @@ packages:
     dependencies:
       '@unocss/core': 0.43.0
     dev: true
+
 
   /@unocss/vite/0.43.0_vite@2.9.13:
     resolution: {integrity: sha512-55RT6eBRMsD3ROJzqpELJ1aL1rBs0a4C3hfwZ4/+CyLEQNZi0SjUDfI9WZgPz+ikTdLHvX7PXRUNjZ80L7KnyA==}
