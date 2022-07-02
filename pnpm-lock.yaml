@@ -11,7 +11,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.30.0
   '@typescript-eslint/parser': 5.30.0
   '@unocss/preset-icons': 0.42.0
-  '@unocss/reset': 0.41.2
+  '@unocss/reset': 0.43.0
   '@unocss/transformer-variant-group': 0.41.2
   autoprefixer: 10.4.7
   c8: 7.11.3
@@ -50,7 +50,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.30.0_5mtqsiui4sk53pmkx7i7ue45wm
   '@typescript-eslint/parser': 5.30.0_b5e7v2qnwxfo6hmiq56u52mz3e
   '@unocss/preset-icons': 0.42.0
-  '@unocss/reset': 0.41.2
+  '@unocss/reset': 0.43.0
   '@unocss/transformer-variant-group': 0.41.2
   autoprefixer: 10.4.7_postcss@8.4.14
   c8: 7.11.3
@@ -2169,6 +2169,10 @@ packages:
 
   /@unocss/reset/0.41.2:
     resolution: {integrity: sha512-/Ib51/7EG9Jb0D57mJPUohdGAB8YXaCL6vtol7RWnsv1kJL7mHJkccTDYN0vnE5RjvJGWhuCeOzeCaK4rM1/lw==}
+    dev: true
+
+  /@unocss/reset/0.43.0:
+    resolution: {integrity: sha512-IRi/WUnyS8NxTplDHlcfM4nTjMwxY8Nee0IR01AWJhc82JQe6m3gCZSFXuo+T+szbhshhFeXnplbjAq1Wwm0kQ==}
     dev: true
 
   /@unocss/scope/0.41.2:
