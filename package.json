@@ -37,7 +37,7 @@
     "postcss-preset-env": "7.7.2",
     "rollup": "2.75.7",
     "solid-app-router": "0.3.3",
-    "solid-js": "1.4.5",
+    "solid-js": "1.4.6",
     "solid-meta": "0.27.5",
     "solid-start": "0.1.0-alpha.88",
     "solid-start-vercel": "0.1.0-alpha.88",
