@@ -18,7 +18,7 @@ export default function Root() {
         <meta name="description" content="Opinionated, batteries included, PWA using Solid and Vite" />
         <link rel="icon" href="/favicon.ico" type="image/png" sizes="16x16" />
         <link rel="apple-touch-icon" href="/pwa-192x192.png" sizes="192x192" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#F6F7F8" />
         <Title>bat</Title>
         <Meta />
         <Links />
