@@ -36,19 +36,19 @@ export default function () {
       <div class="flex -mt-10 mb-5">
         <Form inputs={[nameHook]} onSubmit={onSubmit} />
         <Link ref={linkRef} href={`/hi/${nameHook.value()}`}>
-          <div class="i-carbon-arrow-right btn text-3xl" />
+          <div class="i-carbon-arrow-right btn w-7 h-7" />
         </Link>
       </div>
       <div class="flex items-end space-x-6">
         <Counter {...counter}/>
         <a class="btn" href="https://github.com/olgam4/bat" target="_blank">
-          <div class="i-carbon-logo-github text-3xl" />
+          <div class="i-carbon-logo-github w-7 h-7" />
         </a>
         <Link href="/random">
-          <div class="btn i-carbon-location-hazard text-3xl" />
+          <div class="btn i-carbon-location-hazard w-7 h-7" />
         </Link>
         <Button onClick={() => nextLanguage()}>
-          <div class="i-carbon-language text-3xl" />
+          <div class="i-carbon-language w-7 h-7" />
         </Button>
       </div>
     </div>

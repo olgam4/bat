@@ -7,11 +7,11 @@ export default function () {
       <div class="flex space-x-1 mt-1">
         <p>{t('404')}</p>
         <div class="pt-1">
-          <div class="i-carbon-face-dissatisfied-filled"/>
+          <div class="i-carbon-face-dissatisfied-filled h-4 w-4"/>
         </div>
       </div>
       <Link href="/" class="flex items-center space-x-1 mt-4 transition hover:(text-gray-400/40)">
-        <div class="i-carbon-arrow-left text-3xl" />
+        <div class="i-carbon-arrow-left h-7 w-7" />
         <p class="font-extrabold">{t('goback')}</p>
       </Link>
     </div>
