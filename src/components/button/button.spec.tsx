@@ -1,4 +1,4 @@
-import Button from ".";
+import Button from '.'
 
 describe('Button', () => {
   test('should be clickable', () => {
@@ -9,5 +9,5 @@ describe('Button', () => {
 
     expect(cb).toHaveBeenCalledTimes(1)
     cb.mockReset()
-  });
+  })
 })
