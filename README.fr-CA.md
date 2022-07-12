@@ -2,13 +2,13 @@
   <img src="./public/pwa-512x512.png" width="150"/>
 </p>
 
-<p align='center'>Lancer une app web de <b>bat</b></p>
+<p align='center'>parce que nos premiers commits n'ont jamais de parents</p>
 
 <br>
 
 > Je gage que tes parents t'ont appris que tu es important, que tu es ici pour une raison. Mes parents m'ont appris une leçon différent, en mourant sur le trottoir pour aucune raison... Ils m'ont appris que le monde ne fait du sens que si tu le forces à en faire.
 > 
-> -- batman, parce que nos premiers commits n'ont jamais de parents
+> -- batman
 
 <br>
 
@@ -20,7 +20,13 @@
 
 <p align='center'><a href="https://github.com/olgam4/bat#readme">English</a> | <b>Français</b></p>
 
+<!-- Les contributions sont les bienvenues -->
+
 <br>
+
+<br>
+
+![Vercel](https://vercelbadge.vercel.app/api/olgam4/bat)
 
 ## Features
 
@@ -32,9 +38,9 @@
 
 * 🔮 [Auto Import](https://github.com/antfu/unplugin-auto-import/)
 
-* 🎨 [UnoCSS](https://uno.antfu.me/), [PostCSS](https://postcss.org/)
+* 🎨 [TailwindCSS](https://tailwindcss.com), [PostCSS](https://postcss.org/)
 
-* 🙂 [Iconify avec UnoCSS](https://github.com/unocss/unocss/tree/main/packages/preset-icons/)
+* 🙂 [Iconify avec TailwindCSS](https://github.com/JensDll/tailwindcss-plugin-icons)
 
 * 🌎 [i18n](https://github.com/solidjs-community/solid-primitives/tree/main/packages/i18n) ready
 
