@@ -4,7 +4,6 @@ import { ErrorBoundary } from 'solid-start/error-boundary'
 import { Suspense } from 'solid-js'
 
 import './assets/global.css'
-import 'uno.css'
 import { Title } from 'solid-meta'
 
 export default function Root() {

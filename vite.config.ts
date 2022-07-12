@@ -1,12 +1,12 @@
 import { defineConfig } from 'vitest/config'
 import solid from 'solid-start'
+// @ts-ignore
 import vercel from 'solid-start-vercel'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { VitePWA } from 'vite-plugin-pwa'
 import replace, {RollupReplaceOptions} from '@rollup/plugin-replace'
 import type { VitePWAOptions } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
-import Unocss from 'unocss/vite'
 
 const replaceOptions: Partial<RollupReplaceOptions> = {
   __DATE__: new Date().toISOString(),
@@ -88,7 +88,6 @@ export default defineConfig({
         },
       ],
     }),
-    Unocss(),
     VitePWA(pwaOptions),
     replace(replaceOptions),
   ],

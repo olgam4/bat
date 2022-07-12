@@ -2,7 +2,6 @@ coverage
 node_modules
 dist
 .DS_Store
-tailwind.config.cjs
 .vercel
 .solid
 auto-imports.d.ts

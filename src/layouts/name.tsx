@@ -9,7 +9,7 @@ const Name: Component = () => {
     <div class="full flex-center flex-col bg-gray-100/75 space-y-2">
       <p>{t('hello', { name: params.name })}</p>
       <Link href="/">
-        <div class="i-carbon-arrow-left" />
+        <div class="i-carbon-arrow-left h-7 w-7" />
       </Link>
     </div>
   )
