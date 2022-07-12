@@ -10,7 +10,7 @@ specifiers:
   '@testing-library/user-event': 14.2.1
   '@typescript-eslint/eslint-plugin': 5.30.5
   '@typescript-eslint/parser': 5.30.5
-  '@unocss/preset-icons': 0.44.0
+  '@unocss/preset-icons': 0.44.1
   '@unocss/reset': 0.43.2
   '@unocss/transformer-variant-group': 0.43.2
   autoprefixer: 10.4.7
@@ -49,7 +49,7 @@ devDependencies:
   '@testing-library/user-event': 14.2.1_ihvo3xlg2d6kwqju3os3zitn3y
   '@typescript-eslint/eslint-plugin': 5.30.5_6zdoc3rn4mpiddqwhppni2mnnm
   '@typescript-eslint/parser': 5.30.5_4x5o4skxv6sl53vpwefgt23khm
-  '@unocss/preset-icons': 0.44.0
+  '@unocss/preset-icons': 0.44.1
   '@unocss/reset': 0.43.2
   '@unocss/transformer-variant-group': 0.43.2
   autoprefixer: 10.4.7_postcss@8.4.14
@@ -2081,8 +2081,8 @@ packages:
     resolution: {integrity: sha512-SR2gHIl/5APfkl9WWbpKjYxMUkBin67uw8NIXOz0u/J5jSnXnu2z15DGwgOxwLfTl/AlBTsM0/lIJqfbckyPnw==}
     dev: true
 
-  /@unocss/core/0.44.0:
-    resolution: {integrity: sha512-stuRYyY6GJW9kFzAv5MbAwxYDVMS5ycYTvgrRZrctyV3BHLERRQD1jyQfFNn1QHTxYceH4VpQDKjueHiUmqMHw==}
+  /@unocss/core/0.44.1:
+    resolution: {integrity: sha512-rPCoJsgN1jB38KxMaObxYOfcZgc8uBO1rGxVTlYwuWfcLC2nUKRlVzCyuvCZV3FYRdTAc5CNxwPEqblG5nFHCA==}
     dev: true
 
   /@unocss/inspector/0.43.2:
@@ -2108,11 +2108,11 @@ packages:
       - supports-color
     dev: true
 
-  /@unocss/preset-icons/0.44.0:
-    resolution: {integrity: sha512-yvzzGGdGbvgot6+PdWxOgTwWWamoIgAUINUWaHi324b5VIlH9FTrCPp3CyWvPzgXRzUtEAZ6Vb/EpouOS4YPOw==}
+  /@unocss/preset-icons/0.44.1:
+    resolution: {integrity: sha512-9lGniTCb/lm6LnOYFUeHpHntTXnhalKyITUMnz1Z0buv4X4+nfUPdrvGjf01B3bVtFtF0bnYMQEX2Lwzxp8gKQ==}
     dependencies:
       '@iconify/utils': 1.0.33
-      '@unocss/core': 0.44.0
+      '@unocss/core': 0.44.1
       ohmyfetch: 0.4.18
     transitivePeerDependencies:
       - supports-color
