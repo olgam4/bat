@@ -8,7 +8,7 @@ module.exports = {
 	plugins: [
     Icons({
       carbon: {
-        icons: ['language', 'arrow-left', 'arrow-right', 'location-hazard', 'logo-github', 'moonrise', 'face-dissatisfied-filled']
+        icons: ['language', 'arrow-left', 'arrow-right', 'location-hazard', 'logo-github', 'moonrise', 'face-dissatisfied-filled', 'phone-voice']
       }
     }),
   ],
