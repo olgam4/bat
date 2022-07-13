@@ -19,7 +19,7 @@ const Counter: Component<Props> = (props) => {
       </p>
       <div class="-m-1">
         <Button onClick={() => increment()}>
-          <div class="i-carbon-moonrise h-7 w-7" />
+          <div class="i-carbon-moonrise h-6 w-6" />
         </Button>
       </div>
     </div>
