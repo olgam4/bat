@@ -5,10 +5,13 @@ describe('Counter', () => {
   describe('hooks', () => {
     test('can increment', () => {
       const hooks = createCounter()
+      const first_value = hooks.counter()
 
       hooks.increment()
 
-      expect(hooks.counter()).toBe(1)
+      const second_value = hooks.counter()
+      const increment_value = second_value - first_value
+      expect(increment_value).toBe(1)
     })
   })
 
