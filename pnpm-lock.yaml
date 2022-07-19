@@ -11,7 +11,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': 5.30.6
   '@typescript-eslint/parser': 5.30.6
   autoprefixer: 10.4.7
-  c8: 7.11.3
+  c8: 7.12.0
   cssnano: 5.1.12
   eslint: 8.19.0
   eslint-plugin-import: 2.26.0
@@ -50,7 +50,7 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.30.6_2vt5mtrqleafs33qg2bhpmbaqm
   '@typescript-eslint/parser': 5.30.6_4x5o4skxv6sl53vpwefgt23khm
   autoprefixer: 10.4.7_postcss@8.4.14
-  c8: 7.11.3
+  c8: 7.12.0
   cssnano: 5.1.12_postcss@8.4.14
   eslint: 8.19.0
   eslint-plugin-import: 2.26.0_rywvbqnelbznwddhxv2glfjuay
@@ -75,7 +75,7 @@ devDependencies:
   vite: 2.9.14
   vite-plugin-pwa: 0.12.3_vite@2.9.14
   vite-tsconfig-paths: 3.5.0_vite@2.9.14
-  vitest: 0.18.0_c8@7.11.3+jsdom@20.0.0
+  vitest: 0.18.0_c8@7.12.0+jsdom@20.0.0
   workbox-window: 6.5.3
 
 packages:
@@ -2485,8 +2485,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /c8/7.11.3:
-    resolution: {integrity: sha512-6YBmsaNmqRm9OS3ZbIiL2EZgi1+Xc4O24jL3vMYGE6idixYuGdy76rIfIdltSKDj9DpLNrcXSonUTR1miBD0wA==}
+  /c8/7.12.0:
+    resolution: {integrity: sha512-CtgQrHOkyxr5koX1wEUmN/5cfDa2ckbHRA4Gy5LAL0zaCFtVWJS5++n+w4/sr2GWGerBxgTjpKeDclk/Qk6W/A==}
     engines: {node: '>=10.12.0'}
     hasBin: true
     dependencies:
@@ -7852,7 +7852,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.18.0_c8@7.11.3+jsdom@20.0.0:
+  /vitest/0.18.0_c8@7.12.0+jsdom@20.0.0:
     resolution: {integrity: sha512-ryAtlh5Gvg3+aLNuOQ8YOHxgQCCu46jx40X5MBL0K0/ejB9i5zsr8fV8LTGXbXex80UMHlzceI9F+ouGaiR+mQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -7877,7 +7877,7 @@ packages:
       '@types/chai': 4.3.1
       '@types/chai-subset': 1.3.3
       '@types/node': 17.0.42
-      c8: 7.11.3
+      c8: 7.12.0
       chai: 4.3.6
       debug: 4.3.4
       jsdom: 20.0.0
