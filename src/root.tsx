@@ -13,7 +13,6 @@ export default function Root() {
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="manifest" href="/manifest.webmanifest" />
-        <script src="registerSW.js"></script>
         <meta name="description" content="Opinionated, batteries included, PWA using Solid and Vite" />
         <link rel="icon" href="/favicon.ico" type="image/png" sizes="16x16" />
         <link rel="apple-touch-icon" href="/pwa-192x192.png" sizes="192x192" />
