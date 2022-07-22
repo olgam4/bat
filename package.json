@@ -20,7 +20,7 @@
     "@solid-primitives/destructure": "0.1.0",
     "@solid-primitives/i18n": "1.1.0",
     "@testing-library/dom": "8.16.0",
-    "@testing-library/user-event": "14.2.5",
+    "@testing-library/user-event": "14.3.0",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
     "autoprefixer": "10.4.7",
