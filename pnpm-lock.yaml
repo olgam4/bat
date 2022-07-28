@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@formkit/auto-animate': 1.0.0-beta.1
   '@iconify-json/carbon': 1.1.7
   '@mdx-js/rollup': 2.1.2
   '@rollup/plugin-replace': 4.0.0
@@ -40,6 +41,7 @@ specifiers:
   workbox-window: 6.5.3
 
 devDependencies:
+  '@formkit/auto-animate': 1.0.0-beta.1
   '@iconify-json/carbon': 1.1.7
   '@mdx-js/rollup': 2.1.2_rollup@2.77.2
   '@rollup/plugin-replace': 4.0.0_rollup@2.77.2
@@ -1459,6 +1461,18 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@formkit/auto-animate/1.0.0-beta.1:
+    resolution: {integrity: sha512-I3OWOBaPZKSJL4bsooXI8kC3q7bcgibD2oML0P/Lir6MnbvUe/0/7EH8br024juvM/Ulm9C9xGx9CJUQYrOWSA==}
+    peerDependencies:
+      react: ^16.8.0
+      vue: ^3.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      vue:
+        optional: true
     dev: true
 
   /@gar/promisify/1.1.3:
