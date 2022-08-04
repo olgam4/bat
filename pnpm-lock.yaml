@@ -8,7 +8,7 @@ specifiers:
   '@solid-primitives/destructure': 0.1.0
   '@solid-primitives/i18n': 1.1.0
   '@testing-library/dom': 8.16.0
-  '@testing-library/user-event': 14.3.0
+  '@testing-library/user-event': 14.4.1
   '@typescript-eslint/eslint-plugin': 5.31.0
   '@typescript-eslint/parser': 5.31.0
   autoprefixer: 10.4.8
@@ -48,7 +48,7 @@ devDependencies:
   '@solid-primitives/destructure': 0.1.0_solid-js@1.4.8
   '@solid-primitives/i18n': 1.1.0_solid-js@1.4.8
   '@testing-library/dom': 8.16.0
-  '@testing-library/user-event': 14.3.0_gwcpuyfvwbszhlmedmugzivgzu
+  '@testing-library/user-event': 14.4.1_gwcpuyfvwbszhlmedmugzivgzu
   '@typescript-eslint/eslint-plugin': 5.31.0_jnss7dz76sznncvpyatba5hbxa
   '@typescript-eslint/parser': 5.31.0_qugx7qdu5zevzvxaiqyxfiwquq
   autoprefixer: 10.4.8_postcss@8.4.14
@@ -1866,8 +1866,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/user-event/14.3.0_gwcpuyfvwbszhlmedmugzivgzu:
-    resolution: {integrity: sha512-P02xtBBa8yMaLhK8CzJCIns8rqwnF6FxhR9zs810flHOBXUYCFjLd8Io1rQrAkQRWEmW2PGdZIEdMxf/KLsqFA==}
+  /@testing-library/user-event/14.4.1_gwcpuyfvwbszhlmedmugzivgzu:
+    resolution: {integrity: sha512-Gr20dje1RaNxZ1ehHGPvFkLswfetBQKCfRD/lo6sUJQ52X2TV/QnqUpkjoShfEebrB2KiTPfQkcONwdQiofLhg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
