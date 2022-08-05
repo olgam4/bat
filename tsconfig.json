@@ -15,7 +15,7 @@
     "paths": {
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"],
+      "@islands/*": ["src/islands/*"],
       "@locales": ["src/locales"],
       "@pages/*": ["src/pages/*"]
     }

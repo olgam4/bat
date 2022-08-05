@@ -1,4 +1,4 @@
-import App from '@layouts/app'
+import App from '@islands/app'
 import { Provider } from '@locales'
 
 export default function () {
