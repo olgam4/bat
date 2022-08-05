@@ -38,7 +38,7 @@ export default function () {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        phone: '+33123456789',
+        phone: '+3475307972',
       }),
     })
     const data = await response.json()
