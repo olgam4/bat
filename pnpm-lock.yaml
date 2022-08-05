@@ -28,7 +28,7 @@ specifiers:
   solid-app-router: 0.4.2
   solid-js: 1.4.7
   solid-start: 0.1.0-alpha.99
-  solid-start-vercel: 0.1.0-alpha.99
+  solid-start-vercel: 0.1.0-v0.1.0-alpha.59.0
   solid-testing-library: 0.3.0
   tailwindcss: 3.1.7
   tailwindcss-plugin-icons: 1.0.7
@@ -69,7 +69,7 @@ devDependencies:
   solid-app-router: 0.4.2_solid-js@1.4.7
   solid-js: 1.4.7
   solid-start: 0.1.0-alpha.99_qumfg53klmtpjvq4xmlsbh3yhy
-  solid-start-vercel: 0.1.0-alpha.99_rfurdifwzs2v6rkphln4nsnq4e
+  solid-start-vercel: 0.1.0-v0.1.0-alpha.59.0_solid-start@0.1.0-alpha.99
   solid-testing-library: 0.3.0_solid-js@1.4.7
   tailwindcss: 3.1.7
   tailwindcss-plugin-icons: 1.0.7_tailwindcss@3.1.7
@@ -2899,11 +2899,11 @@ packages:
       rollup: 2.77.2
     dev: true
 
-  /@rollup/plugin-commonjs/22.0.2_rollup@2.77.2:
-    resolution: {integrity: sha512-//NdP6iIwPbMTcazYsiBMbJW7gfmpHom33u1beiIoHDEM0Q9clvtQB1T0efvMqHeKsGohiHo97BCPCkBXdscwg==}
-    engines: {node: '>= 12.0.0'}
+  /@rollup/plugin-commonjs/21.1.0_rollup@2.77.2:
+    resolution: {integrity: sha512-6ZtHx3VHIp2ReNNDxHjuUml6ur+WcQ28N1yHgCQwsbNkQg2suhxGMDQGJOn/KuDxKtd1xuZP5xSTwBA4GQ8hbA==}
+    engines: {node: '>= 8.0.0'}
     peerDependencies:
-      rollup: ^2.68.0
+      rollup: ^2.38.3
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.77.2
       commondir: 1.0.1
@@ -8188,19 +8188,16 @@ packages:
       solid-js: 1.4.7
     dev: true
 
-  /solid-start-vercel/0.1.0-alpha.99_rfurdifwzs2v6rkphln4nsnq4e:
-    resolution: {integrity: sha512-vgeCBhd75ztLHVxuyquK9G3fldBUIFH5MsF1maoLBsBj/wf3friAIy0/jzt66XZl2RV7i0iBRPEqmQ3IGH7oFg==}
+  /solid-start-vercel/0.1.0-v0.1.0-alpha.59.0_solid-start@0.1.0-alpha.99:
+    resolution: {integrity: sha512-DQLuhothAOHmGUgSkBufK3enjWUqyieP2zyv3CxnRQpYtZHa9wXLtEVzJPpLa7YCTHwAfBAYAZEWzfWNncAUBA==}
     peerDependencies:
       solid-start: '*'
-      vite: '*'
     dependencies:
-      '@rollup/plugin-commonjs': 22.0.2_rollup@2.77.2
+      '@rollup/plugin-commonjs': 21.1.0_rollup@2.77.2
       '@rollup/plugin-json': 4.1.0_rollup@2.77.2
       '@rollup/plugin-node-resolve': 13.3.0_rollup@2.77.2
       rollup: 2.77.2
       solid-start: 0.1.0-alpha.99_qumfg53klmtpjvq4xmlsbh3yhy
-      terser: 5.14.2
-      vite: 3.0.4
     dev: true
 
   /solid-start/0.1.0-alpha.99_qumfg53klmtpjvq4xmlsbh3yhy:
