@@ -1,9 +1,11 @@
+import { it, describe, vi } from 'vitest'
+import { getByRole, render } from 'solid-testing-library'
 import Button from '.'
 
 describe('Button', () => {
-  test('should be clickable', () => {
+  it('should be clickable', ({ expect }) => {
     const cb = vi.fn()
-    const { container } = renderTest(() => <Button onClick={cb} children={<span/>} />)
+    const { container } = render(() => <Button onClick={cb} children={<span/>} />)
 
     getByRole(container, 'button')!.click()
 

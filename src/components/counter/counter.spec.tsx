@@ -1,9 +1,11 @@
+import { getByRole, render } from 'solid-testing-library'
+import { it, describe, vi } from 'vitest'
 import Counter from './index'
 import { createCounter } from './reactivity'
 
 describe('Counter', () => {
   describe('hooks', () => {
-    test('can increment', () => {
+    it('can increment', ({ expect }) => {
       const hooks = createCounter()
       const first_value = hooks.counter()
 
@@ -16,10 +18,10 @@ describe('Counter', () => {
   })
 
   describe('Component', () => {
-    test('is reactive', async () => {
+    it('is reactive', async ({ expect }) => {
       const cb = vi.fn()
 
-      const { container } = renderTest(() => <Counter counter={() => 0} increment={cb} />)
+      const { container } = render(() => <Counter counter={() => 0} increment={cb} />)
       getByRole(container, 'button')!.click()
 
       expect(cb).toHaveBeenCalledTimes(1)

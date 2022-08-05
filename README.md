@@ -30,7 +30,7 @@
 
 ## Features
 
-* ⚡️ [Vite 2](https://vitejs.dev/) with [Vitest](https://vitest.dev/), [pnpm](https://pnpm.js.org/)
+* ⚡️ [Vite 3](https://vitejs.dev/) with ~~[Vitest](https://vitest.dev/)~~ (currently [broken](https://github.com/solidjs/solid-start/runs/7685058495?check_suite_focus=true)), [pnpm](https://pnpm.js.org/)
 
 * 🗿 [Solid](https://www.solidjs.com/), [fastest](https://krausest.github.io/js-framework-benchmark/current.html) component library
 

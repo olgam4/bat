@@ -1,4 +1,6 @@
-import { defineConfig } from 'vitest/config'
+/// <reference types="vitest" />
+import { defineConfig } from 'vite'
+import { configDefaults } from 'vitest/config'
 import solid from 'solid-start/vite'
 // @ts-ignore
 import vercel from 'solid-start-vercel'
@@ -44,20 +46,7 @@ const pwaOptions: Partial<VitePWAOptions> = {
 
 export default defineConfig({
   test: {
-    environment: 'jsdom',
-    transformMode: {
-      web: [/.[jt]sx?/],
-    },
-    deps: {
-      inline: [/solid-js/],
-    },
-    coverage: {
-      all: true,
-      reporter: ['html', 'json', 'text'],
-      include: ['**/*.tsx', '**/*.ts'],
-      exclude: ['entry**', 'root.tsx', 'locales/*.ts'],
-      src: ['src'],
-    },
+    ...configDefaults,
   },
   plugins: [
     solid({ adapter: vercel() }),
@@ -65,14 +54,9 @@ export default defineConfig({
     AutoImport({
       imports: [
         'solid-js',
-        'vitest',
         {
           '@solid-primitives/destructure': [
             'destructure',
-          ],
-          'solid-testing-library': [
-            'getByRole',
-            ['render', 'renderTest'],
           ],
           '@solid-primitives/i18n': [
             'useI18n',
