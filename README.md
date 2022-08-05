@@ -52,7 +52,7 @@
 
 * 🖨 [SSR](https://github.com/solidjs/solid-start) through [Solid-SSR](https://github.com/solidjs/solid/tree/main/packages/solid-ssr)
 
-* ☁️  [Vercel](https://vercel.com/) Edge Functions with minimal [config](./assets/vercel-config.md)
+* ☁️  [Vercel](https://vercel.com/) Edge Functions with minimal config.
 
 ## Try it now!
 
