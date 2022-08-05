@@ -32,7 +32,7 @@ specifiers:
   solid-start: 0.1.0-alpha.99
   solid-start-vercel: 0.1.0-alpha.99
   solid-testing-library: 0.3.0
-  tailwindcss: 3.1.7
+  tailwindcss: 3.1.8
   tailwindcss-plugin-icons: 1.0.7
   taze: 0.7.6
   typescript: 4.7.4
@@ -75,8 +75,8 @@ devDependencies:
   solid-start: 0.1.0-alpha.99_qumfg53klmtpjvq4xmlsbh3yhy
   solid-start-vercel: 0.1.0-alpha.99_rfurdifwzs2v6rkphln4nsnq4e
   solid-testing-library: 0.3.0_solid-js@1.4.7
-  tailwindcss: 3.1.7
-  tailwindcss-plugin-icons: 1.0.7_tailwindcss@3.1.7
+  tailwindcss: 3.1.8
+  tailwindcss-plugin-icons: 1.0.7_tailwindcss@3.1.8
   taze: 0.7.6
   typescript: 4.7.4
   unplugin-auto-import: 0.11.0_rollup@2.77.2+vite@3.0.4
@@ -8605,16 +8605,16 @@ packages:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
     dev: true
 
-  /tailwindcss-plugin-icons/1.0.7_tailwindcss@3.1.7:
+  /tailwindcss-plugin-icons/1.0.7_tailwindcss@3.1.8:
     resolution: {integrity: sha512-ISUTr/GVmXpTB020IFgKWSpaWf/elhSPuidigyt7vjqSpdBxO/1wdIb94iWq11RA2uiWL8dl/L0V8POnOXoTKg==}
     peerDependencies:
       tailwindcss: 3.x
     dependencies:
-      tailwindcss: 3.1.7
+      tailwindcss: 3.1.8
     dev: true
 
-  /tailwindcss/3.1.7:
-    resolution: {integrity: sha512-r7mgumZ3k0InfVPpGWcX8X/Ut4xBfv+1O/+C73ar/m01LxGVzWvPxF/w6xIUPEztrCoz7axfx0SMdh8FH8ZvRQ==}
+  /tailwindcss/3.1.8:
+    resolution: {integrity: sha512-YSneUCZSFDYMwk+TGq8qYFdCA3yfBRdBlS7txSq0LUmzyeqRe3a8fBQzbz9M3WS/iFT4BNf/nmw9mEzrnSaC0g==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
