@@ -23,7 +23,7 @@
     "@solidjs/meta": "0.28.0",
     "@solidjs/router": "0.4.2",
     "@testing-library/dom": "8.16.1",
-    "@testing-library/jest-dom": "5.16.4",
+    "@testing-library/jest-dom": "5.16.5",
     "@types/testing-library__jest-dom": "5.14.5",
     "jsdom": "20.0.0",
     "@testing-library/user-event": "14.4.2",
