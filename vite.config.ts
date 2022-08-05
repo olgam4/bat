@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitest/config'
-import solid from 'solid-start'
+import solid from 'solid-start/vite'
 // @ts-ignore
 import vercel from 'solid-start-vercel'
 import tsconfigPaths from 'vite-tsconfig-paths'
@@ -64,7 +64,6 @@ export default defineConfig({
     tsconfigPaths(),
     AutoImport({
       imports: [
-        'solid-app-router',
         'solid-js',
         'vitest',
         {
@@ -82,7 +81,7 @@ export default defineConfig({
           '@testing-library/user-event': [
             ['default', 'userEvent'],
           ],
-          'solid-meta': [
+          '@solidjs/meta': [
             'Title',
           ],
         },
@@ -93,7 +92,6 @@ export default defineConfig({
   ],
   build: {
     target: 'esnext',
-    polyfillDynamicImport: false,
   },
   resolve: {
     conditions: ['development', 'browser'],

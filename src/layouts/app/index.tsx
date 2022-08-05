@@ -1,5 +1,6 @@
 import type { Ref } from 'solid-js'
 
+import { Link } from '@solidjs/router'
 import bat from '@assets/bat.png'
 import Image from '@components/image'
 import Counter, { createCounter } from '@components/counter'

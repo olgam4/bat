@@ -1,5 +1,8 @@
 import { useI18n } from '@solid-primitives/i18n'
+import { Link, useParams } from '@solidjs/router'
 import type { Component } from 'solid-js'
+
+
 
 const Name: Component = () => {
   const params = useParams()

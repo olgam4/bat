@@ -1,3 +1,5 @@
+import { Link } from '@solidjs/router'
+
 export default function () {
   const [t] = useI18n()
 

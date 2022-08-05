@@ -1,5 +1,3 @@
-import { Title } from 'solid-meta'
-
 import App from '@layouts/app'
 import { Provider } from '@locales'
 
