@@ -9,63 +9,43 @@ import ReloadPrompt from '@components/reload'
 import Form from '@components/form'
 import { createInput } from '@components/form/input'
 import Toaster, { createToaster } from '@components/toaster'
+import { nextLanguage, phoneCall } from './reactivity'
 
 const ReloadPromptCheck = typeof window !== 'undefined' ?
   () => <ReloadPrompt />
   :
   () => null
 
-export default function () {
+export default function() {
   let linkRef: Ref<any>
   const counter = createCounter()
-  const [_, { locale }] = useI18n()
-  const nameHook = createInput('name')
+  const nameInput = createInput('name')
   const toasterHook = createToaster()
-
-  const nextLanguage = () => {
-    const next = locale() === 'en' ? 'fr' : 'en'
-    locale(next)
-  }
-
-  const onSubmit = () => {
-    linkRef.click()
-  }
-
-  const phoneCall = async () => {
-    const response = await fetch('/api/phone', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        phone: '+3475307972',
-      }),
-    })
-    const data = await response.json()
-
-    console.log(data)
-    toasterHook.toast(JSON.stringify(data))
-  }
 
   return (
     <div class="full flex-center flex-col bg-gray-100/75">
       <ReloadPromptCheck />
       <Image image={bat} />
       <div class="flex -mt-10 items-center">
-        <Form inputs={[nameHook]} onSubmit={onSubmit} />
-        <Link ref={linkRef} href={`/hi/${nameHook.value()}`}>
+        <Form inputs={[nameInput]} onSubmit={() => linkRef.click()} />
+        <Link ref={linkRef} href={`/hi/${nameInput.value()}`}>
           <div class="i-carbon-arrow-right btn w-7 h-7" />
         </Link>
       </div>
       <div class="flex items-end space-x-6">
-        <Counter {...counter}/>
+        <Counter {...counter} />
         <a class="btn" href="https://github.com/olgam4/bat" target="_blank">
           <div class="i-carbon-logo-github w-6 h-6" />
         </a>
         <Link href={Math.round((Math.random() * 100000)).toString()}>
           <div class="btn i-carbon-location-hazard w-6 h-6" />
         </Link>
-        <Button onClick={() => phoneCall()}>
+        <Button onClick={() => {
+          phoneCall((data) => {
+            console.log(data)
+            toasterHook.toast(JSON.stringify(data))
+          })
+        }}>
           <div class="i-carbon-phone-voice w-6 h-6" />
         </Button>
         <Button onClick={() => nextLanguage()}>

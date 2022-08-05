@@ -1,6 +1,8 @@
-import type { Component, Ref } from 'solid-js'
+import type { Component } from 'solid-js'
 import type { createInput } from './input'
 import Input from './input'
+
+import type { Ref } from "solid-js"
 
 const submit = (ref: Ref<any>, accessor: any) => {
   const callback = accessor() || (() => {})
