@@ -46,7 +46,7 @@
     "tailwindcss-plugin-icons": "1.0.7",
     "taze": "0.7.6",
     "typescript": "4.7.4",
-    "unplugin-auto-import": "0.10.3",
+    "unplugin-auto-import": "0.11.0",
     "vite": "2.9.14",
     "vite-plugin-pwa": "0.12.3",
     "vite-tsconfig-paths": "3.5.0",
