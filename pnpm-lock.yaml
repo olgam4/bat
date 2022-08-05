@@ -12,7 +12,7 @@ specifiers:
   '@testing-library/dom': 8.16.1
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/user-event': 14.4.2
-  '@types/testing-library__jest-dom': 5.14.4
+  '@types/testing-library__jest-dom': 5.14.5
   '@typescript-eslint/eslint-plugin': 5.32.0
   '@typescript-eslint/parser': 5.32.0
   autoprefixer: 10.4.8
@@ -55,7 +55,7 @@ devDependencies:
   '@testing-library/dom': 8.16.1
   '@testing-library/jest-dom': 5.16.4
   '@testing-library/user-event': 14.4.2_znfriv3ismgf3ybh2woqwlpfea
-  '@types/testing-library__jest-dom': 5.14.4
+  '@types/testing-library__jest-dom': 5.14.5
   '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
   '@typescript-eslint/parser': 5.32.0_qugx7qdu5zevzvxaiqyxfiwquq
   autoprefixer: 10.4.8_postcss@8.4.14
@@ -3090,7 +3090,7 @@ packages:
     engines: {node: '>=8', npm: '>=6', yarn: '>=1'}
     dependencies:
       '@babel/runtime': 7.18.3
-      '@types/testing-library__jest-dom': 5.14.4
+      '@types/testing-library__jest-dom': 5.14.5
       aria-query: 5.0.0
       chalk: 3.0.0
       css: 3.0.0
@@ -3228,8 +3228,8 @@ packages:
       '@types/node': 17.0.42
     dev: true
 
-  /@types/testing-library__jest-dom/5.14.4:
-    resolution: {integrity: sha512-EUCs9PTBOEyfRtLKkKd31YrRCx/9Wxjy2Uqb6IH/KAOr7/vP0i8iClOyxQqjm/UxMGU5r5s2vOBM7vSPQVmabg==}
+  /@types/testing-library__jest-dom/5.14.5:
+    resolution: {integrity: sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==}
     dependencies:
       '@types/jest': 28.1.6
     dev: true
