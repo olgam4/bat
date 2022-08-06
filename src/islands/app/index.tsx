@@ -9,7 +9,7 @@ import ReloadPrompt from '@components/reload'
 import Form from '@components/form'
 import { createInput } from '@components/form/input'
 import Toaster, { createToaster } from '@components/toaster'
-import { nextLanguage, phoneCall } from './reactivity'
+import { createApp } from './reactivity'
 
 const ReloadPromptCheck = typeof window !== 'undefined' ?
   () => <ReloadPrompt />
@@ -18,9 +18,15 @@ const ReloadPromptCheck = typeof window !== 'undefined' ?
 
 export default function() {
   let linkRef: Ref<any>
+
   const counter = createCounter()
   const nameInput = createInput('name')
   const toasterHook = createToaster()
+  const {
+    phoneCall,
+    nextLanguage,
+  } = createApp()
+
 
   return (
     <div class="full flex-center flex-col bg-gray-100/75">
