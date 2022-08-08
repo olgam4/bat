@@ -36,7 +36,7 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-unused-imports": "2.0.0",
     "pnpm": "7.9.0",
-    "postcss": "8.4.14",
+    "postcss": "8.4.16",
     "postcss-import": "14.1.0",
     "postcss-preset-env": "7.7.2",
     "rollup": "2.77.2",
