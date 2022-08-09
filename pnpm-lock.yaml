@@ -9,7 +9,7 @@ specifiers:
   '@solid-primitives/i18n': 1.1.0
   '@solidjs/meta': 0.28.0
   '@solidjs/router': 0.4.2
-  '@testing-library/dom': 8.16.1
+  '@testing-library/dom': 8.17.1
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/user-event': 14.4.2
   '@types/testing-library__jest-dom': 5.14.5
@@ -52,9 +52,9 @@ devDependencies:
   '@solid-primitives/i18n': 1.1.0_solid-js@1.4.7
   '@solidjs/meta': 0.28.0_solid-js@1.4.7
   '@solidjs/router': 0.4.2_solid-js@1.4.7
-  '@testing-library/dom': 8.16.1
+  '@testing-library/dom': 8.17.1
   '@testing-library/jest-dom': 5.16.5
-  '@testing-library/user-event': 14.4.2_znfriv3ismgf3ybh2woqwlpfea
+  '@testing-library/user-event': 14.4.2_wl4iynrlixafokvgqnhzlvigei
   '@types/testing-library__jest-dom': 5.14.5
   '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
   '@typescript-eslint/parser': 5.32.0_qugx7qdu5zevzvxaiqyxfiwquq
@@ -3075,8 +3075,8 @@ packages:
       pretty-format: 26.6.2
     dev: true
 
-  /@testing-library/dom/8.16.1:
-    resolution: {integrity: sha512-XEV2mBxgv6DKjL3+U3WEUzBgT2CjYksoXGlLrrJXYP8OvRfGkBonvelkorazpFlp8tkEecO06r43vN4DIEyegQ==}
+  /@testing-library/dom/8.17.1:
+    resolution: {integrity: sha512-KnH2MnJUzmFNPW6RIKfd+zf2Wue8mEKX0M3cpX6aKl5ZXrJM1/c/Pc8c2xDNYQCnJO48Sm5ITbMXgqTr3h4jxQ==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.18.6
@@ -3104,13 +3104,13 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/user-event/14.4.2_znfriv3ismgf3ybh2woqwlpfea:
+  /@testing-library/user-event/14.4.2_wl4iynrlixafokvgqnhzlvigei:
     resolution: {integrity: sha512-1gVTWtueNimveOjcm2ApFCnCTeky7WqY3EX31/GRKLWyCd+HfH+Gd2l1J8go9FpDNe+0Mx8X4zbQHTg0WWNJwg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
     dependencies:
-      '@testing-library/dom': 8.16.1
+      '@testing-library/dom': 8.17.1
     dev: true
 
   /@tootallnate/once/2.0.0:
