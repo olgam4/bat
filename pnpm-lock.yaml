@@ -11,7 +11,7 @@ specifiers:
   '@solidjs/router': 0.4.2
   '@testing-library/dom': 8.17.1
   '@testing-library/jest-dom': 5.16.5
-  '@testing-library/user-event': 14.4.2
+  '@testing-library/user-event': 14.4.3
   '@types/testing-library__jest-dom': 5.14.5
   '@typescript-eslint/eslint-plugin': 5.33.0
   '@typescript-eslint/parser': 5.33.0
@@ -54,7 +54,7 @@ devDependencies:
   '@solidjs/router': 0.4.2_solid-js@1.4.7
   '@testing-library/dom': 8.17.1
   '@testing-library/jest-dom': 5.16.5
-  '@testing-library/user-event': 14.4.2_wl4iynrlixafokvgqnhzlvigei
+  '@testing-library/user-event': 14.4.3_wl4iynrlixafokvgqnhzlvigei
   '@types/testing-library__jest-dom': 5.14.5
   '@typescript-eslint/eslint-plugin': 5.33.0_njno5y7ry2l2lcmiu4tywxkwnq
   '@typescript-eslint/parser': 5.33.0_qugx7qdu5zevzvxaiqyxfiwquq
@@ -3104,8 +3104,8 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/user-event/14.4.2_wl4iynrlixafokvgqnhzlvigei:
-    resolution: {integrity: sha512-1gVTWtueNimveOjcm2ApFCnCTeky7WqY3EX31/GRKLWyCd+HfH+Gd2l1J8go9FpDNe+0Mx8X4zbQHTg0WWNJwg==}
+  /@testing-library/user-event/14.4.3_wl4iynrlixafokvgqnhzlvigei:
+    resolution: {integrity: sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
