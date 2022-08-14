@@ -8,7 +8,7 @@ export default function() {
   return (
     <Provider>
       <Title>Hello World</Title>
-      <div class="full flex-center flex-col bg-gray-100/75 space-y-2">
+      <div class="full flex-center flex-col bg-gray-100/75 dark:bg-gray-800 dark:text-gray-400 space-y-2">
         <Paragraph key='hello' variable={{ name: params.name }} />
         <Link href="/">
           <div class="i-carbon-arrow-left h-7 w-7" />

@@ -6,7 +6,7 @@ export default function() {
   return (
     <Provider>
       <Title>404</Title>
-      <div class="full flex-center flex-col bg-gray-100/75 text-gray-400">
+      <div class="full flex-center flex-col bg-gray-100/75 text-gray-400 dark:bg-gray-800">
         <h1 class="text-4xl font-extrabold">404</h1>
         <div class="flex space-x-1 mt-1">
           <Paragraph key='hello' />

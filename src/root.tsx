@@ -5,6 +5,7 @@ import { Routes } from '@solidjs/router'
 import { Suspense } from 'solid-js'
 
 import './assets/global.css'
+import { ThemeProvider } from '@context/theme'
 
 export default function Root() {
   return (
@@ -24,9 +25,11 @@ export default function Root() {
       <body>
         <ErrorBoundary>
           <Suspense>
-            <Routes>
-              <FileRoutes />
-            </Routes>
+            <ThemeProvider>
+              <Routes>
+                <FileRoutes />
+              </Routes>
+            </ThemeProvider>
           </Suspense>
         </ErrorBoundary>
         <Scripts />

@@ -24,9 +24,13 @@ const createApp = () => {
     locale(next)
   }
 
+  const theme = () => {
+  }
+
   return {
     phoneCall,
     nextLanguage,
+    theme,
   }
 }
 

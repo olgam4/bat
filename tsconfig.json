@@ -17,7 +17,8 @@
       "@components/*": ["src/components/*"],
       "@islands/*": ["src/islands/*"],
       "@locales": ["src/locales"],
-      "@pages/*": ["src/pages/*"]
+      "@pages/*": ["src/pages/*"],
+      "@context/*": ["src/context/*"]
     }
   }
 }

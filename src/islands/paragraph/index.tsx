@@ -13,8 +13,7 @@ interface Props {
 const Paragraph: Component<Props> = (props) => {
   const [t] = useI18n()
   return (
-
-      <p>{t(props.key, props.variable)}</p>
+    <p>{t(props.key, props.variable)}</p>
   )
 }
 
