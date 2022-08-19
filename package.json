@@ -16,7 +16,7 @@
   "devDependencies": {
     "@formkit/auto-animate": "1.0.0-beta.1",
     "@iconify-json/carbon": "1.1.7",
-    "@mdx-js/rollup": "2.1.2",
+    "@mdx-js/rollup": "2.1.3",
     "@rollup/plugin-replace": "4.0.0",
     "@solid-primitives/destructure": "0.1.1",
     "@solid-primitives/i18n": "1.1.0",
