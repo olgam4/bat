@@ -35,10 +35,12 @@ export default function Root() {
             </ThemeProvider>
           </Suspense>
         </ErrorBoundary>
-        <!--       _
-               .__(.)< (MEOW)
-                \___)   
-         ~~~~~~~~~~~~~~~~~~-->
+        {/*
+          <!--       _
+                 .__(.)< (MEOW)
+                  \___)   
+           ~~~~~~~~~~~~~~~~~~-->
+        */}
         <Scripts />
       </body>
     </html>
