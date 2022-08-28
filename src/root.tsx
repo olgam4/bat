@@ -36,12 +36,10 @@ export default function Root() {
             </ThemeProvider>
           </Suspense>
         </ErrorBoundary>
-        {isServer && ssr(`
-          <!--       _          \n
-                 .__(.)< (MEOW) \n
-                  \___)         \n
-           ~~~~~~~~~~~~~~~~~~-->
-        `)}
+        {isServer && ssr(`<!--       _          `)}
+        {isServer && ssr(`       .__(.)< (MEOW) `)}
+        {isServer && ssr(`        \___)         `)}
+        {isServer && ssr(` ~~~~~~~~~~~~~~~~~~-->`)}
         <Scripts />
       </body>
     </html>
