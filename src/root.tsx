@@ -37,9 +37,9 @@ export default function Root() {
           </Suspense>
         </ErrorBoundary>
         {isServer && ssr(`
-          <!--       _
-                 .__(.)< (MEOW)
-                  \___)   
+          <!--       _          \n
+                 .__(.)< (MEOW) \n
+                  \___)         \n
            ~~~~~~~~~~~~~~~~~~-->
         `)}
         <Scripts />
