@@ -3,6 +3,7 @@ import { FileRoutes, Links, Meta, Scripts } from 'solid-start/root'
 import { ErrorBoundary } from 'solid-start/error-boundary'
 import { Routes } from '@solidjs/router'
 import { Suspense } from 'solid-js'
+import { ssr } from 'solid-js/web'
 
 import './assets/global.css'
 import { ThemeProvider } from '@context/theme'
@@ -35,12 +36,13 @@ export default function Root() {
             </ThemeProvider>
           </Suspense>
         </ErrorBoundary>
-        `
+        {isServer &&
+        ssr(`
           <!--       _
                  .__(.)< (MEOW)
                   \___)   
            ~~~~~~~~~~~~~~~~~~-->
-        `
+        `)
         <Scripts />
       </body>
     </html>
