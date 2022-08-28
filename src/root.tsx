@@ -29,7 +29,7 @@ export default function Root() {
                 <FileRoutes />
               </Routes>
               <div class="absolute bottom-1 left-1/2 -translate-x-1/2 text-gray-400 text-sm">
-                built with ❤️ using <u><a href="https://bat.glo.quebec">bat</a></u>
+                built with ❤️ using <u><a href="https://bat.glo.quebec">🦇</a></u>
               </div>
             </ThemeProvider>
           </Suspense>
