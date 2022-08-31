@@ -8,7 +8,6 @@ import Button from '@components/button'
 import ReloadPrompt from '@components/reload'
 import Form from '@components/form'
 import { createInput } from '@components/form/input'
-import Toaster, { createToaster } from '@components/toaster'
 import { ThemeContext } from '@context/theme'
 
 import { createApp } from './reactivity'
@@ -23,7 +22,6 @@ export default function() {
 
   const counter = createCounter()
   const nameInput = createInput('name')
-  const toasterHook = createToaster()
   const {
     phoneCall,
     nextLanguage,
@@ -57,10 +55,7 @@ export default function() {
           <div class="btn i-carbon-location-hazard w-6 h-6" />
         </Link>
         <Button onClick={() => {
-          phoneCall((data) => {
-            console.log(data)
-            toasterHook.toast(JSON.stringify(data))
-          })
+          phoneCall(console.log)
         }}>
           <div class="i-carbon-phone-voice w-6 h-6" />
         </Button>
@@ -68,7 +63,6 @@ export default function() {
           <div class="i-carbon-language w-6 h-6" />
         </Button>
       </div>
-      <Toaster {...toasterHook} />
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import { configDefaults } from 'vitest/config'
 import solid from 'solid-start/vite'
 // @ts-ignore
-import vercel from 'solid-start-vercel'
+import deno from 'solid-start-deno'
 import tsconfigPaths from 'vite-tsconfig-paths'
 import { VitePWA } from 'vite-plugin-pwa'
 import replace, {RollupReplaceOptions} from '@rollup/plugin-replace'
@@ -49,7 +49,7 @@ export default defineConfig({
     ...configDefaults,
   },
   plugins: [
-    solid({ adapter: vercel() }),
+    solid({ adapter: deno() }),
     tsconfigPaths(),
     AutoImport({
       imports: [

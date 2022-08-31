@@ -7,4 +7,5 @@ console.log(`
         \\___)         
 ~~~~~~~~~~~~~~~~~~--> 
 `)
-hydrate(() => <StartClient />, document)
+if (typeof window !== 'undefined') hydrate(() => <StartClient />, document)
+
