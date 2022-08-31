@@ -26,7 +26,7 @@
 
 <br>
 
-![Vercel](https://vercelbadge.vercel.app/api/olgam4/bat)
+![🚀 Deploy](https://github.com/olgam4/bat/actions/workflows/ci.yml/badge.svg)
 
 ## Features
 
@@ -50,9 +50,9 @@
 
 * 📱 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
-* 🖨 [SSR](https://github.com/solidjs/solid-start) through [Solid-SSR](https://github.com/solidjs/solid/tree/main/packages/solid-ssr)
+* 🖨 [SSR](https://github.com/solidjs/solid-start)
 
-* ☁️  [Vercel](https://vercel.com/) Edge Functions with minimal config.
+* 🦕 [Deno](https://deno.com/deploy) Edge Functions with Simple GitHub Secrets
 
 ## Try it now!
 
@@ -61,7 +61,7 @@
 ``` sh
 npx degit olgam4/bat my-bat-mobile
 cd my-bat-mobile
-pnpm i # If you don't use pnpm, please consider using it: npm install -g pnpm
+pnpm i # If you are not a pnpm-er, I suggest you give it a try !
 ```
 
 ### GitHub Template
@@ -71,9 +71,28 @@ pnpm i # If you don't use pnpm, please consider using it: npm install -g pnpm
 ## Checklist
 
 - [ ] Change the author name in `LICENSE`
-- [ ] Change the favicon in `pulic`
-- [ ] Remove the `.github` dir which contains funding info
+- [ ] Change the favicon in `public`
+- [ ] Remove the `.FUNDING.yml`
+- [ ] Add deno project name and token to Secrets
 - [ ] Clean up the READMEs and remove routes
+
+## Usage
+
+### Development
+
+Simply run and open `localhost:3000`
+
+```bash
+pnpm dev --open
+```
+
+### Build
+
+Building uses vite and solid-start
+
+```bash
+pnpm build
+```
 
 ## Acknoledgements
 

@@ -26,11 +26,11 @@
 
 <br>
 
-![Vercel](https://vercelbadge.vercel.app/api/olgam4/bat)
+![🚀 Deploy](https://github.com/olgam4/bat/actions/workflows/ci.yml/badge.svg)
 
 ## Features
 
-* ⚡️ [Vite 2](https://vitejs.dev/) avec [Vitest](https://vitest.dev/), [pnpm](https://pnpm.js.org/)
+* ⚡️ [Vite 3](https://vitejs.dev/) avec ~~[Vitest](https://vitest.dev/)~~ (pour le moment [brisé](https://github.com/solidjs/solid-start/runs/7685058495?check_suite_focus=true)), [pnpm](https://pnpm.js.org/)
 
 * 🗿 [Solid](https://www.solidjs.com/), la librairie la plus [rapide](https://krausest.github.io/js-framework-benchmark/current.html)
 
@@ -50,9 +50,9 @@
 
 * 📱 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
-* 🖨 [SSR](https://github.com/solidjs/solid-start) via [Solid-SSR](https://github.com/solidjs/solid/tree/main/packages/solid-ssr)
+* 🖨 [SSR](https://github.com/solidjs/solid-start)
 
-* ☁️  [Vercel](https://vercel.com/) Edge Functions avec une petite [config](./assets/vercel-config.md)
+* 🦕 [Deno](https://deno.com/deploy) Edge Functions avec des GitHub Secrets
 
 ## Essayez le maintenant!
 
@@ -71,9 +71,28 @@ pnpm i # Si pnpm n'est pas utilisé, nous recommande fortement de l'essayer: npx
 ## Checklist
 
 - [ ] Changer l'auteur dans `LICENSE`
-- [ ] Changer le favicon dans `pulic`
-- [ ] Retirer le `.github` dir qui contient les informations de sponsor
+- [ ] Changer le favicon dans `public`
+- [ ] Retirer le `.FUNDING.yml`
+- [ ] Ajouter les secrets pour le Projet Deno et son token
 - [ ] Modifier les READMEs et retirer les routes
+
+## Usage
+
+### Développement
+
+Simplement rouler et naviguer à `localhost:3000`
+
+```bash
+pnpm dev --open
+```
+
+### Build
+
+On utilise ici vite et solid-start
+
+```bash
+pnpm build
+```
 
 ## Remerciements
 
