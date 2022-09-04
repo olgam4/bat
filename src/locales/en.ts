@@ -4,6 +4,7 @@ const en = {
   hello: 'Hello World {{name}}',
   name: 'Enter your name',
   goback: 'Go back to home',
+  batman: 'because our first commits never have parents',
 }
 
 export default en

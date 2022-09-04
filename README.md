@@ -94,6 +94,22 @@ Building uses vite and solid-start
 pnpm build
 ```
 
+### Update dependencies
+
+Try and find new minors, majors and bugfixes with taze
+
+```bash
+pnpm deps
+```
+
+### Lint your project
+
+There is a very stripped-down eslint, which you can use
+
+```bash
+pnpm lint
+```
+
 ## Acknoledgements
 
 This repo is inspired by 🏕 [antfu/vitesse](https://github.com/antfu/vitesse)

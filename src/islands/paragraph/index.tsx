@@ -7,13 +7,14 @@ interface Variables {
 
 interface Props {
   key: string
+  class?: string
   variable?: Variables
 }
 
 const Paragraph: Component<Props> = (props) => {
   const [t] = useI18n()
   return (
-    <p>{t(props.key, props.variable)}</p>
+    <p class={props.class}>{t(props.key, props.variable)}</p>
   )
 }
 

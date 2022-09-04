@@ -9,6 +9,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 import replace, {RollupReplaceOptions} from '@rollup/plugin-replace'
 import type { VitePWAOptions } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
+// @ts-ignore
+import type { Options as AutoImportOptions } from 'unplugin-auto-import'
 
 const replaceOptions: Partial<RollupReplaceOptions> = {
   __DATE__: new Date().toISOString(),
@@ -44,6 +46,28 @@ const pwaOptions: Partial<VitePWAOptions> = {
   },
 }
 
+const autoImportOptions: Partial<AutoImportOptions> = {
+  imports: [
+    'solid-js',
+    {
+      '@solid-primitives/destructure': [
+        'destructure',
+      ],
+      '@solid-primitives/i18n': [
+        'useI18n',
+        'createI18nContext',
+      ],
+      '@testing-library/user-event': [
+        ['default', 'userEvent'],
+      ],
+      '@solidjs/meta': [
+        'Title',
+      ],
+    },
+  ],
+}
+
+
 export default defineConfig({
   test: {
     ...configDefaults,
@@ -51,26 +75,7 @@ export default defineConfig({
   plugins: [
     solid({ adapter: deno() }),
     tsconfigPaths(),
-    AutoImport({
-      imports: [
-        'solid-js',
-        {
-          '@solid-primitives/destructure': [
-            'destructure',
-          ],
-          '@solid-primitives/i18n': [
-            'useI18n',
-            'createI18nContext',
-          ],
-          '@testing-library/user-event': [
-            ['default', 'userEvent'],
-          ],
-          '@solidjs/meta': [
-            'Title',
-          ],
-        },
-      ],
-    }),
+    AutoImport(autoImportOptions),
     VitePWA(pwaOptions),
     replace(replaceOptions),
   ],
