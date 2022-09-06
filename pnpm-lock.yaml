@@ -33,7 +33,7 @@ specifiers:
   solid-start-deno: 0.1.0-alpha.101
   solid-testing-library: 0.3.0
   tailwindcss: 3.1.8
-  tailwindcss-plugin-icons: 1.0.7
+  tailwindcss-plugin-icons: 2.0.1
   taze: 0.8.0
   typescript: 4.8.2
   unplugin-auto-import: 0.11.2
@@ -76,7 +76,7 @@ devDependencies:
   solid-start-deno: 0.1.0-alpha.101_fpbxzavigwggsybtoxgjmghu6q
   solid-testing-library: 0.3.0_solid-js@1.5.4
   tailwindcss: 3.1.8_postcss@8.4.16
-  tailwindcss-plugin-icons: 1.0.7_tailwindcss@3.1.8
+  tailwindcss-plugin-icons: 2.0.1_tailwindcss@3.1.8
   taze: 0.8.0
   typescript: 4.8.2
   unplugin-auto-import: 0.11.2_rollup@2.79.0+vite@3.1.0
@@ -8757,8 +8757,8 @@ packages:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
     dev: true
 
-  /tailwindcss-plugin-icons/1.0.7_tailwindcss@3.1.8:
-    resolution: {integrity: sha512-ISUTr/GVmXpTB020IFgKWSpaWf/elhSPuidigyt7vjqSpdBxO/1wdIb94iWq11RA2uiWL8dl/L0V8POnOXoTKg==}
+  /tailwindcss-plugin-icons/2.0.1_tailwindcss@3.1.8:
+    resolution: {integrity: sha512-UtN5p8NbQU7Lxz7aftNXqsXa7MPjTPeP85aJ3/7dRdKyPxI1pojKCGZSfCdIfQfIU5/HOZsw3ihlK8jk18tqOw==}
     peerDependencies:
       tailwindcss: 3.x
     dependencies:
