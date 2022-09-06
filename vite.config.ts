@@ -82,6 +82,12 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
+  ssr: {
+    noExternal: [
+      '@motionone/solid',
+      'motion',
+    ],
+  },
   resolve: {
     conditions: ['development', 'browser'],
   },
