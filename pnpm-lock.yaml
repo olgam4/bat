@@ -40,7 +40,7 @@ specifiers:
   vite: 3.0.9
   vite-plugin-pwa: 0.12.4
   vite-tsconfig-paths: 3.5.0
-  vitest: 0.22.1
+  vitest: 0.23.1
   workbox-window: 6.5.4
 
 devDependencies:
@@ -83,7 +83,7 @@ devDependencies:
   vite: 3.0.9
   vite-plugin-pwa: 0.12.4_f7se6o6eqkwcix4u3svh6mkvda
   vite-tsconfig-paths: 3.5.0_vite@3.0.9
-  vitest: 0.22.1_jsdom@20.0.0
+  vitest: 0.23.1_jsdom@20.0.0
   workbox-window: 6.5.4
 
 packages:
@@ -8976,6 +8976,10 @@ packages:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
+  /tinybench/2.1.5:
+    resolution: {integrity: sha512-ak+PZZEuH3mw6CCFOgf5S90YH0MARnZNhxjhjguAmoJimEMAJuNip/rJRd6/wyylHItomVpKTzZk9zrhTrQCoQ==}
+    dev: true
+
   /tinypool/0.2.4:
     resolution: {integrity: sha512-Vs3rhkUH6Qq1t5bqtb816oT+HeJTXfwt2cbPH17sWHIYKTotQIFPk3tf2fgqRrVyMDVOc1EnPgzIxfIulXVzwQ==}
     engines: {node: '>=14.0.0'}
@@ -9519,8 +9523,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.22.1_jsdom@20.0.0:
-    resolution: {integrity: sha512-+x28YTnSLth4KbXg7MCzoDAzPJlJex7YgiZbUh6YLp0/4PqVZ7q7/zyfdL0OaPtKTpNiQFPpMC8Y2MSzk8F7dw==}
+  /vitest/0.23.1_jsdom@20.0.0:
+    resolution: {integrity: sha512-kn9pG+h6VA3yj/xRvwgLKEd33rOlzMqJEg3tl5HSm3WUPlkY1Lr1FK8RN1uIqVKvFxmz6HGU3EQW+xW2kazRkQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -9548,6 +9552,8 @@ packages:
       debug: 4.3.4
       jsdom: 20.0.0
       local-pkg: 0.4.2
+      strip-literal: 0.4.0
+      tinybench: 2.1.5
       tinypool: 0.2.4
       tinyspy: 1.0.2
       vite: 3.0.9
