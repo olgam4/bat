@@ -6,6 +6,8 @@ import { Suspense } from 'solid-js'
 
 import './assets/global.css'
 import { ThemeProvider } from '@context/theme'
+import { NotificationProvider } from '@context/notifications'
+import Toaster from '@islands/toaster'
 
 export default function Root() {
   return (
@@ -24,12 +26,15 @@ export default function Root() {
         <ErrorBoundary>
           <Suspense>
             <ThemeProvider>
-              <Routes>
-                <FileRoutes />
-              </Routes>
-              <div class="absolute bottom-1 left-1/2 -translate-x-1/2 text-gray-400 text-sm">
-                built with ❤️ using <u><a href="https://bat.glo.quebec">🦇</a></u>
-              </div>
+              <NotificationProvider>
+                <Routes>
+                  <FileRoutes />
+                </Routes>
+                <Toaster />
+                <div class="absolute bottom-1 left-1/2 -translate-x-1/2 text-gray-400 text-sm">
+                  built with ❤️ using <u><a href="https://bat.glo.quebec">🦇</a></u>
+                </div>
+              </NotificationProvider>
             </ThemeProvider>
           </Suspense>
         </ErrorBoundary>

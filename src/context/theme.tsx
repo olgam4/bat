@@ -32,7 +32,6 @@ export const ThemeProvider: FlowComponent<Props> = (props) => {
         setState({
           name: state.name === 'dark' ? 'light' : 'dark',
         })
-        console.log(state.name)
       }
     }
   ]
