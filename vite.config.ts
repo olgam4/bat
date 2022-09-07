@@ -86,6 +86,7 @@ export default defineConfig({
     noExternal: [
       '@motionone/solid',
       'motion',
+      'solid-toast',
     ],
   },
   resolve: {

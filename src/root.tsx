@@ -3,11 +3,10 @@ import { Body, FileRoutes, Head, Html, Link, Meta, Scripts, Title } from 'solid-
 import { ErrorBoundary } from 'solid-start/error-boundary'
 import { Routes } from '@solidjs/router'
 import { Suspense } from 'solid-js'
+import { Toaster } from 'solid-toast'
 
 import './assets/global.css'
 import { ThemeProvider } from '@context/theme'
-import { NotificationProvider } from '@context/notifications'
-import Toaster from '@islands/toaster'
 
 export default function Root() {
   return (
@@ -26,15 +25,22 @@ export default function Root() {
         <ErrorBoundary>
           <Suspense>
             <ThemeProvider>
-              <NotificationProvider>
-                <Routes>
-                  <FileRoutes />
-                </Routes>
-                <Toaster />
-                <div class="absolute bottom-1 left-1/2 -translate-x-1/2 text-gray-400 text-sm">
-                  built with ❤️ using <u><a href="https://bat.glo.quebec">🦇</a></u>
-                </div>
-              </NotificationProvider>
+              <Routes>
+                <FileRoutes />
+              </Routes>
+              <Toaster
+                position="top-right"
+                gutter={8}
+                containerClassName=""
+                containerStyle={{}}
+                toastOptions={{
+                  className: 'bg-white text-gray-400',
+                  duration: 5000,
+                }}
+              />
+              <div class="absolute bottom-1 left-1/2 -translate-x-1/2 text-gray-400 text-sm">
+                built with ❤️ using <u><a href="https://bat.glo.quebec">🦇</a></u>
+              </div>
             </ThemeProvider>
           </Suspense>
         </ErrorBoundary>

@@ -1,5 +1,6 @@
+import toast from 'solid-toast'
+
 import Button from "@components/button"
-import { NotificationContext } from "@context/notifications"
 
 const phoneCall = async (callback: (data: any) => void) => {
   const response = await fetch('/api/phone', {
@@ -17,11 +18,10 @@ const phoneCall = async (callback: (data: any) => void) => {
 }
 
 export default function () {
-  const [_, { addNotification }] = useContext(NotificationContext)
   return (
     <Button onClick={() => {
       phoneCall(console.log)
-      addNotification!('Phone call sent')
+      toast.success('Calling...')
     }}>
       <div class="i-carbon-phone-voice w-6 h-6" />
     </Button>
