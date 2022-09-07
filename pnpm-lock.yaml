@@ -22,7 +22,7 @@ specifiers:
   eslint-plugin-import: 2.26.0
   eslint-plugin-unused-imports: 2.0.0
   jsdom: 20.0.0
-  motion: 10.14.1
+  motion: 10.14.2
   pnpm: 7.11.0
   postcss: 8.4.16
   postcss-import: 15.0.0
@@ -65,7 +65,7 @@ devDependencies:
   eslint-plugin-import: 2.26.0_iepzrjnvahcxaf6zc7cutko6om
   eslint-plugin-unused-imports: 2.0.0_zko7vy5ljylfnjbd43q67qnl6a
   jsdom: 20.0.0
-  motion: 10.14.1
+  motion: 10.14.2
   pnpm: 7.11.0
   postcss: 8.4.16
   postcss-import: 15.0.0_postcss@8.4.16
@@ -2592,17 +2592,6 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@motionone/dom/10.14.1:
-    resolution: {integrity: sha512-KdlWDm267Befu90Q4WqFrowTT6XdnIU2Mum/xCF3I03X6jROMwR+gZj9axYoGQfx5lndUyHbzqDglLaYXWzAfQ==}
-    dependencies:
-      '@motionone/animation': 10.14.0
-      '@motionone/generators': 10.14.0
-      '@motionone/types': 10.14.0
-      '@motionone/utils': 10.14.0
-      hey-listen: 1.0.8
-      tslib: 2.4.0
-    dev: true
-
   /@motionone/dom/10.14.2:
     resolution: {integrity: sha512-GbGtvTSelXfT4TeQUQ3Y31PllAu0Uvghqr68FSPAJsh1hjbuYPaiPJWpP6+t/t50cHtvUbl4m2SgnGKJ0NCgWA==}
     dependencies:
@@ -2641,8 +2630,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@motionone/svelte/10.14.1:
-    resolution: {integrity: sha512-v4w2POtz04UgY1FspuRC753nvl9Ehw3o8twYeD2tkM4SAj9qW1WaX1q6jOtrFI7fjBP3qMzB1fOEl38sbeOu4g==}
+  /@motionone/svelte/10.14.2:
+    resolution: {integrity: sha512-WKgER0eH7b8q0/ODElHIbzMM3uIINdcdCw87jf7xqs4daidsy6e1ckh2XJF2Z8zyWyUEtO4VHvGumRX7EjrxFA==}
     dependencies:
       '@motionone/dom': 10.14.2
       tslib: 2.4.0
@@ -2660,8 +2649,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@motionone/vue/10.14.1:
-    resolution: {integrity: sha512-C4RMJAbYSBmcUBcyTEOxPE2nkJRCewOfWgPnlCsYfVrV6J9+b11mdC67Z+LL1zped9dnr1jlG0uIST6r2WP8Pg==}
+  /@motionone/vue/10.14.2:
+    resolution: {integrity: sha512-nxC/j4WhOsXxVDUdWHJDUIvHSb97eu0Kn1HNzGp08Fm9WTFkKy0HtJtTqTdkGVks2jB/XBh/FO3wU2OzyDFZNw==}
     dependencies:
       '@motionone/dom': 10.14.2
       tslib: 2.4.0
@@ -6796,15 +6785,15 @@ packages:
       pkg-types: 0.3.3
     dev: true
 
-  /motion/10.14.1:
-    resolution: {integrity: sha512-WM9il2OBsyBqFt9ewVU0KXkftGrQh8xIuRJGntM6YXIKPfhM2vswRMsPaiVaPB8ujPgG2gefj5MQc8bMSD81dQ==}
+  /motion/10.14.2:
+    resolution: {integrity: sha512-zZp9PL4/O7nSgQBWBDdyvGm25Ef/hQUUVAOnyzxn2IvAhp496M+RB9p1ce4nN7cYLizox2Bq77/dTIjFGkJmAw==}
     dependencies:
       '@motionone/animation': 10.14.0
-      '@motionone/dom': 10.14.1
-      '@motionone/svelte': 10.14.1
+      '@motionone/dom': 10.14.2
+      '@motionone/svelte': 10.14.2
       '@motionone/types': 10.14.0
       '@motionone/utils': 10.14.0
-      '@motionone/vue': 10.14.1
+      '@motionone/vue': 10.14.2
     dev: true
 
   /mri/1.2.0:

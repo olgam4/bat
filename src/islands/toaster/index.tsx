@@ -9,7 +9,9 @@ const Toaster: Component = () => {
       <For each={context.notifications}
         children={(notification) => {
           return (
-            <Toast message={notification.message} />
+            <Toast
+              message={notification.message}
+            />
           )
         }}
       />
