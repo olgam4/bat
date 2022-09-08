@@ -1,3 +1,4 @@
+import { en } from '@locales'
 import type { Component } from 'solid-js'
 import { useI18n } from '@solid-primitives/i18n'
 
@@ -6,7 +7,7 @@ interface Variables {
 }
 
 interface Props {
-  key: string
+  key: keyof typeof en
   class?: string
   variable?: Variables
 }

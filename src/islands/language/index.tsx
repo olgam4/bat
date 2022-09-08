@@ -1,12 +1,14 @@
 import Button from "@components/button";
 
 export default function () {
+  const [index, setIndex] = createSignal(0);
   const [_, { locale }] = useI18n()
 
+  const languages = [ 'fr', 'en', 'jp' ]
 
   const nextLanguage = () => {
-    const next = locale() === 'en' ? 'fr' : 'en'
-    locale(next)
+    setIndex((index() + 1) % languages.length)
+    locale(languages[index()])
   }
 
   return (
