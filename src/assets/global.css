@@ -22,4 +22,17 @@
   .flex-center {
     @apply flex justify-center items-center;
   }
+
+  .translate-z-0 {
+    transform: translateZ(0);
+  }
+
+  .translate-z-1 {
+    transform: translateZ(1px);
+  }
+
+  .translate-z-5 {
+    transform: translateZ(5px);
+  }
+
 }
