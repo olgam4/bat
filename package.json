@@ -28,7 +28,7 @@
     "@types/testing-library__jest-dom": "5.14.5",
     "@typescript-eslint/eslint-plugin": "5.37.0",
     "@typescript-eslint/parser": "5.37.0",
-    "autoprefixer": "10.4.10",
+    "autoprefixer": "10.4.11",
     "c8": "7.12.0",
     "cssnano": "5.1.13",
     "eslint": "8.23.1",
