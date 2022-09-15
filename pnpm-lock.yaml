@@ -38,7 +38,7 @@ specifiers:
   taze: 0.8.0
   typescript: 4.8.3
   unplugin-auto-import: 0.11.2
-  vite: 3.1.0
+  vite: 3.1.1
   vite-plugin-pwa: 0.12.7
   vite-tsconfig-paths: 3.5.0
   vitest: 0.23.2
@@ -73,18 +73,18 @@ devDependencies:
   postcss-preset-env: 7.8.1_postcss@8.4.16
   rollup: 2.79.0
   solid-js: 1.5.4
-  solid-start: 0.1.0-alpha.103_woowi2xajcghmmaakatgmwduky
-  solid-start-deno: 0.1.0-alpha.103_txh6tprc7twfjqvqiefe6mstbm
+  solid-start: 0.1.0-alpha.103_7bfsb5t2ink5qo7gvjd4nbspbe
+  solid-start-deno: 0.1.0-alpha.103_3xfs4msgalx2rb3aeccd66a6gi
   solid-testing-library: 0.3.0_solid-js@1.5.4
   solid-toast: 0.3.5_solid-js@1.5.4
   tailwindcss: 3.1.8_postcss@8.4.16
   tailwindcss-plugin-icons: 1.0.7_tailwindcss@3.1.8
   taze: 0.8.0
   typescript: 4.8.3
-  unplugin-auto-import: 0.11.2_rollup@2.79.0+vite@3.1.0
-  vite: 3.1.0
-  vite-plugin-pwa: 0.12.7_zp7t6aa2r77waajuyr5zt63phe
-  vite-tsconfig-paths: 3.5.0_vite@3.1.0
+  unplugin-auto-import: 0.11.2_rollup@2.79.0+vite@3.1.1
+  vite: 3.1.1
+  vite-plugin-pwa: 0.12.7_7b6xkajbx43seeh6exkfvozdhy
+  vite-tsconfig-paths: 3.5.0_vite@3.1.1
   vitest: 0.23.2_jsdom@20.0.0
   workbox-window: 6.5.4
 
@@ -2457,7 +2457,7 @@ packages:
       yargs: 17.5.1
     dev: true
 
-  /@vinxi/vite-plugin-inspect/0.6.27_rollup@2.79.0+vite@3.1.0:
+  /@vinxi/vite-plugin-inspect/0.6.27_rollup@2.79.0+vite@3.1.1:
     resolution: {integrity: sha512-EI63vk0wGF3XcUYSWsKSeuzisx8lgUnjLSqk9XHnboSnjhbPZKe/cMrcXUbdNi+ZnK/a3L7+w3y/XMYWW4NHRA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -2470,7 +2470,7 @@ packages:
       pretty-bytes: 6.0.0
       sirv: 2.0.2
       ufo: 0.8.5
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -7632,7 +7632,7 @@ packages:
       solid-js: 1.5.4
     dev: true
 
-  /solid-start-deno/0.1.0-alpha.103_txh6tprc7twfjqvqiefe6mstbm:
+  /solid-start-deno/0.1.0-alpha.103_3xfs4msgalx2rb3aeccd66a6gi:
     resolution: {integrity: sha512-/gn99mitT0jf443EHdV/DYl7zVy7jeL4Da38vL/NcJHCD+u3xnSJbtM5cpyueyD/FJfDRDhAf1YXF2odZKKUQg==}
     peerDependencies:
       solid-start: '*'
@@ -7642,12 +7642,12 @@ packages:
       '@rollup/plugin-json': 4.1.0_rollup@2.79.0
       '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.0
       rollup: 2.79.0
-      solid-start: 0.1.0-alpha.103_woowi2xajcghmmaakatgmwduky
+      solid-start: 0.1.0-alpha.103_7bfsb5t2ink5qo7gvjd4nbspbe
       terser: 5.15.0
-      vite: 3.1.0
+      vite: 3.1.1
     dev: true
 
-  /solid-start/0.1.0-alpha.103_woowi2xajcghmmaakatgmwduky:
+  /solid-start/0.1.0-alpha.103_7bfsb5t2ink5qo7gvjd4nbspbe:
     resolution: {integrity: sha512-TKRWNdupRzxRrQlYzVeu7TzWVtMPliWihx1qLopSRQrpiqkik+GaYCOtJqnVI8azu2aaHW/sfjVurb5yPKXS2w==}
     hasBin: true
     peerDependencies:
@@ -7665,7 +7665,7 @@ packages:
       '@solidjs/meta': 0.28.0_solid-js@1.5.4
       '@solidjs/router': 0.4.3_solid-js@1.5.4
       '@types/cookie': 0.5.1
-      '@vinxi/vite-plugin-inspect': 0.6.27_rollup@2.79.0+vite@3.1.0
+      '@vinxi/vite-plugin-inspect': 0.6.27_rollup@2.79.0+vite@3.1.1
       chokidar: 3.5.3
       compression: 1.7.4
       connect: 3.7.0
@@ -7685,9 +7685,9 @@ packages:
       solid-js: 1.5.4
       terser: 5.15.0
       undici: 5.10.0
-      vite: 3.1.0
-      vite-plugin-inspect: 0.6.1_vite@3.1.0
-      vite-plugin-solid: 2.3.0_solid-js@1.5.4+vite@3.1.0
+      vite: 3.1.1
+      vite-plugin-inspect: 0.6.1_vite@3.1.1
+      vite-plugin-solid: 2.3.0_solid-js@1.5.4+vite@3.1.1
       wait-on: 6.0.1_debug@4.3.4
     transitivePeerDependencies:
       - supports-color
@@ -8237,7 +8237,7 @@ packages:
       vfile: 5.3.4
     dev: true
 
-  /unimport/0.6.7_rollup@2.79.0+vite@3.1.0:
+  /unimport/0.6.7_rollup@2.79.0+vite@3.1.1:
     resolution: {integrity: sha512-EMoVqDjswHkU+nD098QYHXH7Mkw7KwGDQAyeRF2lgairJnuO+wpkhIcmCqrD1OPJmsjkTbJ2tW6Ap8St0PuWZA==}
     dependencies:
       '@rollup/pluginutils': 4.2.1
@@ -8249,7 +8249,7 @@ packages:
       pathe: 0.3.3
       scule: 0.3.2
       strip-literal: 0.4.0
-      unplugin: 0.9.3_rollup@2.79.0+vite@3.1.0
+      unplugin: 0.9.3_rollup@2.79.0+vite@3.1.1
     transitivePeerDependencies:
       - esbuild
       - rollup
@@ -8360,7 +8360,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import/0.11.2_rollup@2.79.0+vite@3.1.0:
+  /unplugin-auto-import/0.11.2_rollup@2.79.0+vite@3.1.1:
     resolution: {integrity: sha512-1+VwBfn9dtiYv9SQLKP1AvZolUbK9xTVeAT+iOcEk4EHSFUlmIqBVLEKI76cifSQTLOJ3rZyPrEgptf3SZNLlQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -8373,8 +8373,8 @@ packages:
       '@rollup/pluginutils': 4.2.1
       local-pkg: 0.4.2
       magic-string: 0.26.2
-      unimport: 0.6.7_rollup@2.79.0+vite@3.1.0
-      unplugin: 0.9.3_rollup@2.79.0+vite@3.1.0
+      unimport: 0.6.7_rollup@2.79.0+vite@3.1.1
+      unplugin: 0.9.3_rollup@2.79.0+vite@3.1.1
     transitivePeerDependencies:
       - esbuild
       - rollup
@@ -8382,7 +8382,7 @@ packages:
       - webpack
     dev: true
 
-  /unplugin/0.9.3_rollup@2.79.0+vite@3.1.0:
+  /unplugin/0.9.3_rollup@2.79.0+vite@3.1.1:
     resolution: {integrity: sha512-GWXxizZG+tobNs8fuGTCeilerkkfZTZax2iivuE4pxLaF9wTnPJHOq8tbLKDb5ohVb+2BXNjrU9xx59yWTUnuw==}
     peerDependencies:
       esbuild: '>=0.13'
@@ -8402,7 +8402,7 @@ packages:
       acorn: 8.8.0
       chokidar: 3.5.3
       rollup: 2.79.0
-      vite: 3.1.0
+      vite: 3.1.1
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.4.4
     dev: true
@@ -8500,7 +8500,7 @@ packages:
       vfile-message: 3.1.2
     dev: true
 
-  /vite-plugin-inspect/0.6.1_vite@3.1.0:
+  /vite-plugin-inspect/0.6.1_vite@3.1.1:
     resolution: {integrity: sha512-MQzIgMoPyiPDuHoO6p7QBOrmheBU/ntg0cgtgcnm21S/Xds5oak1CbVLSAvv4fK1ZpetLK+tlJ+2mlFO9fG3SQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -8511,12 +8511,12 @@ packages:
       kolorist: 1.5.1
       sirv: 2.0.2
       ufo: 0.8.5
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.12.7_zp7t6aa2r77waajuyr5zt63phe:
+  /vite-plugin-pwa/0.12.7_7b6xkajbx43seeh6exkfvozdhy:
     resolution: {integrity: sha512-salSwS1wWc1niNWfhX2W6gtfXmk+XESMz62w95EHLq6fSM2bDgDm1APmvq1nkDcxH6Onky7HxysCBKMzvOHXYg==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0-0
@@ -8526,7 +8526,7 @@ packages:
       fast-glob: 3.2.11
       pretty-bytes: 6.0.0
       rollup: 2.79.0
-      vite: 3.1.0
+      vite: 3.1.1
       workbox-build: 6.5.3
       workbox-window: 6.5.4
     transitivePeerDependencies:
@@ -8534,7 +8534,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-solid/2.3.0_solid-js@1.5.4+vite@3.1.0:
+  /vite-plugin-solid/2.3.0_solid-js@1.5.4+vite@3.1.1:
     resolution: {integrity: sha512-N2sa54C3UZC2nN5vpj5o6YP+XdIAZW6n6xv8OasxNAcAJPFeZT7EOVvumL0V4c8hBz1yuYniMWdESY8807fVSg==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -8546,12 +8546,12 @@ packages:
       merge-anything: 5.0.2
       solid-js: 1.5.4
       solid-refresh: 0.4.1_solid-js@1.5.4
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.5.0_vite@3.1.0:
+  /vite-tsconfig-paths/3.5.0_vite@3.1.1:
     resolution: {integrity: sha512-NKIubr7gXgh/3uniQaOytSg+aKWPrjquP6anAy+zCWEn6h9fB8z2/qdlfQrTgZWaXJ2pHVlllrSdRZltHn9P4g==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -8560,13 +8560,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.2
       tsconfig-paths: 4.0.0
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.1.0:
-    resolution: {integrity: sha512-YBg3dUicDpDWFCGttmvMbVyS9ydjntwEjwXRj2KBFwSB8SxmGcudo1yb8FW5+M/G86aS8x828ujnzUVdsLjs9g==}
+  /vite/3.1.1:
+    resolution: {integrity: sha512-hgxQWev/AL7nWYrqByYo8nfcH9n97v6oFsta9+JX8h6cEkni7nHKP2kJleNYV2kcGhE8jsbaY1aStwPZXzPbgA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -8625,7 +8625,7 @@ packages:
       tinybench: 2.1.5
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - less
       - sass
