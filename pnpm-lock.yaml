@@ -28,7 +28,7 @@ specifiers:
   postcss-import: 15.0.0
   postcss-preset-env: 7.8.2
   rollup: 2.79.0
-  solid-js: 1.5.4
+  solid-js: 1.5.5
   solid-start: 0.1.0-alpha.103
   solid-start-deno: 0.1.0-alpha.103
   solid-testing-library: 0.3.0
@@ -48,11 +48,11 @@ devDependencies:
   '@formkit/auto-animate': 1.0.0-beta.3
   '@iconify-json/carbon': 1.1.7
   '@mdx-js/rollup': 2.1.3_rollup@2.79.0
-  '@motionone/solid': 10.14.2_solid-js@1.5.4
+  '@motionone/solid': 10.14.2_solid-js@1.5.5
   '@rollup/plugin-replace': 4.0.0_rollup@2.79.0
-  '@solid-primitives/i18n': 1.1.1_solid-js@1.5.4
-  '@solidjs/meta': 0.28.0_solid-js@1.5.4
-  '@solidjs/router': 0.4.3_solid-js@1.5.4
+  '@solid-primitives/i18n': 1.1.1_solid-js@1.5.5
+  '@solidjs/meta': 0.28.0_solid-js@1.5.5
+  '@solidjs/router': 0.4.3_solid-js@1.5.5
   '@testing-library/dom': 8.17.1
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/user-event': 14.4.3_wl4iynrlixafokvgqnhzlvigei
@@ -72,11 +72,11 @@ devDependencies:
   postcss-import: 15.0.0_postcss@8.4.16
   postcss-preset-env: 7.8.2_postcss@8.4.16
   rollup: 2.79.0
-  solid-js: 1.5.4
-  solid-start: 0.1.0-alpha.103_7bfsb5t2ink5qo7gvjd4nbspbe
+  solid-js: 1.5.5
+  solid-start: 0.1.0-alpha.103_2cq7e4sj7ivoqhxadrsoh2gyee
   solid-start-deno: 0.1.0-alpha.103_3xfs4msgalx2rb3aeccd66a6gi
-  solid-testing-library: 0.3.0_solid-js@1.5.4
-  solid-toast: 0.3.5_solid-js@1.5.4
+  solid-testing-library: 0.3.0_solid-js@1.5.5
+  solid-toast: 0.3.5_solid-js@1.5.5
   tailwindcss: 3.1.8_postcss@8.4.16
   tailwindcss-plugin-icons: 1.0.7_tailwindcss@3.1.8
   taze: 0.8.0
@@ -1810,15 +1810,15 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@motionone/solid/10.14.2_solid-js@1.5.4:
+  /@motionone/solid/10.14.2_solid-js@1.5.5:
     resolution: {integrity: sha512-dz/bWsKMi2R7WJfymRB5hQfeKrSfNDRf5MgBMaRnEU9bQFrXWAidKd3KMTCBxNqugM946tCN5x6NTP4+mD9KmQ==}
     peerDependencies:
       solid-js: ^1.4.1
     dependencies:
       '@motionone/dom': 10.14.2
       '@motionone/utils': 10.14.0
-      '@solid-primitives/props': 2.2.2_solid-js@1.5.4
-      solid-js: 1.5.4
+      '@solid-primitives/props': 2.2.2_solid-js@1.5.5
+      solid-js: 1.5.5
       tslib: 2.4.0
     dev: true
 
@@ -2071,45 +2071,45 @@ packages:
     resolution: {integrity: sha512-K7C7IlQ3zLePEZleUN21ceBA2aLcMnLHTLph8QWk1JK37L90obdpY+QGY8bXMKxf1ht1Z0MNewvXxWv0oGDYFg==}
     dev: true
 
-  /@solid-primitives/i18n/1.1.1_solid-js@1.5.4:
+  /@solid-primitives/i18n/1.1.1_solid-js@1.5.5:
     resolution: {integrity: sha512-ywIJ4MADZ25of6X/hgPTd6UNWbgM6X/ZNJStIexAlaLi9fFWw1yFRP/cllSBabEfMoCWgOETgoT16JQzxZlphg==}
     peerDependencies:
       solid-js: ^1.3.1
     dependencies:
-      solid-js: 1.5.4
+      solid-js: 1.5.5
     dev: true
 
-  /@solid-primitives/props/2.2.2_solid-js@1.5.4:
+  /@solid-primitives/props/2.2.2_solid-js@1.5.5:
     resolution: {integrity: sha512-vjRRoi/z3S2ylIJKCs+mN07oxDmt2S9gPCbTqkEx8jYHnvzocpt34UQdglLoSklTE6jI37JhW3g/Cs8Qr/peHg==}
     peerDependencies:
       solid-js: ^1.3.0
     dependencies:
-      '@solid-primitives/utils': 3.0.2_solid-js@1.5.4
-      solid-js: 1.5.4
+      '@solid-primitives/utils': 3.0.2_solid-js@1.5.5
+      solid-js: 1.5.5
     dev: true
 
-  /@solid-primitives/utils/3.0.2_solid-js@1.5.4:
+  /@solid-primitives/utils/3.0.2_solid-js@1.5.5:
     resolution: {integrity: sha512-LCU3tVrJmyRqJ0ocG5uCEuUNqmGkcAC+cWpDEE49AuvtehkdQfv4CfqvdNJgs3eoQRQhLOrVcgd1bHFJY4lsrQ==}
     peerDependencies:
       solid-js: ^1.4.1
     dependencies:
-      solid-js: 1.5.4
+      solid-js: 1.5.5
     dev: true
 
-  /@solidjs/meta/0.28.0_solid-js@1.5.4:
+  /@solidjs/meta/0.28.0_solid-js@1.5.5:
     resolution: {integrity: sha512-x52VdB9RZJ1apDB/pAmf58oeJsJ0lGKFXWjnm/TE/MlENIBPg3JaW8H5v2HnGpQC0WUbgiIsDFWpLWVNBo5t6g==}
     peerDependencies:
       solid-js: '>=1.4.0'
     dependencies:
-      solid-js: 1.5.4
+      solid-js: 1.5.5
     dev: true
 
-  /@solidjs/router/0.4.3_solid-js@1.5.4:
+  /@solidjs/router/0.4.3_solid-js@1.5.5:
     resolution: {integrity: sha512-mYpd4HxpH/3UZjHGTr2dhvPGXu034Ktxd05CJGA6nRjRGYCgUfhCQHRdEivyqJyb4LhHyDht4ny5xmwEOkUTaQ==}
     peerDependencies:
       solid-js: ^1.3.5
     dependencies:
-      solid-js: 1.5.4
+      solid-js: 1.5.5
     dev: true
 
   /@surma/rollup-plugin-off-main-thread/2.2.3:
@@ -7615,13 +7615,13 @@ packages:
       smart-buffer: 4.2.0
     dev: true
 
-  /solid-js/1.5.4:
-    resolution: {integrity: sha512-+65anSHhH27htkhP5LuC912fviMIckgc7/yN+WWrKhS9Kp3dvtDNl5/m4GWX1lpCvcubjShqJjGt16HET5z5Ig==}
+  /solid-js/1.5.5:
+    resolution: {integrity: sha512-5gXszD7ekhe59IyMa3+AvREJnBWVjwaeC7afL8C3UNPj5gQQCrsMs/cXwI3JRpj6D+3TESTyuQ2sY++m4cYiTg==}
     dependencies:
       csstype: 3.1.0
     dev: true
 
-  /solid-refresh/0.4.1_solid-js@1.5.4:
+  /solid-refresh/0.4.1_solid-js@1.5.5:
     resolution: {integrity: sha512-v3tD/OXQcUyXLrWjPW1dXZyeWwP7/+GQNs8YTL09GBq+5FguA6IejJWUvJDrLIA4M0ho9/5zK2e9n+uy+4488g==}
     peerDependencies:
       solid-js: ^1.3
@@ -7629,7 +7629,7 @@ packages:
       '@babel/generator': 7.19.0
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.19.0
-      solid-js: 1.5.4
+      solid-js: 1.5.5
     dev: true
 
   /solid-start-deno/0.1.0-alpha.103_3xfs4msgalx2rb3aeccd66a6gi:
@@ -7642,12 +7642,12 @@ packages:
       '@rollup/plugin-json': 4.1.0_rollup@2.79.0
       '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.0
       rollup: 2.79.0
-      solid-start: 0.1.0-alpha.103_7bfsb5t2ink5qo7gvjd4nbspbe
+      solid-start: 0.1.0-alpha.103_2cq7e4sj7ivoqhxadrsoh2gyee
       terser: 5.15.0
       vite: 3.1.1
     dev: true
 
-  /solid-start/0.1.0-alpha.103_7bfsb5t2ink5qo7gvjd4nbspbe:
+  /solid-start/0.1.0-alpha.103_2cq7e4sj7ivoqhxadrsoh2gyee:
     resolution: {integrity: sha512-TKRWNdupRzxRrQlYzVeu7TzWVtMPliWihx1qLopSRQrpiqkik+GaYCOtJqnVI8azu2aaHW/sfjVurb5yPKXS2w==}
     hasBin: true
     peerDependencies:
@@ -7662,8 +7662,8 @@ packages:
       '@babel/preset-env': 7.19.0_@babel+core@7.19.0
       '@babel/preset-typescript': 7.18.6_@babel+core@7.19.0
       '@babel/template': 7.18.10
-      '@solidjs/meta': 0.28.0_solid-js@1.5.4
-      '@solidjs/router': 0.4.3_solid-js@1.5.4
+      '@solidjs/meta': 0.28.0_solid-js@1.5.5
+      '@solidjs/router': 0.4.3_solid-js@1.5.5
       '@types/cookie': 0.5.1
       '@vinxi/vite-plugin-inspect': 0.6.27_rollup@2.79.0+vite@3.1.1
       chokidar: 3.5.3
@@ -7682,33 +7682,33 @@ packages:
       rollup-route-manifest: 1.0.0_rollup@2.79.0
       sade: 1.8.1
       sirv: 2.0.2
-      solid-js: 1.5.4
+      solid-js: 1.5.5
       terser: 5.15.0
       undici: 5.10.0
       vite: 3.1.1
       vite-plugin-inspect: 0.6.1_vite@3.1.1
-      vite-plugin-solid: 2.3.0_solid-js@1.5.4+vite@3.1.1
+      vite-plugin-solid: 2.3.0_solid-js@1.5.5+vite@3.1.1
       wait-on: 6.0.1_debug@4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /solid-testing-library/0.3.0_solid-js@1.5.4:
+  /solid-testing-library/0.3.0_solid-js@1.5.5:
     resolution: {integrity: sha512-6NWVbySNVzyReBm2N6p3eF8bzxRZXHZTAmPix4vFWYol16QWVjNQsEUxvr+ZOutb0yuMZmNuGx3b6WIJYmjwMQ==}
     engines: {node: '>= 14'}
     peerDependencies:
       solid-js: '>=1.0.0'
     dependencies:
       '@testing-library/dom': 7.31.2
-      solid-js: 1.5.4
+      solid-js: 1.5.5
     dev: true
 
-  /solid-toast/0.3.5_solid-js@1.5.4:
+  /solid-toast/0.3.5_solid-js@1.5.5:
     resolution: {integrity: sha512-m4PX2ESex9nSwt9d9XTr3r+Kp3vjSoViDWj3gj6Xxgz21IKYODMKhACXurlZCztz56NQBnfX2m4es4I8JgXGQQ==}
     peerDependencies:
       solid-js: ^1.5.4
     dependencies:
-      solid-js: 1.5.4
+      solid-js: 1.5.5
     dev: true
 
   /source-map-js/1.0.2:
@@ -8534,7 +8534,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-solid/2.3.0_solid-js@1.5.4+vite@3.1.1:
+  /vite-plugin-solid/2.3.0_solid-js@1.5.5+vite@3.1.1:
     resolution: {integrity: sha512-N2sa54C3UZC2nN5vpj5o6YP+XdIAZW6n6xv8OasxNAcAJPFeZT7EOVvumL0V4c8hBz1yuYniMWdESY8807fVSg==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -8544,8 +8544,8 @@ packages:
       '@babel/preset-typescript': 7.18.6_@babel+core@7.19.0
       babel-preset-solid: 1.4.8_@babel+core@7.19.0
       merge-anything: 5.0.2
-      solid-js: 1.5.4
-      solid-refresh: 0.4.1_solid-js@1.5.4
+      solid-js: 1.5.5
+      solid-refresh: 0.4.1_solid-js@1.5.5
       vite: 3.1.1
     transitivePeerDependencies:
       - supports-color
