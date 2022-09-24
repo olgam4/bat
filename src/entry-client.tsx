@@ -1,5 +1,4 @@
-import { hydrate } from 'solid-js/web'
-import { StartClient } from 'solid-start/entry-client'
+import { mount, StartClient } from 'solid-start/entry-client'
 
 console.log(`
 <!--       _          
@@ -7,5 +6,5 @@ console.log(`
         \\___)         
 ~~~~~~~~~~~~~~~~~~--> 
 `)
-if (typeof window !== 'undefined') hydrate(() => <StartClient />, document)
 
+mount(() => <StartClient />, document)
