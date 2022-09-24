@@ -29,7 +29,7 @@ specifiers:
   rollup: 2.79.1
   solid-js: 1.5.6
   solid-start: 0.1.0-alpha.104
-  solid-start-deno: 0.1.0-alpha.104
+  solid-start-deno: 0.1.0
   solid-testing-library: 0.3.0
   solid-toast: 0.3.5
   tailwindcss: 3.1.8
@@ -72,7 +72,7 @@ devDependencies:
   rollup: 2.79.1
   solid-js: 1.5.6
   solid-start: 0.1.0-alpha.104_dqtlw2uwgqd7fqcnydyf5wc54i
-  solid-start-deno: 0.1.0-alpha.104_coykfswhd3buh2tyyqbeegi4oe
+  solid-start-deno: 0.1.0_coykfswhd3buh2tyyqbeegi4oe
   solid-testing-library: 0.3.0_solid-js@1.5.6
   solid-toast: 0.3.5_solid-js@1.5.6
   tailwindcss: 3.1.8_postcss@8.4.16
@@ -7593,8 +7593,8 @@ packages:
       solid-js: 1.5.6
     dev: true
 
-  /solid-start-deno/0.1.0-alpha.104_coykfswhd3buh2tyyqbeegi4oe:
-    resolution: {integrity: sha512-nI2PbR5PQifpld6ERBJEoyYJgwXXH/gsCExiOZy4dfnYGYU3RtRXAW/6aPuksIYvj9tzRqE4kTfPPYmckUwVIQ==}
+  /solid-start-deno/0.1.0_coykfswhd3buh2tyyqbeegi4oe:
+    resolution: {integrity: sha512-rmU9nnAcDV61owLF537VoamU4Rf/0QBTEkrrBkLnhp6tVHgXvMqoBR2vixFM/Px6wVAPFQxkUQ8I+OHX7dCs2A==}
     peerDependencies:
       solid-start: '*'
       vite: '*'
