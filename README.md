@@ -54,6 +54,8 @@
 
 * 🦕 [Deno](https://deno.com/deploy) Edge Functions with Simple GitHub Secrets
 
+* [ ] Use [solid-query](https://github.com/TanStack/query/pull/4211/files)
+
 ## Try it now!
 
 ### Clone to local
@@ -61,7 +63,7 @@
 ``` sh
 npx degit olgam4/bat my-bat-mobile
 cd my-bat-mobile
-pnpm i # If you are not a pnpm-er, I suggest you give it a try !
+pnpm i # If you are not already an avid pnpm-er, I really do suggest you give it a try !
 ```
 
 ### GitHub Template
@@ -92,6 +94,14 @@ Building uses vite and solid-start
 
 ```bash
 pnpm build
+```
+
+### Start
+
+Host a server to ping your build preview (requires `build`)
+
+```bash
+pnpm start
 ```
 
 ### Update dependencies
