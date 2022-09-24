@@ -28,7 +28,7 @@ specifiers:
   postcss-preset-env: 7.8.2
   rollup: 2.79.1
   solid-js: 1.5.6
-  solid-start: 0.1.0-alpha.104
+  solid-start: 0.1.0
   solid-start-deno: 0.1.0-alpha.104
   solid-testing-library: 0.3.0
   solid-toast: 0.3.5
@@ -71,8 +71,8 @@ devDependencies:
   postcss-preset-env: 7.8.2_postcss@8.4.16
   rollup: 2.79.1
   solid-js: 1.5.6
-  solid-start: 0.1.0-alpha.104_dqtlw2uwgqd7fqcnydyf5wc54i
-  solid-start-deno: 0.1.0-alpha.104_coykfswhd3buh2tyyqbeegi4oe
+  solid-start: 0.1.0_dqtlw2uwgqd7fqcnydyf5wc54i
+  solid-start-deno: 0.1.0-alpha.104_o24p4honjbb2wheprwwuutd23i
   solid-testing-library: 0.3.0_solid-js@1.5.6
   solid-toast: 0.3.5_solid-js@1.5.6
   tailwindcss: 3.1.8_postcss@8.4.16
@@ -7593,7 +7593,7 @@ packages:
       solid-js: 1.5.6
     dev: true
 
-  /solid-start-deno/0.1.0-alpha.104_coykfswhd3buh2tyyqbeegi4oe:
+  /solid-start-deno/0.1.0-alpha.104_o24p4honjbb2wheprwwuutd23i:
     resolution: {integrity: sha512-nI2PbR5PQifpld6ERBJEoyYJgwXXH/gsCExiOZy4dfnYGYU3RtRXAW/6aPuksIYvj9tzRqE4kTfPPYmckUwVIQ==}
     peerDependencies:
       solid-start: '*'
@@ -7603,13 +7603,13 @@ packages:
       '@rollup/plugin-json': 4.1.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.1
       rollup: 2.79.1
-      solid-start: 0.1.0-alpha.104_dqtlw2uwgqd7fqcnydyf5wc54i
+      solid-start: 0.1.0_dqtlw2uwgqd7fqcnydyf5wc54i
       terser: 5.15.0
       vite: 3.1.3
     dev: true
 
-  /solid-start/0.1.0-alpha.104_dqtlw2uwgqd7fqcnydyf5wc54i:
-    resolution: {integrity: sha512-/SXnhLqA/N51+7UhlP4tWZABAW5iRgXDiYssVwLDf8ZHraembbUE3w3aciK3aSjDgtYypvaskL9scQ9X0H1CJw==}
+  /solid-start/0.1.0_dqtlw2uwgqd7fqcnydyf5wc54i:
+    resolution: {integrity: sha512-Dco6FvRFNpH+koa9f5EKH4WwYg40eSGMovQS8Nvh8lmcYBGeUEuyX4sBSQ3uxAVSuZw9vBefld7GfFg6u0p0vQ==}
     hasBin: true
     peerDependencies:
       '@solidjs/meta': ^0.28.0
