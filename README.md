@@ -120,6 +120,20 @@ There is a very stripped-down eslint, which you can use
 pnpm lint
 ```
 
+### Run through Docker -- does not work on Mac M1+ chips
+
+First build your app
+
+```bash
+ docker build . -t bat:latest
+```
+
+Then mount it using docker run
+
+```bash
+ docker run -it --init -p 3000:3000 bat:latest
+```
+
 ## Acknoledgements
 
 This repo is inspired by 🏕 [antfu/vitesse](https://github.com/antfu/vitesse)
