@@ -54,6 +54,8 @@
 
 * 🦕 [Deno](https://deno.com/deploy) Edge Functions with Simple GitHub Secrets
 
+* 🦀 [Tauri](https://tauri.app/) for Native Development
+
 * [ ] Use [solid-query](https://github.com/TanStack/query/pull/4211/files)
 
 ## Try it now!
