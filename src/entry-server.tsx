@@ -1,7 +1,3 @@
-import { StartServer, createHandler, renderStream, renderSync } from 'solid-start/entry-server'
+import { StartServer, createHandler, renderStream } from 'solid-start/entry-server'
 
-const IS_TAURI = process.env.TAURI === '1'
-
-export default createHandler(IS_TAURI ?
-  renderSync(event => <StartServer event={event} />)
-  : renderStream(event => <StartServer event={event} />))
+export default createHandler(renderStream(event => <StartServer event={event} />))
