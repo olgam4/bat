@@ -39,7 +39,7 @@ specifiers:
   taze: 0.8.2
   typescript: 4.8.4
   unplugin-auto-import: 0.11.2
-  vite: 3.1.4
+  vite: 3.1.6
   vite-plugin-pwa: 0.13.1
   vite-tsconfig-paths: 3.5.1
   vitest: 0.23.4
@@ -74,9 +74,9 @@ devDependencies:
   postcss-preset-env: 7.8.2_postcss@8.4.17
   rollup: 2.79.1
   solid-js: 1.5.7
-  solid-start: 0.1.2_662kx2gjxcetvfdkelauuogf74
-  solid-start-deno: 0.1.2_i4s6w6snrdvhjfq77cecmee5xi
-  solid-start-static: 0.1.2_i4s6w6snrdvhjfq77cecmee5xi
+  solid-start: 0.1.2_mvcllmr6zeo5nvxhvvroogyrhq
+  solid-start-deno: 0.1.2_lfsu32aovhcj6s32q4hmqt3qva
+  solid-start-static: 0.1.2_lfsu32aovhcj6s32q4hmqt3qva
   solid-testing-library: 0.3.0_solid-js@1.5.7
   solid-toast: 0.3.5_solid-js@1.5.7
   tailwindcss: 3.1.8_postcss@8.4.17
@@ -84,9 +84,9 @@ devDependencies:
   taze: 0.8.2
   typescript: 4.8.4
   unplugin-auto-import: 0.11.2
-  vite: 3.1.4
-  vite-plugin-pwa: 0.13.1_bg4cnt4dy3xq3a47wkujd6ryzq
-  vite-tsconfig-paths: 3.5.1_vite@3.1.4
+  vite: 3.1.6
+  vite-plugin-pwa: 0.13.1_gyrleic7ffhni7br4mjyda3ene
+  vite-tsconfig-paths: 3.5.1_vite@3.1.6
   vitest: 0.23.4_jsdom@20.0.1
   workbox-window: 6.5.4
 
@@ -2496,7 +2496,7 @@ packages:
       yargs: 17.5.1
     dev: true
 
-  /@vinxi/vite-plugin-inspect/0.6.27_rollup@2.79.1+vite@3.1.4:
+  /@vinxi/vite-plugin-inspect/0.6.27_rollup@2.79.1+vite@3.1.6:
     resolution: {integrity: sha512-EI63vk0wGF3XcUYSWsKSeuzisx8lgUnjLSqk9XHnboSnjhbPZKe/cMrcXUbdNi+ZnK/a3L7+w3y/XMYWW4NHRA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -2509,7 +2509,7 @@ packages:
       pretty-bytes: 6.0.0
       sirv: 2.0.2
       ufo: 0.8.5
-      vite: 3.1.4
+      vite: 3.1.6
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -7733,7 +7733,7 @@ packages:
     resolution: {integrity: sha512-/dX5JqGirQEecBpy6BcQ3pmLR+MqHX9UR+BndHcnpb2uGt/3g4iZtgUkrwAau/aolokFLZb8wXAzRlixvimY5g==}
     dev: true
 
-  /solid-start-deno/0.1.2_i4s6w6snrdvhjfq77cecmee5xi:
+  /solid-start-deno/0.1.2_lfsu32aovhcj6s32q4hmqt3qva:
     resolution: {integrity: sha512-ur3iYiDkd0DaGwWLm1PlekGsljzhDBGOfNJe/R3U1kJwlwFEDE8krz88R0dH92YlU0jaz9/uaD8K5yW+yKccVw==}
     peerDependencies:
       solid-start: '*'
@@ -7743,12 +7743,12 @@ packages:
       '@rollup/plugin-json': 4.1.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.1
       rollup: 2.79.1
-      solid-start: 0.1.2_662kx2gjxcetvfdkelauuogf74
+      solid-start: 0.1.2_mvcllmr6zeo5nvxhvvroogyrhq
       terser: 5.15.0
-      vite: 3.1.4
+      vite: 3.1.6
     dev: true
 
-  /solid-start-static/0.1.2_i4s6w6snrdvhjfq77cecmee5xi:
+  /solid-start-static/0.1.2_lfsu32aovhcj6s32q4hmqt3qva:
     resolution: {integrity: sha512-YuOS9d/0403NpHnz6jCnuKi+H+96LrtM28wxUDAgn5UhzZwrOcCwQRW5/s0J+1bJJlQOlcu28K41VU/fEP8tNA==}
     peerDependencies:
       solid-start: '*'
@@ -7757,11 +7757,11 @@ packages:
     dependencies:
       sirv-cli: 2.0.2
       solid-ssr: 1.5.7
-      solid-start: 0.1.2_662kx2gjxcetvfdkelauuogf74
-      vite: 3.1.4
+      solid-start: 0.1.2_mvcllmr6zeo5nvxhvvroogyrhq
+      vite: 3.1.6
     dev: true
 
-  /solid-start/0.1.2_662kx2gjxcetvfdkelauuogf74:
+  /solid-start/0.1.2_mvcllmr6zeo5nvxhvvroogyrhq:
     resolution: {integrity: sha512-6WdV8Z4VeoPYPA1l0eMM6eCP/8TCYLKwSmkgMNo4ii9gmQW+VJW05PTQbjy4XM8x1w48SDreUwT+wgWjy4+/5g==}
     hasBin: true
     peerDependencies:
@@ -7779,7 +7779,7 @@ packages:
       '@solidjs/meta': 0.28.0_solid-js@1.5.7
       '@solidjs/router': 0.4.3_solid-js@1.5.7
       '@types/cookie': 0.5.1
-      '@vinxi/vite-plugin-inspect': 0.6.27_rollup@2.79.1+vite@3.1.4
+      '@vinxi/vite-plugin-inspect': 0.6.27_rollup@2.79.1+vite@3.1.6
       chokidar: 3.5.3
       compression: 1.7.4
       connect: 3.7.0
@@ -7799,9 +7799,9 @@ packages:
       solid-js: 1.5.7
       terser: 5.15.0
       undici: 5.10.0
-      vite: 3.1.4
-      vite-plugin-inspect: 0.6.1_vite@3.1.4
-      vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.4
+      vite: 3.1.6
+      vite-plugin-inspect: 0.6.1_vite@3.1.6
+      vite-plugin-solid: 2.3.9_solid-js@1.5.7+vite@3.1.6
       wait-on: 6.0.1_debug@4.3.4
     transitivePeerDependencies:
       - supports-color
@@ -8600,7 +8600,7 @@ packages:
       vfile-message: 3.1.2
     dev: true
 
-  /vite-plugin-inspect/0.6.1_vite@3.1.4:
+  /vite-plugin-inspect/0.6.1_vite@3.1.6:
     resolution: {integrity: sha512-MQzIgMoPyiPDuHoO6p7QBOrmheBU/ntg0cgtgcnm21S/Xds5oak1CbVLSAvv4fK1ZpetLK+tlJ+2mlFO9fG3SQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -8611,12 +8611,12 @@ packages:
       kolorist: 1.6.0
       sirv: 2.0.2
       ufo: 0.8.5
-      vite: 3.1.4
+      vite: 3.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.13.1_bg4cnt4dy3xq3a47wkujd6ryzq:
+  /vite-plugin-pwa/0.13.1_gyrleic7ffhni7br4mjyda3ene:
     resolution: {integrity: sha512-NR3dIa+o2hzlzo4lF4Gu0cYvoMjSw2DdRc6Epw1yjmCqWaGuN86WK9JqZie4arNlE1ZuWT3CLiMdiX5wcmmUmg==}
     peerDependencies:
       vite: ^3.1.0
@@ -8626,7 +8626,7 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.0.0
       rollup: 2.79.1
-      vite: 3.1.4
+      vite: 3.1.6
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
@@ -8634,7 +8634,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-solid/2.3.9_solid-js@1.5.7+vite@3.1.4:
+  /vite-plugin-solid/2.3.9_solid-js@1.5.7+vite@3.1.6:
     resolution: {integrity: sha512-+lprsYgt9DVNp0kbDj2d2HWAPI13L8ff5xslk9SjiPBcsY/YUZ/1Wj0J/Oj5aiVAhwfPm8IcM3bzyHJUPlmc8w==}
     peerDependencies:
       solid-js: ^1.3.17
@@ -8646,12 +8646,12 @@ packages:
       merge-anything: 5.0.4
       solid-js: 1.5.7
       solid-refresh: 0.4.1_solid-js@1.5.7
-      vite: 3.1.4
+      vite: 3.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.5.1_vite@3.1.4:
+  /vite-tsconfig-paths/3.5.1_vite@3.1.6:
     resolution: {integrity: sha512-t7cPvDMDxOCUxxNLqngXiX+L6jPYBr+eMgkeVadknxBb89d2s1aejz+wFEep010VfXjGVAUWGEFPe1fkRYTFvg==}
     peerDependencies:
       vite: '>2.0.0-0'
@@ -8660,13 +8660,13 @@ packages:
       globrex: 0.1.2
       recrawl-sync: 2.2.2
       tsconfig-paths: 4.1.0
-      vite: 3.1.4
+      vite: 3.1.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.1.4:
-    resolution: {integrity: sha512-JoQI08aBjY9lycL7jcEq4p9o1xUjq5aRvdH4KWaXtkSx7e7RpAh9D3IjzDWRD4Fg44LS3oDAIOG/Kq1L+82psA==}
+  /vite/3.1.6:
+    resolution: {integrity: sha512-qMXIwnehvvcK5XfJiXQUiTxoYAEMKhM+jqCY6ZSTKFBKu1hJnAKEzP3AOcnTerI0cMZYAaJ4wpW1wiXLMDt4mA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -8725,7 +8725,7 @@ packages:
       tinybench: 2.1.5
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.4
+      vite: 3.1.6
     transitivePeerDependencies:
       - less
       - sass
