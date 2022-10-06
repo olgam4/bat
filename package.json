@@ -42,9 +42,9 @@
     "postcss-preset-env": "7.8.2",
     "rollup": "2.79.1",
     "solid-js": "1.5.7",
-    "solid-start": "0.1.2",
-    "solid-start-deno": "0.1.2",
-    "solid-start-static": "0.1.2",
+    "solid-start": "0.1.3",
+    "solid-start-deno": "0.1.3",
+    "solid-start-static": "0.1.3",
     "solid-testing-library": "0.3.0",
     "solid-toast": "0.3.5",
     "tailwindcss": "3.1.8",
@@ -57,5 +57,8 @@
     "vite-tsconfig-paths": "3.5.1",
     "vitest": "0.23.4",
     "workbox-window": "6.5.4"
+  },
+  "peerDependencies": {
+    "undici": "5.8.0"
   }
 }
