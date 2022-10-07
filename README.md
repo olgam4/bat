@@ -136,6 +136,22 @@ Then mount it using docker run
  docker run -it --init -p 3000:3000 bat:latest
 ```
 
+### Build native apps
+
+This project uses Tauri 🦀 to build native apps.
+
+#### Dev
+
+```bash
+pnpm tauri dev
+```
+
+#### Build
+
+```bash
+pnpm tauri build
+```
+
 ## Acknoledgements
 
 This repo is inspired by 🏕 [antfu/vitesse](https://github.com/antfu/vitesse)
