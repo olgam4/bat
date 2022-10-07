@@ -26,7 +26,7 @@ const pwaOptions: Partial<VitePWAOptions> = {
     name: 'bat',
     short_name: 'bat',
     description: 'Opinionated, batteries included, PWA using Solid and Vite',
-    theme_color: '#ffffff',
+    theme_color: '#202A37',
     icons: [
       {
         src: 'pwa-192x192.png',

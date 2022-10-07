@@ -18,10 +18,12 @@ const phoneCall = async (callback: (data: any) => void) => {
 }
 
 export default function () {
+  const [t] = useI18n()
+
   return (
     <Button onClick={() => {
       phoneCall(console.log)
-      toast.success('Calling...')
+      toast.success(t('calling'))
     }}>
       <div class="i-carbon-phone-voice w-6 h-6" />
     </Button>

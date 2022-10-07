@@ -8,6 +8,20 @@
   font-family: 'Dosis', sans-serif;
 }
 
+:modal {
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+:modal::backdrop {
+  background: linear-gradient(45deg, #8b008b, #8b0000);
+  opacity: 0.2;
+}
+
 @layer components {
   .btn {
     @apply text-gray-400 transition hover:text-gray-400/50;
