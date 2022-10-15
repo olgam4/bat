@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@iconify-json/carbon': 1.1.8
-  '@mdx-js/rollup': 2.1.4
+  '@mdx-js/rollup': 2.1.5
   '@motionone/solid': 10.14.2
   '@rollup/plugin-replace': 4.0.0
   '@solid-primitives/i18n': 1.1.1
@@ -47,7 +47,7 @@ specifiers:
 
 devDependencies:
   '@iconify-json/carbon': 1.1.8
-  '@mdx-js/rollup': 2.1.4_rollup@2.79.1
+  '@mdx-js/rollup': 2.1.5_rollup@2.79.1
   '@motionone/solid': 10.14.2_solid-js@1.5.7
   '@rollup/plugin-replace': 4.0.0_rollup@2.79.1
   '@solid-primitives/i18n': 1.1.1_solid-js@1.5.7
@@ -1690,8 +1690,8 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/rollup/2.1.4_rollup@2.79.1:
-    resolution: {integrity: sha512-iBGsXMVuX96o5ux+/5BC393ugbZbdzEUd6OuHyTXfWisgstdf6U4onTGfpW5LpZ3PoNMDs3oniewPxuydHd1QQ==}
+  /@mdx-js/rollup/2.1.5_rollup@2.79.1:
+    resolution: {integrity: sha512-l90rSiwnEf6PnjH8uRXjZ1W0rR8p1fp1YIiDuA3uF7SOfxMQ98uymaIwI6BsX+8BC2dcWij7Racwp++JkvdOLQ==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
