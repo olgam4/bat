@@ -16,7 +16,7 @@
   "devDependencies": {
     "@iconify-json/carbon": "1.1.9",
     "@mdx-js/rollup": "2.1.5",
-    "@motionone/solid": "10.14.2",
+    "@motionone/solid": "10.14.3",
     "@rollup/plugin-replace": "5.0.1",
     "@solid-primitives/i18n": "1.1.1",
     "@solidjs/meta": "0.28.0",

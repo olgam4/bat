@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@iconify-json/carbon': 1.1.9
   '@mdx-js/rollup': 2.1.5
-  '@motionone/solid': 10.14.2
+  '@motionone/solid': 10.14.3
   '@rollup/plugin-replace': 5.0.1
   '@solid-primitives/i18n': 1.1.1
   '@solidjs/meta': 0.28.0
@@ -48,7 +48,7 @@ specifiers:
 devDependencies:
   '@iconify-json/carbon': 1.1.9
   '@mdx-js/rollup': 2.1.5_rollup@3.2.3
-  '@motionone/solid': 10.14.2_solid-js@1.5.9
+  '@motionone/solid': 10.14.3_solid-js@1.5.9
   '@rollup/plugin-replace': 5.0.1_rollup@3.2.3
   '@solid-primitives/i18n': 1.1.1_solid-js@1.5.9
   '@solidjs/meta': 0.28.0_solid-js@1.5.9
@@ -1724,6 +1724,17 @@ packages:
       tslib: 2.4.0
     dev: true
 
+  /@motionone/dom/10.14.3:
+    resolution: {integrity: sha512-tese0zSBsWwxCcs9qGNyynhnQ3/n43F6XI588AUKBIfE9D5ZelzQXOzr/T0+ErsVppXJtyGHviYEnv7KHc9x7Q==}
+    dependencies:
+      '@motionone/animation': 10.14.0
+      '@motionone/generators': 10.14.0
+      '@motionone/types': 10.14.0
+      '@motionone/utils': 10.14.0
+      hey-listen: 1.0.8
+      tslib: 2.4.0
+    dev: true
+
   /@motionone/easing/10.14.0:
     resolution: {integrity: sha512-2vUBdH9uWTlRbuErhcsMmt1jvMTTqvGmn9fHq8FleFDXBlHFs5jZzHJT9iw+4kR1h6a4SZQuCf72b9ji92qNYA==}
     dependencies:
@@ -1739,12 +1750,12 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@motionone/solid/10.14.2_solid-js@1.5.9:
-    resolution: {integrity: sha512-dz/bWsKMi2R7WJfymRB5hQfeKrSfNDRf5MgBMaRnEU9bQFrXWAidKd3KMTCBxNqugM946tCN5x6NTP4+mD9KmQ==}
+  /@motionone/solid/10.14.3_solid-js@1.5.9:
+    resolution: {integrity: sha512-UTqyL1eNh4X7po801k/bPsHjZ2FWDOUCIL0Vs2mh7+UDrcJeteoSfMz6a4SUjEgHH3k4Q/s4ZY0ewsfpLZGS5w==}
     peerDependencies:
       solid-js: ^1.4.1
     dependencies:
-      '@motionone/dom': 10.14.2
+      '@motionone/dom': 10.14.3
       '@motionone/utils': 10.14.0
       '@solid-primitives/props': 2.2.2_solid-js@1.5.9
       solid-js: 1.5.9
@@ -1754,7 +1765,7 @@ packages:
   /@motionone/svelte/10.14.2:
     resolution: {integrity: sha512-WKgER0eH7b8q0/ODElHIbzMM3uIINdcdCw87jf7xqs4daidsy6e1ckh2XJF2Z8zyWyUEtO4VHvGumRX7EjrxFA==}
     dependencies:
-      '@motionone/dom': 10.14.2
+      '@motionone/dom': 10.14.3
       tslib: 2.4.0
     dev: true
 
@@ -1773,7 +1784,7 @@ packages:
   /@motionone/vue/10.14.2:
     resolution: {integrity: sha512-nxC/j4WhOsXxVDUdWHJDUIvHSb97eu0Kn1HNzGp08Fm9WTFkKy0HtJtTqTdkGVks2jB/XBh/FO3wU2OzyDFZNw==}
     dependencies:
-      '@motionone/dom': 10.14.2
+      '@motionone/dom': 10.14.3
       tslib: 2.4.0
     dev: true
 
