@@ -31,13 +31,14 @@ specifiers:
   solid-js: 1.6.1
   solid-start: 0.2.5
   solid-start-deno: 0.2.5
-  solid-start-static: 0.2.3
+  solid-start-static: 0.2.5
   solid-testing-library: 0.3.0
   solid-toast: 0.3.5
   tailwindcss: 3.2.2
   tailwindcss-plugin-icons: 2.0.4
   taze: 0.8.3
   typescript: 4.9.2-rc
+  undici: 5.8.0
   unplugin-auto-import: 0.11.4
   vite: 3.2.2
   vite-plugin-pwa: 0.13.2
@@ -76,13 +77,14 @@ devDependencies:
   solid-js: 1.6.1
   solid-start: 0.2.5_vqtaenuqfpqmxqu2kobz7unc2m
   solid-start-deno: 0.2.5_hsw5furflsmscoymgta67pkca4
-  solid-start-static: 0.2.3_hsw5furflsmscoymgta67pkca4
+  solid-start-static: 0.2.5_hggdfw4hoey6gxcz47i2y3wcz4
   solid-testing-library: 0.3.0_solid-js@1.6.1
   solid-toast: 0.3.5_solid-js@1.6.1
   tailwindcss: 3.2.2_postcss@8.4.18
   tailwindcss-plugin-icons: 2.0.4_tailwindcss@3.2.2
   taze: 0.8.3
   typescript: 4.9.2-rc
+  undici: 5.8.0
   unplugin-auto-import: 0.11.4_rollup@3.2.5
   vite: 3.2.2
   vite-plugin-pwa: 0.13.2_myl6patgrxx3pi23owcfujsiju
@@ -7811,8 +7813,8 @@ packages:
       vite: 3.2.2
     dev: true
 
-  /solid-start-static/0.2.3_hsw5furflsmscoymgta67pkca4:
-    resolution: {integrity: sha512-v66P8Mm6thMS8gQEPUzlyqU1I86UAqCBGXLUIN/KWhVi9DoQuG3AziHK+Bs0ivAO/EkMCDwd6WJG8lNV6zK8DQ==}
+  /solid-start-static/0.2.5_hggdfw4hoey6gxcz47i2y3wcz4:
+    resolution: {integrity: sha512-jWY6+mWxYeTDAMu0+Eq0vMwHFDs64FfTupJioGvLirY1+nsdNs/4xrMuziSZp0fCX1P2hTO6VuT5vkw2xf1hwQ==}
     peerDependencies:
       solid-start: '*'
       undici: ^5.8.0
@@ -7821,6 +7823,7 @@ packages:
       sirv-cli: 2.0.2
       solid-ssr: 1.6.1
       solid-start: 0.2.5_vqtaenuqfpqmxqu2kobz7unc2m
+      undici: 5.8.0
       vite: 3.2.2
     dev: true
 
@@ -8404,6 +8407,11 @@ packages:
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
+    dev: true
+
+  /undici/5.8.0:
+    resolution: {integrity: sha512-1F7Vtcez5w/LwH2G2tGnFIihuWUlc58YidwLiCv+jR2Z50x0tNXpRRw7eOIJ+GvqCqIkg9SB7NWAJ/T9TLfv8Q==}
+    engines: {node: '>=12.18'}
     dev: true
 
   /unicode-canonical-property-names-ecmascript/2.0.0:
