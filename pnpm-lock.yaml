@@ -40,7 +40,7 @@ specifiers:
   typescript: 4.9.2-rc
   unplugin-auto-import: 0.11.4
   vite: 3.2.2
-  vite-plugin-pwa: 0.13.1
+  vite-plugin-pwa: 0.13.2
   vite-tsconfig-paths: 3.5.2
   vitest: 0.24.5
   workbox-window: 6.5.4
@@ -85,7 +85,7 @@ devDependencies:
   typescript: 4.9.2-rc
   unplugin-auto-import: 0.11.4_rollup@3.2.5
   vite: 3.2.2
-  vite-plugin-pwa: 0.13.1_myl6patgrxx3pi23owcfujsiju
+  vite-plugin-pwa: 0.13.2_myl6patgrxx3pi23owcfujsiju
   vite-tsconfig-paths: 3.5.2_vite@3.2.2
   vitest: 0.24.5_jsdom@20.0.2
   workbox-window: 6.5.4
@@ -8693,8 +8693,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-pwa/0.13.1_myl6patgrxx3pi23owcfujsiju:
-    resolution: {integrity: sha512-NR3dIa+o2hzlzo4lF4Gu0cYvoMjSw2DdRc6Epw1yjmCqWaGuN86WK9JqZie4arNlE1ZuWT3CLiMdiX5wcmmUmg==}
+  /vite-plugin-pwa/0.13.2_myl6patgrxx3pi23owcfujsiju:
+    resolution: {integrity: sha512-RwWJBaeMATrdicNFCXWb3aUELnmTk4Um72hE97nz9HKYG165kQGUE/TSrXOLExiPWJ23doV1Uw4IcHnOix17aA==}
     peerDependencies:
       vite: ^3.1.0
       workbox-window: ^6.5.4
