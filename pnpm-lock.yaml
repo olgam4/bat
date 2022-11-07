@@ -32,7 +32,7 @@ specifiers:
   solid-start: 0.2.5
   solid-start-deno: 0.2.5
   solid-start-static: 0.2.5
-  solid-testing-library: 0.3.0
+  solid-testing-library: 0.4.0
   solid-toast: 0.3.5
   tailwindcss: 3.2.2
   tailwindcss-plugin-icons: 2.0.4
@@ -78,7 +78,7 @@ devDependencies:
   solid-start: 0.2.5_hbwrjiud3j45e6mxm6q434ty3e
   solid-start-deno: 0.2.5_2vl7t2isauczczoyh2fi2qmdqy
   solid-start-static: 0.2.5_4bltkvfu6mjl7dehnyl45yikfi
-  solid-testing-library: 0.3.0_solid-js@1.6.1
+  solid-testing-library: 0.4.0_solid-js@1.6.1
   solid-toast: 0.3.5_solid-js@1.6.1
   tailwindcss: 3.2.2_postcss@8.4.18
   tailwindcss-plugin-icons: 2.0.4_tailwindcss@3.2.2
@@ -1283,14 +1283,6 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/runtime-corejs3/7.19.1:
-    resolution: {integrity: sha512-j2vJGnkopRzH+ykJ8h68wrHnEUmtK//E723jjixiAl/PPf6FhqY/vYRcMVlNydRKQjQsTsYEjpx+DZMIvnGk/g==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      core-js-pure: 3.25.2
-      regenerator-runtime: 0.13.9
-    dev: true
-
   /@babel/runtime/7.19.0:
     resolution: {integrity: sha512-eR8Lo9hnDS7tqkO7NsV+mKvCmv5boaXFSZ70DnfhcgiEne8hv9oCEd36Klw74EtizEqLsy4YnW8UWwpBVolHZA==}
     engines: {node: '>=6.9.0'}
@@ -1602,17 +1594,6 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@sinclair/typebox': 0.24.42
-    dev: true
-
-  /@jest/types/26.6.2:
-    resolution: {integrity: sha512-fC6QCp7Sc5sX6g8Tvbmj4XUTbyrik0akgRy03yjXbQaBWWNWGE7SGtJk98m0N8nzegD/7SggrUlivxo5ax4KWQ==}
-    engines: {node: '>= 10.14.2'}
-    dependencies:
-      '@types/istanbul-lib-coverage': 2.0.4
-      '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.7.19
-      '@types/yargs': 15.0.14
-      chalk: 4.1.2
     dev: true
 
   /@jest/types/29.0.3:
@@ -2172,20 +2153,6 @@ packages:
       '@tauri-apps/cli-win32-x64-msvc': 1.1.1
     dev: true
 
-  /@testing-library/dom/7.31.2:
-    resolution: {integrity: sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ==}
-    engines: {node: '>=10'}
-    dependencies:
-      '@babel/code-frame': 7.18.6
-      '@babel/runtime': 7.19.0
-      '@types/aria-query': 4.2.2
-      aria-query: 4.2.2
-      chalk: 4.1.2
-      dom-accessibility-api: 0.5.14
-      lz-string: 1.4.4
-      pretty-format: 26.6.2
-    dev: true
-
   /@testing-library/dom/8.19.0:
     resolution: {integrity: sha512-6YWYPPpxG3e/xOo6HIWwB/58HukkwIVTOaZ0VwdMVjhRUX/01E4FtQbck9GazOOj7MXHc5RBzMrU86iBJHbI+A==}
     engines: {node: '>=12'}
@@ -2367,12 +2334,6 @@ packages:
 
   /@types/yargs-parser/21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
-    dev: true
-
-  /@types/yargs/15.0.14:
-    resolution: {integrity: sha512-yEJzHoxf6SyQGhBhIYGXQDSCkJjB6HohDShto7m8vaKg9Yp0Yn8+71J9eakh2bnPg6BfsH9PRMhiRTZnd4eXGQ==}
-    dependencies:
-      '@types/yargs-parser': 21.0.0
     dev: true
 
   /@types/yargs/17.0.13:
@@ -2700,14 +2661,6 @@ packages:
 
   /argparse/2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
-    dev: true
-
-  /aria-query/4.2.2:
-    resolution: {integrity: sha512-o/HelwhuKpTj/frsOsbNLNgnNGVIFsVP/SW2BSF14gVl7kAfMOJ6/8wUAUvG1R1NHKrfG+2sHZTu0yauT1qBrA==}
-    engines: {node: '>=6.0'}
-    dependencies:
-      '@babel/runtime': 7.19.0
-      '@babel/runtime-corejs3': 7.19.1
     dev: true
 
   /aria-query/5.0.2:
@@ -3215,11 +3168,6 @@ packages:
     resolution: {integrity: sha512-TxfyECD4smdn3/CjWxczVtJqVLEEC2up7/82t7vC0AzNogr+4nQ8vyF7abxAuTXWvjTClSbvGhU0RgqA4ToQaQ==}
     dependencies:
       browserslist: 4.21.4
-    dev: true
-
-  /core-js-pure/3.25.2:
-    resolution: {integrity: sha512-ItD7YpW1cUB4jaqFLZXe1AXkyqIxz6GqPnsDV4uF4hVcWh/WAGIqSqw5p0/WdsILM0Xht9s3Koyw05R3K6RtiA==}
-    requiresBuild: true
     dev: true
 
   /cross-spawn/7.0.3:
@@ -7273,16 +7221,6 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0}
     dev: true
 
-  /pretty-format/26.6.2:
-    resolution: {integrity: sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg==}
-    engines: {node: '>= 10'}
-    dependencies:
-      '@jest/types': 26.6.2
-      ansi-regex: 5.0.1
-      ansi-styles: 4.3.0
-      react-is: 17.0.2
-    dev: true
-
   /pretty-format/27.5.1:
     resolution: {integrity: sha512-Qb1gy5OrP5+zDf2Bvnzdl3jsTf1qXVMazbvCoKhtKqVs4/YK4ozX4gKQJJVyNe+cajNPn0KoC0MC3FUmaHWEmQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
@@ -7874,13 +7812,13 @@ packages:
       - supports-color
     dev: true
 
-  /solid-testing-library/0.3.0_solid-js@1.6.1:
-    resolution: {integrity: sha512-6NWVbySNVzyReBm2N6p3eF8bzxRZXHZTAmPix4vFWYol16QWVjNQsEUxvr+ZOutb0yuMZmNuGx3b6WIJYmjwMQ==}
+  /solid-testing-library/0.4.0_solid-js@1.6.1:
+    resolution: {integrity: sha512-U7O8uj5vf2bhIihRJLnSEOeUe2EEJrVxmPUcE/robrq3NcpkAYGTRFufUFm6p0VDkNjAe93NA869w1owsTbNYw==}
     engines: {node: '>= 14'}
     peerDependencies:
       solid-js: '>=1.0.0'
     dependencies:
-      '@testing-library/dom': 7.31.2
+      '@testing-library/dom': 8.19.0
       solid-js: 1.6.1
     dev: true
 
