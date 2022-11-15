@@ -32,7 +32,7 @@ specifiers:
   solid-start: 0.2.5
   solid-start-deno: 0.2.5
   solid-start-static: 0.2.5
-  solid-testing-library: 0.4.0
+  solid-testing-library: 0.5.0
   solid-toast: 0.3.5
   tailwindcss: 3.2.4
   tailwindcss-plugin-icons: 2.0.7
@@ -78,7 +78,7 @@ devDependencies:
   solid-start: 0.2.5_qx3wzgkguxvthvssnutneqxbxi
   solid-start-deno: 0.2.5_pwel2bd237mbr7ooh5pghdxziu
   solid-start-static: 0.2.5_np7kkspxetk7tgdoxgr4ovx2ae
-  solid-testing-library: 0.4.0_solid-js@1.6.2
+  solid-testing-library: 0.5.0_solid-js@1.6.2
   solid-toast: 0.3.5_solid-js@1.6.2
   tailwindcss: 3.2.4_postcss@8.4.19
   tailwindcss-plugin-icons: 2.0.7_tailwindcss@3.2.4
@@ -7822,8 +7822,8 @@ packages:
       - supports-color
     dev: true
 
-  /solid-testing-library/0.4.0_solid-js@1.6.2:
-    resolution: {integrity: sha512-U7O8uj5vf2bhIihRJLnSEOeUe2EEJrVxmPUcE/robrq3NcpkAYGTRFufUFm6p0VDkNjAe93NA869w1owsTbNYw==}
+  /solid-testing-library/0.5.0_solid-js@1.6.2:
+    resolution: {integrity: sha512-vr4Ke9Dq3bUFLaXOcN8/IVn2e9Q37w4vdmoIOmFBIPs7iCJX9IxuC0IdQqK8nzBZMQqceijkfyCE3Qc407KmaA==}
     engines: {node: '>= 14'}
     peerDependencies:
       solid-js: '>=1.0.0'
