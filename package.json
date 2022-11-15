@@ -54,7 +54,7 @@
     "undici": "5.8.0",
     "unplugin-auto-import": "0.11.4",
     "vite": "3.2.4",
-    "vite-plugin-pwa": "0.13.2",
+    "vite-plugin-pwa": "0.13.3",
     "vite-tsconfig-paths": "3.5.2",
     "vitest": "0.24.5",
     "workbox-window": "6.5.4"
