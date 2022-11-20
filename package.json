@@ -34,7 +34,7 @@
     "eslint": "8.28.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-unused-imports": "2.0.0",
-    "jsdom": "20.0.2",
+    "jsdom": "20.0.3",
     "motion": "10.14.3",
     "pnpm": "7.16.1",
     "postcss": "8.4.19",
