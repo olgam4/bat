@@ -25,7 +25,7 @@ specifiers:
   motion: 10.14.3
   pnpm: 7.17.1
   postcss: 8.4.19
-  postcss-import: 15.0.0
+  postcss-import: 15.0.1
   postcss-preset-env: 7.8.3
   rollup: 3.5.1
   solid-js: 1.6.2
@@ -71,7 +71,7 @@ devDependencies:
   motion: 10.14.3
   pnpm: 7.17.1
   postcss: 8.4.19
-  postcss-import: 15.0.0_postcss@8.4.19
+  postcss-import: 15.0.1_postcss@8.4.19
   postcss-preset-env: 7.8.3_postcss@8.4.19
   rollup: 3.5.1
   solid-js: 1.6.2
@@ -6771,8 +6771,8 @@ packages:
       resolve: 1.22.1
     dev: true
 
-  /postcss-import/15.0.0_postcss@8.4.19:
-    resolution: {integrity: sha512-Y20shPQ07RitgBGv2zvkEAu9bqvrD77C9axhj/aA1BQj4czape2MdClCExvB27EwYEJdGgKZBpKanb0t1rK2Kg==}
+  /postcss-import/15.0.1_postcss@8.4.19:
+    resolution: {integrity: sha512-UGlvk8EgT7Gm/Ndf9xZHnzr8xm8P54N8CBWLtcY5alP+YxlEge/Rv78etQyevZs3qWTE9If13+Bo6zATBrPOpA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
