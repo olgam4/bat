@@ -22,7 +22,7 @@ specifiers:
   eslint-plugin-import: 2.26.0
   eslint-plugin-unused-imports: 2.0.0
   jsdom: 20.0.3
-  motion: 10.14.3
+  motion: 10.15.0
   pnpm: 7.18.0
   postcss: 8.4.19
   postcss-import: 15.0.1
@@ -68,7 +68,7 @@ devDependencies:
   eslint-plugin-import: 2.26.0_i656iqvetrvx3ajhg4t6psfrl4
   eslint-plugin-unused-imports: 2.0.0_46iov7hlpzcqoxfmjaxkpcu7em
   jsdom: 20.0.3
-  motion: 10.14.3
+  motion: 10.15.0
   pnpm: 7.18.0
   postcss: 8.4.19
   postcss-import: 15.0.1_postcss@8.4.19
@@ -1691,32 +1691,12 @@ packages:
       - supports-color
     dev: true
 
-  /@motionone/animation/10.14.0:
-    resolution: {integrity: sha512-h+1sdyBP8vbxEBW5gPFDnj+m2DCqdlAuf2g6Iafb1lcMnqjsRXWlPw1AXgvUMXmreyhqmPbJqoNfIKdytampRQ==}
-    dependencies:
-      '@motionone/easing': 10.14.0
-      '@motionone/types': 10.14.0
-      '@motionone/utils': 10.15.0
-      tslib: 2.4.0
-    dev: true
-
   /@motionone/animation/10.15.0:
     resolution: {integrity: sha512-FllQ9ogoATxEEiq7TFKuh2uPEvcw9658IYCpOTGnu53HYCrFQS61eKwsn7TqR4NEnTql2I+NGNipFqw3UZo1AA==}
     dependencies:
       '@motionone/easing': 10.15.0
       '@motionone/types': 10.15.0
       '@motionone/utils': 10.15.0
-      tslib: 2.4.0
-    dev: true
-
-  /@motionone/dom/10.14.3:
-    resolution: {integrity: sha512-tese0zSBsWwxCcs9qGNyynhnQ3/n43F6XI588AUKBIfE9D5ZelzQXOzr/T0+ErsVppXJtyGHviYEnv7KHc9x7Q==}
-    dependencies:
-      '@motionone/animation': 10.14.0
-      '@motionone/generators': 10.14.0
-      '@motionone/types': 10.14.0
-      '@motionone/utils': 10.15.0
-      hey-listen: 1.0.8
       tslib: 2.4.0
     dev: true
 
@@ -1731,24 +1711,9 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@motionone/easing/10.14.0:
-    resolution: {integrity: sha512-2vUBdH9uWTlRbuErhcsMmt1jvMTTqvGmn9fHq8FleFDXBlHFs5jZzHJT9iw+4kR1h6a4SZQuCf72b9ji92qNYA==}
-    dependencies:
-      '@motionone/utils': 10.15.0
-      tslib: 2.4.0
-    dev: true
-
   /@motionone/easing/10.15.0:
     resolution: {integrity: sha512-VA1a0sa81euSeki2JgVl/t4MygeqfJn7GsMfewoGCln7gp/iZR12HbSo6RaWsHxPkUBRxSRUo+8zeuYRxv6oZQ==}
     dependencies:
-      '@motionone/utils': 10.15.0
-      tslib: 2.4.0
-    dev: true
-
-  /@motionone/generators/10.14.0:
-    resolution: {integrity: sha512-6kRHezoFfIjFN7pPpaxmkdZXD36tQNcyJe3nwVqwJ+ZfC0e3rFmszR8kp9DEVFs9QL/akWjuGPSLBI1tvz+Vjg==}
-    dependencies:
-      '@motionone/types': 10.14.0
       '@motionone/utils': 10.15.0
       tslib: 2.4.0
     dev: true
@@ -1773,27 +1738,15 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@motionone/svelte/10.14.3:
-    resolution: {integrity: sha512-fHyyyGJRkHsfE2IAg+6YU0BiMT/Jz5OAMpJvBZs3oGfwsgdqSms4YtLW22Ecs87e59hPZ26SqWCHad6enRfD9A==}
+  /@motionone/svelte/10.15.0:
+    resolution: {integrity: sha512-o48qKYq34UGmJmWep37WXmbq40R1mKTWZPAgXV3DngX24R76g1bob+OdBwSOSCL15lsRPXhMr953rC+Eh39pwg==}
     dependencies:
       '@motionone/dom': 10.15.0
       tslib: 2.4.0
     dev: true
 
-  /@motionone/types/10.14.0:
-    resolution: {integrity: sha512-3bNWyYBHtVd27KncnJLhksMFQ5o2MSdk1cA/IZqsHtA9DnRM1SYgN01CTcJ8Iw8pCXF5Ocp34tyAjY7WRpOJJQ==}
-    dev: true
-
   /@motionone/types/10.15.0:
     resolution: {integrity: sha512-uNjSt2/Ud1Ld5TuZ98empFFgHNPysIcUQE3F/YuWxDQR/UO86sCqvnAHBkxUhpc2FVE6hb+3RpFmFxAUDwn11w==}
-    dev: true
-
-  /@motionone/utils/10.14.0:
-    resolution: {integrity: sha512-sLWBLPzRqkxmOTRzSaD3LFQXCPHvDzyHJ1a3VP9PRzBxyVd2pv51/gMOsdAcxQ9n+MIeGJnxzXBYplUHKj4jkw==}
-    dependencies:
-      '@motionone/types': 10.14.0
-      hey-listen: 1.0.8
-      tslib: 2.4.0
     dev: true
 
   /@motionone/utils/10.15.0:
@@ -1804,8 +1757,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@motionone/vue/10.14.3:
-    resolution: {integrity: sha512-FZ/vefJMDthnzlVQbL2I54WEvDyx720KClxWqmHZZ+wKic+i9XhNCU1qijGcvA3/1sFFp8u9fOqmejEWXSsHmw==}
+  /@motionone/vue/10.15.0:
+    resolution: {integrity: sha512-lrQK8NuLtt1LAuaoU2xlB06+6cYilFx/D2ruthIDHOH1u+22dOOkjNJogxteR4hlwv7UX5Jmgz54zVeTXK60Cg==}
     dependencies:
       '@motionone/dom': 10.15.0
       tslib: 2.4.0
@@ -6122,15 +6075,15 @@ packages:
       ufo: 1.0.0
     dev: true
 
-  /motion/10.14.3:
-    resolution: {integrity: sha512-xBbgYho8nPiR2OZOrfJTbJpiiQl0F2PZF6H5ItAeIPJEfA/x0ZwxpFC/gbsKfUv3CFUVAoxCRkTDCJjiZ48dxw==}
+  /motion/10.15.0:
+    resolution: {integrity: sha512-YBfUiBhn6HqRmwpsbXaYQjONllGVlnEF3HgSjY4M3CvOHAVdcvcQCViem8lzNRP74dC0Ip2dO54WCYsnf7Q+jQ==}
     dependencies:
-      '@motionone/animation': 10.14.0
-      '@motionone/dom': 10.14.3
-      '@motionone/svelte': 10.14.3
-      '@motionone/types': 10.14.0
-      '@motionone/utils': 10.14.0
-      '@motionone/vue': 10.14.3
+      '@motionone/animation': 10.15.0
+      '@motionone/dom': 10.15.0
+      '@motionone/svelte': 10.15.0
+      '@motionone/types': 10.15.0
+      '@motionone/utils': 10.15.0
+      '@motionone/vue': 10.15.0
     dev: true
 
   /mri/1.2.0:
