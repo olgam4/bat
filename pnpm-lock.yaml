@@ -29,7 +29,7 @@ specifiers:
   postcss-preset-env: 7.8.3
   rollup: 3.7.4
   solid-js: 1.6.5
-  solid-start: 0.2.5
+  solid-start: 0.2.7
   solid-start-deno: 0.2.5
   solid-start-static: 0.2.5
   solid-testing-library: 0.5.0
@@ -75,9 +75,9 @@ devDependencies:
   postcss-preset-env: 7.8.3_postcss@8.4.20
   rollup: 3.7.4
   solid-js: 1.6.5
-  solid-start: 0.2.5_jfq6s65pvyuo652ytqnpyknqye
-  solid-start-deno: 0.2.5_quxiq4jmqybhkwz4zjt5urz4xm
-  solid-start-static: 0.2.5_u5s5ellv3g5xupxca3m7zmefde
+  solid-start: 0.2.7_jfq6s65pvyuo652ytqnpyknqye
+  solid-start-deno: 0.2.5_kikojxbxtrt7u574kzstp2dkla
+  solid-start-static: 0.2.5_5rcqlkztk6lvdy7aksayuiud3e
   solid-testing-library: 0.5.0_solid-js@1.6.5
   solid-toast: 0.3.5_solid-js@1.6.5
   tailwindcss: 3.2.4_postcss@8.4.20
@@ -7768,7 +7768,7 @@ packages:
     resolution: {integrity: sha512-j/4hZOuJq6TsLkQvJMcNrhVKt7Eo6ylsCtqeAe+BzJoOPOo2VeYq1lan1Ww4M05Ld8l72/zodW+rbvVWTqt0cg==}
     dev: true
 
-  /solid-start-deno/0.2.5_quxiq4jmqybhkwz4zjt5urz4xm:
+  /solid-start-deno/0.2.5_kikojxbxtrt7u574kzstp2dkla:
     resolution: {integrity: sha512-ciZwk4/LhdIWEGF489lbRVU9uwxHV0kUyeqelGPieOJNVgth59mtzTI4CCBFb2Nq/GzykQdc/HSVAKr031grTw==}
     peerDependencies:
       solid-start: '*'
@@ -7778,12 +7778,12 @@ packages:
       '@rollup/plugin-json': 4.1.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.1
       rollup: 2.79.1
-      solid-start: 0.2.5_jfq6s65pvyuo652ytqnpyknqye
+      solid-start: 0.2.7_jfq6s65pvyuo652ytqnpyknqye
       terser: 5.15.1
       vite: 3.2.5
     dev: true
 
-  /solid-start-static/0.2.5_u5s5ellv3g5xupxca3m7zmefde:
+  /solid-start-static/0.2.5_5rcqlkztk6lvdy7aksayuiud3e:
     resolution: {integrity: sha512-jWY6+mWxYeTDAMu0+Eq0vMwHFDs64FfTupJioGvLirY1+nsdNs/4xrMuziSZp0fCX1P2hTO6VuT5vkw2xf1hwQ==}
     peerDependencies:
       solid-start: '*'
@@ -7792,18 +7792,18 @@ packages:
     dependencies:
       sirv-cli: 2.0.2
       solid-ssr: 1.6.1
-      solid-start: 0.2.5_jfq6s65pvyuo652ytqnpyknqye
+      solid-start: 0.2.7_jfq6s65pvyuo652ytqnpyknqye
       undici: 5.14.0
       vite: 3.2.5
     dev: true
 
-  /solid-start/0.2.5_jfq6s65pvyuo652ytqnpyknqye:
-    resolution: {integrity: sha512-G1Iyb2ECulsCsewr12hueaCGvB+FQPylcYq9SvsCy8A2Lpyj5KcB9ic7pAKtEbByBAa318MqvBFEmL4eKS8mhw==}
+  /solid-start/0.2.7_jfq6s65pvyuo652ytqnpyknqye:
+    resolution: {integrity: sha512-e/h4kE9lATMsX0PKKM07y6rPCt+AV8TE6n1m+8LZzgsBWtO9G/qKHEbQsjx+RCNqEi0zTl6gVSxPfXVQcKocXg==}
     hasBin: true
     peerDependencies:
       '@solidjs/meta': ^0.28.0
       '@solidjs/router': ^0.5.0
-      solid-js: ^1.6.0
+      solid-js: ^1.6.2
       vite: ^3.0.4
     dependencies:
       '@babel/core': 7.19.6
