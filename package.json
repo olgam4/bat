@@ -20,7 +20,7 @@
     "@rollup/plugin-replace": "5.0.2",
     "@solid-primitives/i18n": "1.1.2",
     "@solidjs/meta": "0.28.2",
-    "@solidjs/router": "0.5.1",
+    "@solidjs/router": "0.6.0",
     "@tauri-apps/cli": "1.2.2",
     "@testing-library/dom": "8.19.0",
     "@testing-library/jest-dom": "5.16.5",
