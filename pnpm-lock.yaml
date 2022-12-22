@@ -42,7 +42,7 @@ specifiers:
   unplugin-auto-import: 0.12.1
   vite: 3.2.5
   vite-plugin-pwa: 0.13.3
-  vite-tsconfig-paths: 3.6.0
+  vite-tsconfig-paths: 4.0.3
   vitest: 0.25.8
   workbox-window: 6.5.4
 
@@ -88,7 +88,7 @@ devDependencies:
   unplugin-auto-import: 0.12.1_rollup@3.8.0
   vite: 3.2.5
   vite-plugin-pwa: 0.13.3_v7patrztka3wxwjwwj7rxgk7ey
-  vite-tsconfig-paths: 3.6.0_vite@3.2.5
+  vite-tsconfig-paths: 4.0.3_7g3uriyb4kqeq2yf2bucr7z2ea
   vitest: 0.25.8_jsdom@20.0.3
   workbox-window: 6.5.4
 
@@ -1483,10 +1483,6 @@ packages:
     dependencies:
       postcss: 8.4.20
       postcss-selector-parser: 6.0.10
-    dev: true
-
-  /@cush/relative/1.0.0:
-    resolution: {integrity: sha512-RpfLEtTlyIxeNPGKcokS+p3BZII/Q3bYxryFRglh5H3A3T8q9fsLYm72VYAMEOOIBLEa8o93kFLiBDUWKrwXZA==}
     dev: true
 
   /@esbuild/android-arm/0.15.9:
@@ -4689,10 +4685,6 @@ packages:
       is-glob: 4.0.3
     dev: true
 
-  /glob-regex/0.3.2:
-    resolution: {integrity: sha512-m5blUd3/OqDTWwzBBtWBPrGlAzatRywHameHeekAZyZrskYouOGdNB8T/q6JucucvJXtOuyHIn0/Yia7iDasDw==}
-    dev: true
-
   /glob/7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
     dependencies:
@@ -7374,15 +7366,6 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /recrawl-sync/2.2.2:
-    resolution: {integrity: sha512-E2sI4F25Fu2nrfV+KsnC7/qfk/spQIYXlonfQoS4rwxeNK5BjxnLPbWiRXHVXPwYBOTWtPX5765kTm/zJiL+LQ==}
-    dependencies:
-      '@cush/relative': 1.0.0
-      glob-regex: 0.3.2
-      slash: 3.0.0
-      tslib: 1.14.1
-    dev: true
-
   /redent/3.0.0:
     resolution: {integrity: sha512-6tDA8g98We0zd0GvVeMT9arEOnTw9qM03L9cJXaCjrip1OO764RDBLBfrB4cwzNGDj5OA5ioymC9GkizgWJDUg==}
     engines: {node: '>=8'}
@@ -8278,20 +8261,24 @@ packages:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
     dev: true
 
+  /tsconfck/2.0.2_typescript@4.9.4:
+    resolution: {integrity: sha512-H3DWlwKpow+GpVLm/2cpmok72pwRr1YFROV3YzAmvzfGFiC1zEM/mc9b7+1XnrxuXtEbhJ7xUSIqjPFbedp7aQ==}
+    engines: {node: ^14.13.1 || ^16 || >=18, pnpm: ^7.18.0}
+    hasBin: true
+    peerDependencies:
+      typescript: ^4.3.5
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      typescript: 4.9.4
+    dev: true
+
   /tsconfig-paths/3.14.1:
     resolution: {integrity: sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==}
     dependencies:
       '@types/json5': 0.0.29
       json5: 1.0.1
-      minimist: 1.2.6
-      strip-bom: 3.0.0
-    dev: true
-
-  /tsconfig-paths/4.1.0:
-    resolution: {integrity: sha512-AHx4Euop/dXFC+Vx589alFba8QItjF+8hf8LtmuiCwHyI4rHXQtOOENaM8kvYf5fR0dRChy3wzWIZ9WbB7FWow==}
-    engines: {node: '>=6'}
-    dependencies:
-      json5: 2.2.1
       minimist: 1.2.6
       strip-bom: 3.0.0
     dev: true
@@ -8704,18 +8691,18 @@ packages:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths/3.6.0_vite@3.2.5:
-    resolution: {integrity: sha512-UfsPYonxLqPD633X8cWcPFVuYzx/CMNHAjZTasYwX69sXpa4gNmQkR0XCjj82h7zhLGdTWagMjC1qfb9S+zv0A==}
+  /vite-tsconfig-paths/4.0.3_7g3uriyb4kqeq2yf2bucr7z2ea:
+    resolution: {integrity: sha512-gRO2Q/tOkV+9kMht5tz90+IaEKvW2zCnvwJV3tp2ruPNZOTM5rF+yXorJT4ggmAMYEaJ3nyXjx5P5jY5FwiZ+A==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
       debug: 4.3.4
       globrex: 0.1.2
-      recrawl-sync: 2.2.2
-      tsconfig-paths: 4.1.0
+      tsconfck: 2.0.2_typescript@4.9.4
       vite: 3.2.5
     transitivePeerDependencies:
       - supports-color
+      - typescript
     dev: true
 
   /vite/3.2.5:
