@@ -33,7 +33,7 @@ specifiers:
   solid-start-deno: 0.2.8
   solid-start-static: 0.2.8
   solid-testing-library: 0.5.0
-  solid-toast: 0.3.5
+  solid-toast: 0.4.0
   tailwindcss: 3.2.4
   tailwindcss-plugin-icons: 2.0.8
   taze: 0.8.5
@@ -79,7 +79,7 @@ devDependencies:
   solid-start-deno: 0.2.8_mil4rkmfoj6svgg4wg6ysdcohe
   solid-start-static: 0.2.8_orexwshzq2wnnlc5vfg7enkwhq
   solid-testing-library: 0.5.0_solid-js@1.6.6
-  solid-toast: 0.3.5_solid-js@1.6.6
+  solid-toast: 0.4.0_solid-js@1.6.6
   tailwindcss: 3.2.4_postcss@8.4.20
   tailwindcss-plugin-icons: 2.0.8_tailwindcss@3.2.4
   taze: 0.8.5
@@ -7829,8 +7829,8 @@ packages:
       solid-js: 1.6.6
     dev: true
 
-  /solid-toast/0.3.5_solid-js@1.6.6:
-    resolution: {integrity: sha512-m4PX2ESex9nSwt9d9XTr3r+Kp3vjSoViDWj3gj6Xxgz21IKYODMKhACXurlZCztz56NQBnfX2m4es4I8JgXGQQ==}
+  /solid-toast/0.4.0_solid-js@1.6.6:
+    resolution: {integrity: sha512-ciJbj+n+7KbUN6wfwZsW7lqFESLoQ9sXMG4uJWuHrIw2f0GxX3/wLSKs0Q1YwdTZZRxyRJ1Nwc2eBVcJvs91+g==}
     peerDependencies:
       solid-js: ^1.5.4
     dependencies:
