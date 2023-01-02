@@ -20,7 +20,7 @@ export default function () {
   return (
     <Provider>
       <Title>bat</Title>
-      <div class="full flex-center flex-col bg-gray-100/75 dark:bg-gray-800">
+      <div class="full flex-center flex-col bg-gray-100/75 dark:bg-gray-800 transition-colors">
         <Image hover image={bat} />
         <Paragraph class="-mt-10 text-gray-500" key="batman"/>
         <div class="flex mt-6 space-x-2 items-center">

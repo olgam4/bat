@@ -38,7 +38,7 @@ export const ThemeProvider: FlowComponent<Props> = (props) => {
 
   return (
     <ThemeContext.Provider value={theme}>
-      <div class={theme[0].name}>
+      <div class={`${theme[0].name}`}>
         {props.children}
       </div>
     </ThemeContext.Provider>
