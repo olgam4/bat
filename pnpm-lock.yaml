@@ -29,7 +29,7 @@ specifiers:
   postcss-preset-env: 7.8.3
   rollup: 3.9.1
   solid-js: 1.6.8
-  solid-start: 0.2.10
+  solid-start: 0.2.11
   solid-start-deno: 0.2.10
   solid-start-static: 0.2.10
   solid-testing-library: 0.5.0
@@ -75,9 +75,9 @@ devDependencies:
   postcss-preset-env: 7.8.3_postcss@8.4.20
   rollup: 3.9.1
   solid-js: 1.6.8
-  solid-start: 0.2.10_hfrm4tqrrzcujjixyttunlyf2u
-  solid-start-deno: 0.2.10_educkcjp646actkgbzfikuevcy
-  solid-start-static: 0.2.10_7lhs4vvk6pwwvqhpatx4nw26ua
+  solid-start: 0.2.11_hfrm4tqrrzcujjixyttunlyf2u
+  solid-start-deno: 0.2.10_wd4moojhkeyjx5ja7mtof35eie
+  solid-start-static: 0.2.10_sp7myxm6rxzrac4riakledllqu
   solid-testing-library: 0.5.0_solid-js@1.6.8
   solid-toast: 0.4.0_solid-js@1.6.8
   tailwindcss: 3.2.4_postcss@8.4.20
@@ -7517,8 +7517,8 @@ packages:
       terser: 5.15.1
     dev: true
 
-  /rollup-plugin-visualizer/5.8.3_rollup@2.79.1:
-    resolution: {integrity: sha512-QGJk4Bqe4AOat5AjipOh8esZH1nck5X2KFpf4VytUdSUuuuSwvIQZjMGgjcxe/zXexltqaXp5Vx1V3LmnQH15Q==}
+  /rollup-plugin-visualizer/5.9.0_rollup@2.79.1:
+    resolution: {integrity: sha512-bbDOv47+Bw4C/cgs0czZqfm8L82xOZssk4ayZjG40y9zbXclNk7YikrZTDao6p7+HDiGxrN0b65SgZiVm9k1Cg==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
@@ -7528,6 +7528,7 @@ packages:
         optional: true
     dependencies:
       open: 8.4.0
+      picomatch: 2.3.1
       rollup: 2.79.1
       source-map: 0.7.4
       yargs: 17.6.2
@@ -7744,7 +7745,7 @@ packages:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
     dev: true
 
-  /solid-start-deno/0.2.10_educkcjp646actkgbzfikuevcy:
+  /solid-start-deno/0.2.10_wd4moojhkeyjx5ja7mtof35eie:
     resolution: {integrity: sha512-fqcvWTYDObMTaWSz/qS+iI5X4YsLio4xbobFULbwkKrYlEXchNhLu9zr/QJrenzWOxRBNfmf1l82IOQPe8nxRw==}
     peerDependencies:
       solid-start: '*'
@@ -7754,12 +7755,12 @@ packages:
       '@rollup/plugin-json': 4.1.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.1
       rollup: 2.79.1
-      solid-start: 0.2.10_hfrm4tqrrzcujjixyttunlyf2u
+      solid-start: 0.2.11_hfrm4tqrrzcujjixyttunlyf2u
       terser: 5.15.1
       vite: 4.0.4
     dev: true
 
-  /solid-start-static/0.2.10_7lhs4vvk6pwwvqhpatx4nw26ua:
+  /solid-start-static/0.2.10_sp7myxm6rxzrac4riakledllqu:
     resolution: {integrity: sha512-YezvRMSoyMbAMmyjKdPPXdWWRu5VYoSN1XgqeX1zUDQNZIyQNFiPItZDRgoWARmygmmVtYNBuMxRkbWbTQ/aRA==}
     peerDependencies:
       solid-start: '*'
@@ -7772,13 +7773,13 @@ packages:
       rollup: 2.79.1
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.2.10_hfrm4tqrrzcujjixyttunlyf2u
+      solid-start: 0.2.11_hfrm4tqrrzcujjixyttunlyf2u
       undici: 5.14.0
       vite: 4.0.4
     dev: true
 
-  /solid-start/0.2.10_hfrm4tqrrzcujjixyttunlyf2u:
-    resolution: {integrity: sha512-teiSMeBnQ/7ijq1+Ndnl2U2Z7y71tzRWWV8Ur7uEeOvS74+cYbfRlmHeqln7yBwtiAHXJfEPLsmWEshArvCZnQ==}
+  /solid-start/0.2.11_hfrm4tqrrzcujjixyttunlyf2u:
+    resolution: {integrity: sha512-CwhzRTmvCrhUFFz4Bw3XTry2Hxnh/t9hqv1URmvlH3zTuDoJuSW9Sn08bbUdu/peOVF46tX3mTFn/pkfnljTfQ==}
     hasBin: true
     peerDependencies:
       '@solidjs/meta': ^0.28.0
@@ -7810,7 +7811,7 @@ packages:
       parse-multipart-data: 1.5.0
       picocolors: 1.0.0
       rollup: 2.79.1
-      rollup-plugin-visualizer: 5.8.3_rollup@2.79.1
+      rollup-plugin-visualizer: 5.9.0_rollup@2.79.1
       rollup-route-manifest: 1.0.0_rollup@2.79.1
       sade: 1.8.1
       sirv: 2.0.2
