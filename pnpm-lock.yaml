@@ -30,7 +30,7 @@ specifiers:
   rollup: 3.9.1
   solid-js: 1.6.8
   solid-start: 0.2.10
-  solid-start-deno: 0.2.10
+  solid-start-deno: 0.2.11
   solid-start-static: 0.2.10
   solid-testing-library: 0.5.0
   solid-toast: 0.4.0
@@ -76,7 +76,7 @@ devDependencies:
   rollup: 3.9.1
   solid-js: 1.6.8
   solid-start: 0.2.10_hfrm4tqrrzcujjixyttunlyf2u
-  solid-start-deno: 0.2.10_educkcjp646actkgbzfikuevcy
+  solid-start-deno: 0.2.11_educkcjp646actkgbzfikuevcy
   solid-start-static: 0.2.10_7lhs4vvk6pwwvqhpatx4nw26ua
   solid-testing-library: 0.5.0_solid-js@1.6.8
   solid-toast: 0.4.0_solid-js@1.6.8
@@ -2094,12 +2094,43 @@ packages:
       rollup: 2.79.1
     dev: true
 
+  /@rollup/plugin-commonjs/24.0.0_rollup@2.79.1:
+    resolution: {integrity: sha512-0w0wyykzdyRRPHOb0cQt14mIBLujfAv6GgP6g8nvg/iBxEm112t3YPPq+Buqe2+imvElTka+bjNlJ/gB56TD8g==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.68.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
+      commondir: 1.0.1
+      estree-walker: 2.0.2
+      glob: 8.0.3
+      is-reference: 1.2.1
+      magic-string: 0.27.0
+      rollup: 2.79.1
+    dev: true
+
   /@rollup/plugin-json/4.1.0_rollup@2.79.1:
     resolution: {integrity: sha512-yfLbTdNS6amI/2OpmbiBoW12vngr5NW2jCJVZSBEz+H5KfUJZ2M7sDjk0U6GOOdCWFVScShte29o9NezJ53TPw==}
     peerDependencies:
       rollup: ^1.20.0 || ^2.0.0
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.79.1
+      rollup: 2.79.1
+    dev: true
+
+  /@rollup/plugin-json/6.0.0_rollup@2.79.1:
+    resolution: {integrity: sha512-i/4C5Jrdr1XUarRhVu27EEwjt4GObltD7c+MkCIpO2QIbojw8MUs+CCTqOphQi3Qtg1FLmYt+l+6YeoIf51J7w==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
       rollup: 2.79.1
     dev: true
 
@@ -2126,6 +2157,24 @@ packages:
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@2.79.1
       '@types/resolve': 1.17.1
+      deepmerge: 4.2.2
+      is-builtin-module: 3.2.0
+      is-module: 1.0.0
+      resolve: 1.22.1
+      rollup: 2.79.1
+    dev: true
+
+  /@rollup/plugin-node-resolve/15.0.1_rollup@2.79.1:
+    resolution: {integrity: sha512-ReY88T7JhJjeRVbfCyNj+NXAG3IIsVMsX9b5/9jC98dRP8/yxlZdz7mHZbHk5zHr24wZZICS5AcXsFZAXYUQEg==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.78.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.2_rollup@2.79.1
+      '@types/resolve': 1.20.2
       deepmerge: 4.2.2
       is-builtin-module: 3.2.0
       is-module: 1.0.0
@@ -2175,6 +2224,21 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    dev: true
+
+  /@rollup/pluginutils/5.0.2_rollup@2.79.1:
+    resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.0
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+      rollup: 2.79.1
     dev: true
 
   /@rollup/pluginutils/5.0.2_rollup@3.9.1:
@@ -2512,6 +2576,10 @@ packages:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
       '@types/node': 18.7.19
+    dev: true
+
+  /@types/resolve/1.20.2:
+    resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
   /@types/semver/7.3.12:
@@ -7744,15 +7812,15 @@ packages:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
     dev: true
 
-  /solid-start-deno/0.2.10_educkcjp646actkgbzfikuevcy:
-    resolution: {integrity: sha512-fqcvWTYDObMTaWSz/qS+iI5X4YsLio4xbobFULbwkKrYlEXchNhLu9zr/QJrenzWOxRBNfmf1l82IOQPe8nxRw==}
+  /solid-start-deno/0.2.11_educkcjp646actkgbzfikuevcy:
+    resolution: {integrity: sha512-BlQQLal64l/g8xYCvY0AfjVMuwj05qXnUdC2K5WyIo+1TDPEFsRxD8J9QktaaNX7vY7kJnRedGCGFWrznxiV4A==}
     peerDependencies:
       solid-start: '*'
       vite: '*'
     dependencies:
-      '@rollup/plugin-commonjs': 22.0.2_rollup@2.79.1
-      '@rollup/plugin-json': 4.1.0_rollup@2.79.1
-      '@rollup/plugin-node-resolve': 13.3.0_rollup@2.79.1
+      '@rollup/plugin-commonjs': 24.0.0_rollup@2.79.1
+      '@rollup/plugin-json': 6.0.0_rollup@2.79.1
+      '@rollup/plugin-node-resolve': 15.0.1_rollup@2.79.1
       rollup: 2.79.1
       solid-start: 0.2.10_hfrm4tqrrzcujjixyttunlyf2u
       terser: 5.15.1
