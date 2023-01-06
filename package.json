@@ -1,6 +1,6 @@
 {
   "description": "",
-  "packageManager": "pnpm@7.21.0",
+  "packageManager": "pnpm@7.22.0",
   "scripts": {
     "start": "solid-start start",
     "dev": "solid-start dev",
