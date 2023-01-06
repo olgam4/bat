@@ -1,4 +1,4 @@
-import Button from '@components/button'
+import Button from '@primitives/button'
 import { ThemeContext } from '@context/theme'
 import type { Component } from 'solid-js'
 import type { createCounter } from './reactivity'

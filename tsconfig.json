@@ -18,7 +18,8 @@
       "@islands/*": ["src/islands/*"],
       "@locales": ["src/locales"],
       "@pages/*": ["src/pages/*"],
-      "@context/*": ["src/context/*"]
+      "@context/*": ["src/context/*"],
+      "@primitives/*": ["src/components/primitive/*"]
     }
   }
 }

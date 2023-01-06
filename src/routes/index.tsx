@@ -1,18 +1,18 @@
 import { Provider } from '@locales'
 
-import { createInput } from '@components/form/input'
+import { createInput } from '@primitives/form/input'
 import { Link } from '@solidjs/router'
 import bat from '@assets/bat.png'
-import Image from '@components/image'
-import Paragraph from '@islands/paragraph'
+import Image from '@primitives/image'
+import Paragraph from '@components/paragraph'
 import type { Ref } from 'solid-js'
-import Form from '@components/form'
+import Form from '@primitives/form'
 import Counter, { createCounter } from '@components/counter'
-import Phone from '@islands/phone'
-import Language from '@islands/language'
-import Theme from '@islands/theme'
+import Phone from '@components/phone'
+import Language from '@components/language'
+import Theme from '@components/theme'
 
-export default function () {
+export default function() {
   let linkRef: Ref<any>
   const nameInput = createInput('name')
   const counter = createCounter()
@@ -22,7 +22,7 @@ export default function () {
       <Title>bat</Title>
       <div class="full flex-center flex-col bg-gray-100/75 dark:bg-gray-800 transition-colors">
         <Image hover image={bat} />
-        <Paragraph class="-mt-10 text-gray-500" key="batman"/>
+        <Paragraph class="-mt-10 text-gray-500" key="batman" />
         <div class="flex mt-6 space-x-2 items-center">
           <Form inputs={[nameInput]} onSubmit={() => linkRef.click()} />
           <Link ref={linkRef} href={`/hi/${nameInput.value()}`}>

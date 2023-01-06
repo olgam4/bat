@@ -1,4 +1,4 @@
-import Paragraph from '@islands/paragraph'
+import Paragraph from '@components/paragraph'
 import type { FlowComponent, Ref } from 'solid-js'
 import type { createModal } from './reactivity'
 

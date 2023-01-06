@@ -1,5 +1,5 @@
-import Modal, { createModal } from '@components/modal'
-import Paragraph from '@islands/paragraph'
+import Modal, { createModal } from '@primitives/modal'
+import Paragraph from '@components/paragraph'
 import { Provider } from '@locales'
 import { Link, useParams } from '@solidjs/router'
 

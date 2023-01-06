@@ -1,4 +1,4 @@
-import Paragraph from '@islands/paragraph'
+import Paragraph from '@components/paragraph'
 import { Provider } from '@locales'
 import { Link } from '@solidjs/router'
 

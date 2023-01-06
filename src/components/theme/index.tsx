@@ -1,4 +1,4 @@
-import Button from '@components/button'
+import Button from '@primitives/button'
 import { ThemeContext } from '@context/theme'
 
 export default function () {

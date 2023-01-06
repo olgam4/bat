@@ -1,4 +1,4 @@
-import Button from '@components/button'
+import Button from '@primitives/button'
 
 export default function () {
   const [index, setIndex] = createSignal(0)

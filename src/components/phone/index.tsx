@@ -1,6 +1,6 @@
 import toast from 'solid-toast'
 
-import Button from '@components/button'
+import Button from '@primitives/button'
 
 const phoneCall = async (callback: (data: any) => void) => {
   const response = await fetch('/api/phone', {
