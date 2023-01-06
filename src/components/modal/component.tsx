@@ -1,6 +1,6 @@
-import Paragraph from "@islands/paragraph"
-import type { FlowComponent, Ref } from "solid-js"
-import type { createModal } from "./reactivity"
+import Paragraph from '@islands/paragraph'
+import type { FlowComponent, Ref } from 'solid-js'
+import type { createModal } from './reactivity'
 
 interface Props extends ReturnType<typeof createModal> { }
 

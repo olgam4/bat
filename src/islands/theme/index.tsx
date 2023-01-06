@@ -1,5 +1,5 @@
-import Button from "@components/button"
-import { ThemeContext } from "@context/theme"
+import Button from '@components/button'
+import { ThemeContext } from '@context/theme'
 
 export default function () {
   const [theme, { toggleTheme }] = useContext(ThemeContext)

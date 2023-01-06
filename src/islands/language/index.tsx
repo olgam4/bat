@@ -1,7 +1,7 @@
-import Button from "@components/button";
+import Button from '@components/button'
 
 export default function () {
-  const [index, setIndex] = createSignal(0);
+  const [index, setIndex] = createSignal(0)
   const [_, { locale }] = useI18n()
 
   const languages = [ 'fr', 'en', 'jp' ]
