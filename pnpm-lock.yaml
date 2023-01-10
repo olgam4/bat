@@ -23,7 +23,7 @@ specifiers:
   eslint-plugin-unused-imports: 2.0.0
   jsdom: 20.0.3
   motion: 10.15.3
-  pnpm: 7.23.0
+  pnpm: 7.24.2
   postcss: 8.4.21
   postcss-import: 15.1.0
   postcss-preset-env: 7.8.3
@@ -69,7 +69,7 @@ devDependencies:
   eslint-plugin-unused-imports: 2.0.0_uf7m4ztohkds2teixkkgz7tcvi
   jsdom: 20.0.3
   motion: 10.15.3
-  pnpm: 7.23.0
+  pnpm: 7.24.2
   postcss: 8.4.21
   postcss-import: 15.1.0_postcss@8.4.21
   postcss-preset-env: 7.8.3_postcss@8.4.21
@@ -6537,8 +6537,8 @@ packages:
       pathe: 1.0.0
     dev: true
 
-  /pnpm/7.23.0:
-    resolution: {integrity: sha512-0dJQXA+1+mo//tBvSpjb6dmLxx/UmLoeEOk/0FmOZ73GRZRNhMdarnwEenhKHNpiVXGCcvfWXJnvUMB7lp+tRQ==}
+  /pnpm/7.24.2:
+    resolution: {integrity: sha512-XDTYvZf3xF/kaX0pcdh9GWpak9tV5uDGuNCjkN1SFa0UE350mJGpszmM/j2rVyfoOOFzVR73GNdN3Purd4rXlg==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
