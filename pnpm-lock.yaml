@@ -21,7 +21,7 @@ specifiers:
   eslint: 8.31.0
   eslint-plugin-import: 2.26.0
   eslint-plugin-unused-imports: 2.0.0
-  jsdom: 20.0.3
+  jsdom: 21.0.0
   motion: 10.15.5
   pnpm: 7.24.3
   postcss: 8.4.21
@@ -67,7 +67,7 @@ devDependencies:
   eslint: 8.31.0
   eslint-plugin-import: 2.26.0_qdjeohovcytra7xto5vgmxssaq
   eslint-plugin-unused-imports: 2.0.0_uf7m4ztohkds2teixkkgz7tcvi
-  jsdom: 20.0.3
+  jsdom: 21.0.0
   motion: 10.15.5
   pnpm: 7.24.3
   postcss: 8.4.21
@@ -89,7 +89,7 @@ devDependencies:
   vite: 4.0.4
   vite-plugin-pwa: 0.14.1_aln3rhi4rqbizqxdkcc2hwlswu
   vite-tsconfig-paths: 4.0.3_gl4qsmwzp7wy5uclz4tx77gbli
-  vitest: 0.26.3_jsdom@20.0.3
+  vitest: 0.26.3_jsdom@21.0.0
   workbox-window: 6.5.4
 
 packages:
@@ -5303,8 +5303,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom/20.0.3:
-    resolution: {integrity: sha512-SYhBvTh89tTfCD/CRdSOm13mOBa42iTaTyfyEWBdKcGdPxPtLFBXuHR8XHb33YNYaP+lLbmSvBTsnoesCNJEsQ==}
+  /jsdom/21.0.0:
+    resolution: {integrity: sha512-AIw+3ZakSUtDYvhwPwWHiZsUi3zHugpMEKlNPaurviseYoBqo0zBd3zqoUi3LPCNtPFlEP8FiW9MqCZdjb2IYA==}
     engines: {node: '>=14'}
     peerDependencies:
       canvas: ^2.5.0
@@ -8823,7 +8823,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.26.3_jsdom@20.0.3:
+  /vitest/0.26.3_jsdom@21.0.0:
     resolution: {integrity: sha512-FmHxU9aUCxTi23keF3vxb/Qp0lYXaaJ+jRLGOUmMS3qVTOJvgGE+f1VArupA6pEhaG2Ans4X+zV9dqM5WISMbg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -8852,7 +8852,7 @@ packages:
       acorn-walk: 8.2.0
       chai: 4.3.7
       debug: 4.3.4
-      jsdom: 20.0.3
+      jsdom: 21.0.0
       local-pkg: 0.4.2
       source-map: 0.6.1
       strip-literal: 1.0.0
