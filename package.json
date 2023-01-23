@@ -51,7 +51,7 @@
     "tailwindcss-plugin-icons": "2.0.8",
     "taze": "0.8.5",
     "typescript": "4.9.4",
-    "undici": "5.15.2",
+    "undici": "5.16.0",
     "unplugin-auto-import": "0.12.1",
     "vite": "4.0.4",
     "vite-plugin-pwa": "0.14.1",
@@ -60,6 +60,6 @@
     "workbox-window": "6.5.4"
   },
   "peerDependencies": {
-    "undici": "5.15.2"
+    "undici": "5.16.0"
   }
 }
