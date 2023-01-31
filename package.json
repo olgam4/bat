@@ -45,7 +45,7 @@
     "solid-start": "0.2.16",
     "solid-start-deno": "0.2.16",
     "solid-start-static": "0.2.16",
-    "solid-testing-library": "0.5.0",
+    "solid-testing-library": "0.5.1",
     "solid-toast": "0.4.0",
     "tailwindcss": "3.2.4",
     "tailwindcss-plugin-icons": "2.1.0",
