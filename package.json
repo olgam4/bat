@@ -42,7 +42,7 @@
     "postcss-preset-env": "8.0.1",
     "rollup": "3.14.0",
     "solid-js": "1.6.10",
-    "solid-start": "0.2.16",
+    "solid-start": "0.2.20",
     "solid-start-deno": "0.2.16",
     "solid-start-static": "0.2.16",
     "solid-testing-library": "0.5.0",
