@@ -43,7 +43,7 @@
     "rollup": "3.18.0",
     "solid-js": "1.6.12",
     "solid-start": "0.2.23",
-    "solid-start-deno": "0.2.21",
+    "solid-start-deno": "0.2.23",
     "solid-start-static": "0.2.22",
     "solid-testing-library": "0.5.1",
     "solid-toast": "0.4.0",
