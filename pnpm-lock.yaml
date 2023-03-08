@@ -10,7 +10,7 @@ specifiers:
   '@solidjs/router': 0.7.0
   '@solidjs/testing-library': 0.6.1
   '@tauri-apps/cli': 1.2.3
-  '@testing-library/dom': 9.0.0
+  '@testing-library/dom': 9.0.1
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/user-event': 14.4.3
   '@types/testing-library__jest-dom': 5.14.5
@@ -56,9 +56,9 @@ devDependencies:
   '@solidjs/router': 0.7.0_solid-js@1.6.12
   '@solidjs/testing-library': 0.6.1_solid-js@1.6.12
   '@tauri-apps/cli': 1.2.3
-  '@testing-library/dom': 9.0.0
+  '@testing-library/dom': 9.0.1
   '@testing-library/jest-dom': 5.16.5
-  '@testing-library/user-event': 14.4.3_@testing-library+dom@9.0.0
+  '@testing-library/user-event': 14.4.3_@testing-library+dom@9.0.1
   '@types/testing-library__jest-dom': 5.14.5
   '@typescript-eslint/eslint-plugin': 5.54.1_mlk7dnz565t663n4razh6a6v6i
   '@typescript-eslint/parser': 5.54.1_ycpbpc6yetojsgtrx3mwntkhsu
@@ -2514,8 +2514,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/dom/9.0.0:
-    resolution: {integrity: sha512-+/TLgKNFsYUshOY/zXsQOk+PlFQK+eyJ9T13IDVNJEi+M+Un7xlJK+FZKkbGSnf0+7E1G6PlDhkSYQ/GFiruBQ==}
+  /@testing-library/dom/9.0.1:
+    resolution: {integrity: sha512-fTOVsMY9QLFCCXRHG3Ese6cMH5qIWwSbgxZsgeF5TNsy81HKaZ4kgehnSF8FsR3OF+numlIV2YcU79MzbnhSig==}
     engines: {node: '>=14'}
     dependencies:
       '@babel/code-frame': 7.18.6
@@ -2543,13 +2543,13 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/user-event/14.4.3_@testing-library+dom@9.0.0:
+  /@testing-library/user-event/14.4.3_@testing-library+dom@9.0.1:
     resolution: {integrity: sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
     dependencies:
-      '@testing-library/dom': 9.0.0
+      '@testing-library/dom': 9.0.1
     dev: true
 
   /@tootallnate/once/2.0.0:
