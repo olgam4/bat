@@ -1,6 +1,6 @@
 {
   "description": "",
-  "packageManager": "pnpm@7.29.0",
+  "packageManager": "pnpm@7.29.1",
   "scripts": {
     "start": "solid-start start",
     "dev": "solid-start dev",
@@ -37,7 +37,7 @@
     "eslint-plugin-unused-imports": "2.0.0",
     "jsdom": "21.1.0",
     "motion": "10.15.5",
-    "pnpm": "7.29.0",
+    "pnpm": "7.29.1",
     "postcss": "8.4.21",
     "postcss-import": "15.1.0",
     "postcss-preset-env": "8.0.1",
