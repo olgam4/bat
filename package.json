@@ -21,7 +21,7 @@
     "@solid-primitives/i18n": "1.2.2",
     "@solidjs/meta": "0.28.2",
     "@solidjs/router": "0.7.0",
-    "@solidjs/testing-library": "0.6.1",
+    "@solidjs/testing-library": "0.7.0",
     "@tauri-apps/cli": "1.2.3",
     "@testing-library/dom": "9.0.1",
     "@testing-library/jest-dom": "5.16.5",
