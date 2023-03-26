@@ -5,7 +5,7 @@ specifiers:
   '@mdx-js/rollup': 2.3.0
   '@motionone/solid': 10.16.0
   '@rollup/plugin-replace': 5.0.2
-  '@solid-primitives/i18n': 1.2.3
+  '@solid-primitives/i18n': 1.2.4
   '@solidjs/meta': 0.28.2
   '@solidjs/router': 0.8.1
   '@solidjs/testing-library': 0.7.0
@@ -51,7 +51,7 @@ devDependencies:
   '@mdx-js/rollup': 2.3.0_rollup@3.20.2
   '@motionone/solid': 10.16.0_solid-js@1.6.15
   '@rollup/plugin-replace': 5.0.2_rollup@3.20.2
-  '@solid-primitives/i18n': 1.2.3_solid-js@1.6.15
+  '@solid-primitives/i18n': 1.2.4_solid-js@1.6.15
   '@solidjs/meta': 0.28.2_solid-js@1.6.15
   '@solidjs/router': 0.8.1_solid-js@1.6.15
   '@solidjs/testing-library': 0.7.0_solid-js@1.6.15
@@ -2404,8 +2404,8 @@ packages:
       solid-js: 1.6.15
     dev: true
 
-  /@solid-primitives/i18n/1.2.3_solid-js@1.6.15:
-    resolution: {integrity: sha512-BcFJN2vROpjbCZXPbqa3oMNc6sq1WC3TbFVSZzK+1b7rSu8UDu+CTFNdAqLdlV3Q+FygWZkiS+kymyYGO2S/3g==}
+  /@solid-primitives/i18n/1.2.4_solid-js@1.6.15:
+    resolution: {integrity: sha512-4phkfhFKAfKWWwN+U5M77P8lq65J5XljyjPkZSVzk+AI2OwpO5aDtKpDxiAMWSS8aYhnfJvlfCkIY7X7XDCDLw==}
     peerDependencies:
       solid-js: ^1.6.12
     dependencies:
