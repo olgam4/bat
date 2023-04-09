@@ -52,7 +52,7 @@
     "taze": "0.9.1",
     "typescript": "5.0.2",
     "undici": "5.21.0",
-    "unplugin-auto-import": "0.15.1",
+    "unplugin-auto-import": "0.15.2",
     "vite": "4.2.1",
     "vite-plugin-pwa": "0.14.4",
     "vite-tsconfig-paths": "4.0.7",
