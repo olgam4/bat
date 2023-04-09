@@ -98,8 +98,8 @@ devDependencies:
     specifier: 0.2.23
     version: 0.2.23(solid-start@0.2.23)(undici@5.21.0)(vite@4.2.1)
   solid-toast:
-    specifier: 0.4.0
-    version: 0.4.0(solid-js@1.6.16)
+    specifier: 0.5.0
+    version: 0.5.0(solid-js@1.6.16)
   tailwindcss:
     specifier: 3.3.0
     version: 3.3.0(postcss@8.4.21)
@@ -8433,8 +8433,8 @@ packages:
       - supports-color
     dev: true
 
-  /solid-toast@0.4.0(solid-js@1.6.16):
-    resolution: {integrity: sha512-ciJbj+n+7KbUN6wfwZsW7lqFESLoQ9sXMG4uJWuHrIw2f0GxX3/wLSKs0Q1YwdTZZRxyRJ1Nwc2eBVcJvs91+g==}
+  /solid-toast@0.5.0(solid-js@1.6.16):
+    resolution: {integrity: sha512-t770JakjyS2P9b8Qa1zMLOD51KYKWXbTAyJePVUoYex5c5FH5S/HtUBUbZAWFcqRCKmAE8KhyIiCvDZA8bOnxQ==}
     peerDependencies:
       solid-js: ^1.5.4
     dependencies:
