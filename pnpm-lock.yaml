@@ -96,7 +96,7 @@ devDependencies:
     version: 0.2.23(solid-start@0.2.26)(vite@4.2.1)
   solid-start-static:
     specifier: 0.2.23
-    version: 0.2.23(solid-start@0.2.26)(undici@5.21.0)(vite@4.2.1)
+    version: 0.2.23(solid-start@0.2.26)(undici@5.21.2)(vite@4.2.1)
   solid-toast:
     specifier: 0.5.0
     version: 0.5.0(solid-js@1.6.16)
@@ -113,8 +113,8 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   undici:
-    specifier: 5.21.0
-    version: 5.21.0
+    specifier: 5.21.2
+    version: 5.21.2
   unplugin-auto-import:
     specifier: 0.15.2
     version: 0.15.2(rollup@3.20.2)
@@ -8383,7 +8383,7 @@ packages:
       vite: 4.2.1(@types/node@18.14.6)
     dev: true
 
-  /solid-start-static@0.2.23(solid-start@0.2.26)(undici@5.21.0)(vite@4.2.1):
+  /solid-start-static@0.2.23(solid-start@0.2.26)(undici@5.21.2)(vite@4.2.1):
     resolution: {integrity: sha512-isNB4ECm4vqVRaAzRKVoEHIlcs9YuzDMownqjgYhCrO70GGkLuwF4MrTLow1m/VPoe6ZK8YbvDcLB0a5hCejkA==}
     peerDependencies:
       solid-start: '*'
@@ -8397,7 +8397,7 @@ packages:
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
       solid-start: 0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.6.16)(solid-start-deno@0.2.23)(solid-start-static@0.2.23)(vite@4.2.1)
-      undici: 5.21.0
+      undici: 5.21.2
       vite: 4.2.1(@types/node@18.14.6)
     dev: true
 
@@ -8465,9 +8465,9 @@ packages:
       sirv: 2.0.2
       solid-js: 1.6.16
       solid-start-deno: 0.2.23(solid-start@0.2.26)(vite@4.2.1)
-      solid-start-static: 0.2.23(solid-start@0.2.26)(undici@5.21.0)(vite@4.2.1)
+      solid-start-static: 0.2.23(solid-start@0.2.26)(undici@5.21.2)(vite@4.2.1)
       terser: 5.16.5
-      undici: 5.21.0
+      undici: 5.21.2
       vite: 4.2.1(@types/node@18.14.6)
       vite-plugin-inspect: 0.7.15(rollup@3.20.2)(vite@4.2.1)
       vite-plugin-solid: 2.7.0(solid-js@1.6.16)(vite@4.2.1)
@@ -9048,8 +9048,8 @@ packages:
       jiti: 1.17.2
     dev: true
 
-  /undici@5.21.0:
-    resolution: {integrity: sha512-HOjK8l6a57b2ZGXOcUsI5NLfoTrfmbOl90ixJDl0AEFG4wgHNDQxtZy15/ZQp7HhjkpaGlp/eneMgtsu1dIlUA==}
+  /undici@5.21.2:
+    resolution: {integrity: sha512-f6pTQ9RF4DQtwoWSaC42P/NKlUjvezVvd9r155ohqkwFNRyBKM3f3pcty3ouusefNRyM25XhIQEbeQ46sZDJfQ==}
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
