@@ -90,10 +90,10 @@ devDependencies:
     version: 1.7.3
   solid-start:
     specifier: 0.2.26
-    version: 0.2.26(@solidjs/meta@0.28.4)(@solidjs/router@0.8.2)(solid-js@1.7.3)(solid-start-deno@0.2.23)(solid-start-static@0.2.23)(vite@4.2.1)
+    version: 0.2.26(@solidjs/meta@0.28.4)(@solidjs/router@0.8.2)(solid-js@1.7.3)(solid-start-deno@0.2.26)(solid-start-static@0.2.23)(vite@4.2.1)
   solid-start-deno:
-    specifier: 0.2.23
-    version: 0.2.23(solid-start@0.2.26)(vite@4.2.1)
+    specifier: 0.2.26
+    version: 0.2.26(solid-start@0.2.26)(vite@4.2.1)
   solid-start-static:
     specifier: 0.2.23
     version: 0.2.23(solid-start@0.2.26)(undici@5.21.2)(vite@4.2.1)
@@ -2557,6 +2557,24 @@ packages:
       rollup: 3.20.2
     dev: true
 
+  /@rollup/plugin-node-resolve@15.0.2(rollup@3.20.2):
+    resolution: {integrity: sha512-Y35fRGUjC3FaurG722uhUuG8YHOJRJQbI6/CkbRkdPotSpDj9NtIN85z1zrcyDcCQIW4qp5mgG72U+gJ0TAFEg==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.78.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.2(rollup@3.20.2)
+      '@types/resolve': 1.20.2
+      deepmerge: 4.3.0
+      is-builtin-module: 3.2.1
+      is-module: 1.0.0
+      resolve: 1.22.1
+      rollup: 3.20.2
+    dev: true
+
   /@rollup/plugin-replace@2.4.2(rollup@2.79.1):
     resolution: {integrity: sha512-IGcu+cydlUMZ5En85jxHH4qj2hta/11BHq95iHEyb2sbgiN0eCdzvUcHw5gt9pBL5lTi4JDYJ1acCoMGpTvEZg==}
     peerDependencies:
@@ -3009,6 +3027,10 @@ packages:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
       '@types/node': 18.14.6
+    dev: true
+
+  /@types/resolve@1.20.2:
+    resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
   /@types/semver@7.3.13:
@@ -8341,17 +8363,17 @@ packages:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
     dev: true
 
-  /solid-start-deno@0.2.23(solid-start@0.2.26)(vite@4.2.1):
-    resolution: {integrity: sha512-EQrQiKsBbCmIshIsAeVwCsj9c/RAq2fN01zKiz7wlFGk/XU7vX9amHL7JmDCup37Vjce6t3SLK7OwKMGWJP3XA==}
+  /solid-start-deno@0.2.26(solid-start@0.2.26)(vite@4.2.1):
+    resolution: {integrity: sha512-viNgAqDMT8Ll/U6JN6NJ7hPkrn6FiyUtEMqIjSiAhiwhTs6i7WBShpKscU9wfnhrZZxR7G+pfixGECyfDiJzlQ==}
     peerDependencies:
       solid-start: '*'
       vite: '*'
     dependencies:
       '@rollup/plugin-commonjs': 24.0.1(rollup@3.20.2)
       '@rollup/plugin-json': 6.0.0(rollup@3.20.2)
-      '@rollup/plugin-node-resolve': 13.3.0(rollup@3.20.2)
+      '@rollup/plugin-node-resolve': 15.0.2(rollup@3.20.2)
       rollup: 3.20.2
-      solid-start: 0.2.26(@solidjs/meta@0.28.4)(@solidjs/router@0.8.2)(solid-js@1.7.3)(solid-start-deno@0.2.23)(solid-start-static@0.2.23)(vite@4.2.1)
+      solid-start: 0.2.26(@solidjs/meta@0.28.4)(@solidjs/router@0.8.2)(solid-js@1.7.3)(solid-start-deno@0.2.26)(solid-start-static@0.2.23)(vite@4.2.1)
       terser: 5.16.5
       vite: 4.2.1(@types/node@18.14.6)
     dev: true
@@ -8369,12 +8391,12 @@ packages:
       rollup: 3.20.2
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.2.26(@solidjs/meta@0.28.4)(@solidjs/router@0.8.2)(solid-js@1.7.3)(solid-start-deno@0.2.23)(solid-start-static@0.2.23)(vite@4.2.1)
+      solid-start: 0.2.26(@solidjs/meta@0.28.4)(@solidjs/router@0.8.2)(solid-js@1.7.3)(solid-start-deno@0.2.26)(solid-start-static@0.2.23)(vite@4.2.1)
       undici: 5.21.2
       vite: 4.2.1(@types/node@18.14.6)
     dev: true
 
-  /solid-start@0.2.26(@solidjs/meta@0.28.4)(@solidjs/router@0.8.2)(solid-js@1.7.3)(solid-start-deno@0.2.23)(solid-start-static@0.2.23)(vite@4.2.1):
+  /solid-start@0.2.26(@solidjs/meta@0.28.4)(@solidjs/router@0.8.2)(solid-js@1.7.3)(solid-start-deno@0.2.26)(solid-start-static@0.2.23)(vite@4.2.1):
     resolution: {integrity: sha512-kne2HZlnSMzsirdnvNs1CsDqBl0L0uvKKt1t4de1CH7JIngyqoMcER97jTE0Ejr84KknANaKAdvJAzZcL7Ueng==}
     hasBin: true
     peerDependencies:
@@ -8437,7 +8459,7 @@ packages:
       set-cookie-parser: 2.5.1
       sirv: 2.0.2
       solid-js: 1.7.3
-      solid-start-deno: 0.2.23(solid-start@0.2.26)(vite@4.2.1)
+      solid-start-deno: 0.2.26(solid-start@0.2.26)(vite@4.2.1)
       solid-start-static: 0.2.23(solid-start@0.2.26)(undici@5.21.2)(vite@4.2.1)
       terser: 5.16.5
       undici: 5.21.2
