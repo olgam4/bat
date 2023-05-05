@@ -32,7 +32,7 @@
     "autoprefixer": "10.4.14",
     "c8": "7.13.0",
     "cssnano": "6.0.1",
-    "eslint": "8.39.0",
+    "eslint": "8.40.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-unused-imports": "2.0.0",
     "jsdom": "21.1.2",
