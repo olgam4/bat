@@ -19,7 +19,7 @@
     "@motionone/solid": "10.16.0",
     "@rollup/plugin-replace": "5.0.2",
     "@solid-primitives/i18n": "1.3.0",
-    "@solidjs/meta": "0.28.4",
+    "@solidjs/meta": "0.28.5",
     "@solidjs/router": "0.8.2",
     "@solidjs/testing-library": "0.7.0",
     "@tauri-apps/cli": "1.3.1",
