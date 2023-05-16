@@ -8,8 +8,8 @@ devDependencies:
     specifier: 2.3.0
     version: 2.3.0(rollup@3.21.7)
   '@motionone/solid':
-    specifier: 10.16.0
-    version: 10.16.0(solid-js@1.7.5)
+    specifier: 10.16.2
+    version: 10.16.2(solid-js@1.7.5)
   '@rollup/plugin-replace':
     specifier: 5.0.2
     version: 5.0.2(rollup@3.21.7)
@@ -2122,6 +2122,17 @@ packages:
       tslib: 2.5.0
     dev: true
 
+  /@motionone/dom@10.16.2:
+    resolution: {integrity: sha512-bnuHdNbge1FutZXv+k7xub9oPWcF0hsu8y1HTH/qg6av58YI0VufZ3ngfC7p2xhMJMnoh0LXFma2EGTgPeCkeg==}
+    dependencies:
+      '@motionone/animation': 10.15.1
+      '@motionone/generators': 10.15.1
+      '@motionone/types': 10.15.1
+      '@motionone/utils': 10.15.1
+      hey-listen: 1.0.8
+      tslib: 2.5.0
+    dev: true
+
   /@motionone/easing@10.15.1:
     resolution: {integrity: sha512-6hIHBSV+ZVehf9dcKZLT7p5PEKHGhDwky2k8RKkmOvUoYP3S+dXsKupyZpqx5apjd9f+php4vXk4LuS+ADsrWw==}
     dependencies:
@@ -2137,12 +2148,12 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@motionone/solid@10.16.0(solid-js@1.7.5):
-    resolution: {integrity: sha512-pxE5qQEtwv42bAllHFVapZevX5T4YTYzFe7vo0+Lljqyx+7+jP1NT0fosBUAOhDNdJNANNMldXwyh+qGBW5BrA==}
+  /@motionone/solid@10.16.2(solid-js@1.7.5):
+    resolution: {integrity: sha512-0bl1KRDWc6BRcKXzRZR2KdRzIIN86SfSe8mcfKPwHYQDzdOEohRcYUsDaYlwWuwU07VCngOHZEPgFCofDJ80zw==}
     peerDependencies:
       solid-js: ^1.5.0
     dependencies:
-      '@motionone/dom': 10.15.5
+      '@motionone/dom': 10.16.2
       '@motionone/utils': 10.15.1
       '@solid-primitives/props': 3.1.1(solid-js@1.7.5)
       '@solid-primitives/refs': 1.0.1(solid-js@1.7.5)
@@ -2153,7 +2164,7 @@ packages:
   /@motionone/svelte@10.15.5:
     resolution: {integrity: sha512-Xyxtgp7BlVnSBwcoFmXGHUVnpNktzeXsEifu2NJJWc7VGuxutDsBZxNdz80qvpLIC5MeBa1wh7GGegZzTm1msg==}
     dependencies:
-      '@motionone/dom': 10.15.5
+      '@motionone/dom': 10.16.2
       tslib: 2.5.0
     dev: true
 
@@ -2172,7 +2183,7 @@ packages:
   /@motionone/vue@10.15.5:
     resolution: {integrity: sha512-cUENrLYAolUacHvCgU+8wF9OgSlVutfWbHMLERI/bElCJ+e2YVQvG/CpGhIM5fYOOJzuvg2T2wHmLLmvJoavEw==}
     dependencies:
-      '@motionone/dom': 10.15.5
+      '@motionone/dom': 10.16.2
       tslib: 2.5.0
     dev: true
 
@@ -2488,7 +2499,7 @@ packages:
     peerDependencies:
       solid-js: ^1.6.0
     dependencies:
-      '@solid-primitives/utils': 5.4.0(solid-js@1.7.5)
+      '@solid-primitives/utils': 5.5.1(solid-js@1.7.5)
       solid-js: 1.7.5
     dev: true
 
@@ -2505,14 +2516,6 @@ packages:
     resolution: {integrity: sha512-StVQs7BVGQa1uo6dD19wqOgfGMxu3gL/bvPHUV/NBJaiNX5R5e7dPb6lz6zR1RdTho3M+3Mv8jUHKd/aKuhL4w==}
     peerDependencies:
       solid-js: ^1.6.12
-    dependencies:
-      solid-js: 1.7.5
-    dev: true
-
-  /@solid-primitives/utils@5.4.0(solid-js@1.7.5):
-    resolution: {integrity: sha512-cSya9Tnh8KW6OYtJbZYs3//CVWWQAOXhMckH9paSzMQcoM09P+R1lLUN9BhQOws4c6PMA0apPNrbWsQzqZzIEw==}
-    peerDependencies:
-      solid-js: ^1.6.0
     dependencies:
       solid-js: 1.7.5
     dev: true
