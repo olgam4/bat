@@ -6,13 +6,13 @@ devDependencies:
     version: 1.1.16
   '@mdx-js/rollup':
     specifier: 2.3.0
-    version: 2.3.0(rollup@3.22.0)
+    version: 2.3.0(rollup@3.22.1)
   '@motionone/solid':
     specifier: 10.16.2
     version: 10.16.2(solid-js@1.7.5)
   '@rollup/plugin-replace':
     specifier: 5.0.2
-    version: 5.0.2(rollup@3.22.0)
+    version: 5.0.2(rollup@3.22.1)
   '@solid-primitives/i18n':
     specifier: 1.4.0
     version: 1.4.0(solid-js@1.7.5)
@@ -83,8 +83,8 @@ devDependencies:
     specifier: 8.4.1
     version: 8.4.1(postcss@8.4.23)
   rollup:
-    specifier: 3.22.0
-    version: 3.22.0
+    specifier: 3.22.1
+    version: 3.22.1
   solid-js:
     specifier: 1.7.5
     version: 1.7.5
@@ -117,7 +117,7 @@ devDependencies:
     version: 5.22.1
   unplugin-auto-import:
     specifier: 0.16.0
-    version: 0.16.0(rollup@3.22.0)
+    version: 0.16.0(rollup@3.22.1)
   vite:
     specifier: 4.3.8
     version: 4.3.8(@types/node@18.14.6)
@@ -2101,14 +2101,14 @@ packages:
       - supports-color
     dev: true
 
-  /@mdx-js/rollup@2.3.0(rollup@3.22.0):
+  /@mdx-js/rollup@2.3.0(rollup@3.22.1):
     resolution: {integrity: sha512-wLvRfJS/M4UmdqTd+WoaySEE7q4BIejYf1xAHXYvtT1du/1Tl/z2450Gg2+Hu7fh05KwRRiehiTP9Yc/Dtn0fA==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
       '@mdx-js/mdx': 2.3.0
-      '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
-      rollup: 3.22.0
+      '@rollup/pluginutils': 5.0.2(rollup@3.22.1)
+      rollup: 3.22.1
       source-map: 0.7.4
       vfile: 5.3.7
     transitivePeerDependencies:
@@ -2341,7 +2341,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-commonjs@24.0.1(rollup@3.22.0):
+  /@rollup/plugin-commonjs@24.0.1(rollup@3.22.1):
     resolution: {integrity: sha512-15LsiWRZk4eOGqvrJyu3z3DaBu5BhXIMeWnijSRvd8irrrg9SHpQ1pH+BUK4H6Z9wL9yOxZJMTLU+Au86XHxow==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -2350,16 +2350,16 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
+      '@rollup/pluginutils': 5.0.2(rollup@3.22.1)
       commondir: 1.0.1
       estree-walker: 2.0.2
       glob: 8.1.0
       is-reference: 1.2.1
       magic-string: 0.27.0
-      rollup: 3.22.0
+      rollup: 3.22.1
     dev: true
 
-  /@rollup/plugin-json@6.0.0(rollup@3.22.0):
+  /@rollup/plugin-json@6.0.0(rollup@3.22.1):
     resolution: {integrity: sha512-i/4C5Jrdr1XUarRhVu27EEwjt4GObltD7c+MkCIpO2QIbojw8MUs+CCTqOphQi3Qtg1FLmYt+l+6YeoIf51J7w==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -2368,8 +2368,8 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
-      rollup: 3.22.0
+      '@rollup/pluginutils': 5.0.2(rollup@3.22.1)
+      rollup: 3.22.1
     dev: true
 
   /@rollup/plugin-node-resolve@11.2.1(rollup@2.79.1):
@@ -2387,7 +2387,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-node-resolve@15.0.2(rollup@3.22.0):
+  /@rollup/plugin-node-resolve@15.0.2(rollup@3.22.1):
     resolution: {integrity: sha512-Y35fRGUjC3FaurG722uhUuG8YHOJRJQbI6/CkbRkdPotSpDj9NtIN85z1zrcyDcCQIW4qp5mgG72U+gJ0TAFEg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -2396,13 +2396,13 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
+      '@rollup/pluginutils': 5.0.2(rollup@3.22.1)
       '@types/resolve': 1.20.2
       deepmerge: 4.3.0
       is-builtin-module: 3.2.1
       is-module: 1.0.0
       resolve: 1.22.1
-      rollup: 3.22.0
+      rollup: 3.22.1
     dev: true
 
   /@rollup/plugin-replace@2.4.2(rollup@2.79.1):
@@ -2415,7 +2415,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/plugin-replace@5.0.2(rollup@3.22.0):
+  /@rollup/plugin-replace@5.0.2(rollup@3.22.1):
     resolution: {integrity: sha512-M9YXNekv/C/iHHK+cvORzfRYfPbq0RDD8r0G+bMiTXjNGKulPnCT9O3Ss46WfhI6ZOCgApOP7xAdmCQJ+U2LAA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -2424,9 +2424,9 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
+      '@rollup/pluginutils': 5.0.2(rollup@3.22.1)
       magic-string: 0.27.0
-      rollup: 3.22.0
+      rollup: 3.22.1
     dev: true
 
   /@rollup/pluginutils@3.1.0(rollup@2.79.1):
@@ -2441,7 +2441,7 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rollup/pluginutils@5.0.2(rollup@3.22.0):
+  /@rollup/pluginutils@5.0.2(rollup@3.22.1):
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -2453,7 +2453,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.22.0
+      rollup: 3.22.1
     dev: true
 
   /@sideway/address@4.1.4:
@@ -7945,7 +7945,7 @@ packages:
       terser: 5.16.5
     dev: true
 
-  /rollup-plugin-visualizer@5.9.0(rollup@3.22.0):
+  /rollup-plugin-visualizer@5.9.0(rollup@3.22.1):
     resolution: {integrity: sha512-bbDOv47+Bw4C/cgs0czZqfm8L82xOZssk4ayZjG40y9zbXclNk7YikrZTDao6p7+HDiGxrN0b65SgZiVm9k1Cg==}
     engines: {node: '>=14'}
     hasBin: true
@@ -7957,18 +7957,18 @@ packages:
     dependencies:
       open: 8.4.2
       picomatch: 2.3.1
-      rollup: 3.22.0
+      rollup: 3.22.1
       source-map: 0.7.4
       yargs: 17.7.2
     dev: true
 
-  /rollup-route-manifest@1.0.0(rollup@3.22.0):
+  /rollup-route-manifest@1.0.0(rollup@3.22.1):
     resolution: {integrity: sha512-3CmcMmCLAzJDUXiO3z6386/Pt8/k9xTZv8gIHyXI8hYGoAInnYdOsFXiGGzQRMy6TXR1jUZme2qbdwjH2nFMjg==}
     engines: {node: '>=8'}
     peerDependencies:
       rollup: '>=2.0.0'
     dependencies:
-      rollup: 3.22.0
+      rollup: 3.22.1
       route-sort: 1.0.0
     dev: true
 
@@ -7980,8 +7980,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /rollup@3.22.0:
-    resolution: {integrity: sha512-imsigcWor5Y/dC0rz2q0bBt9PabcL3TORry2hAa6O6BuMvY71bqHyfReAz5qyAqiQATD1m70qdntqBfBQjVWpQ==}
+  /rollup@3.22.1:
+    resolution: {integrity: sha512-ZI+GSAqOkCyTtJPlwyPOaYKa0RqvztN4miRVusVJseMj6BIBT2f6pFeK90IdJsQ86FLMYkxju2whuck3yKPE4Q==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -8214,10 +8214,10 @@ packages:
       solid-start: '*'
       vite: '*'
     dependencies:
-      '@rollup/plugin-commonjs': 24.0.1(rollup@3.22.0)
-      '@rollup/plugin-json': 6.0.0(rollup@3.22.0)
-      '@rollup/plugin-node-resolve': 15.0.2(rollup@3.22.0)
-      rollup: 3.22.0
+      '@rollup/plugin-commonjs': 24.0.1(rollup@3.22.1)
+      '@rollup/plugin-json': 6.0.0(rollup@3.22.1)
+      '@rollup/plugin-node-resolve': 15.0.2(rollup@3.22.1)
+      rollup: 3.22.1
       solid-start: 0.2.26(@solidjs/meta@0.28.5)(@solidjs/router@0.8.2)(solid-js@1.7.5)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.3.8)
       terser: 5.16.5
       vite: 4.3.8(@types/node@18.14.6)
@@ -8230,10 +8230,10 @@ packages:
       undici: ^5.8.0
       vite: '*'
     dependencies:
-      '@rollup/plugin-commonjs': 24.0.1(rollup@3.22.0)
-      '@rollup/plugin-json': 6.0.0(rollup@3.22.0)
-      '@rollup/plugin-node-resolve': 15.0.2(rollup@3.22.0)
-      rollup: 3.22.0
+      '@rollup/plugin-commonjs': 24.0.1(rollup@3.22.1)
+      '@rollup/plugin-json': 6.0.0(rollup@3.22.1)
+      '@rollup/plugin-node-resolve': 15.0.2(rollup@3.22.1)
+      rollup: 3.22.1
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
       solid-start: 0.2.26(@solidjs/meta@0.28.5)(@solidjs/router@0.8.2)(solid-js@1.7.5)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.3.8)
@@ -8297,9 +8297,9 @@ packages:
       get-port: 6.1.2
       parse-multipart-data: 1.5.0
       picocolors: 1.0.0
-      rollup: 3.22.0
-      rollup-plugin-visualizer: 5.9.0(rollup@3.22.0)
-      rollup-route-manifest: 1.0.0(rollup@3.22.0)
+      rollup: 3.22.1
+      rollup-plugin-visualizer: 5.9.0(rollup@3.22.1)
+      rollup-route-manifest: 1.0.0(rollup@3.22.1)
       sade: 1.8.1
       set-cookie-parser: 2.5.1
       sirv: 2.0.2
@@ -8309,7 +8309,7 @@ packages:
       terser: 5.16.5
       undici: 5.22.1
       vite: 4.3.8(@types/node@18.14.6)
-      vite-plugin-inspect: 0.7.15(rollup@3.22.0)(vite@4.3.8)
+      vite-plugin-inspect: 0.7.15(rollup@3.22.1)(vite@4.3.8)
       vite-plugin-solid: 2.7.0(solid-js@1.7.5)(vite@4.3.8)
       wait-on: 6.0.1(debug@4.3.4)
     transitivePeerDependencies:
@@ -8954,10 +8954,10 @@ packages:
       vfile: 5.3.7
     dev: true
 
-  /unimport@3.0.6(rollup@3.22.0):
+  /unimport@3.0.6(rollup@3.22.1):
     resolution: {integrity: sha512-GYxGJ1Bri1oqx8VFDjdgooGzeK7jBk3bvhXmamTIpu3nONOcUMGwZbX7X0L5RA7OWMXpR4vzpSQP7pXUzJg1/Q==}
     dependencies:
-      '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
+      '@rollup/pluginutils': 5.0.2(rollup@3.22.1)
       escape-string-regexp: 5.0.0
       fast-glob: 3.2.12
       local-pkg: 0.4.3
@@ -9072,7 +9072,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /unplugin-auto-import@0.16.0(rollup@3.22.0):
+  /unplugin-auto-import@0.16.0(rollup@3.22.1):
     resolution: {integrity: sha512-AbeGl3kzoGyqh2uWwwSVYCXy2ouvSbHfBc2u7xmNBpOosWa7SIAz+nQx3f1JpMXunEZ9TTChXkor4WcGrpkc7Q==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -9085,11 +9085,11 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.7.2
-      '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
+      '@rollup/pluginutils': 5.0.2(rollup@3.22.1)
       local-pkg: 0.4.3
       magic-string: 0.30.0
       minimatch: 9.0.0
-      unimport: 3.0.6(rollup@3.22.0)
+      unimport: 3.0.6(rollup@3.22.1)
       unplugin: 1.3.1
     transitivePeerDependencies:
       - rollup
@@ -9229,14 +9229,14 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-inspect@0.7.15(rollup@3.22.0)(vite@4.3.8):
+  /vite-plugin-inspect@0.7.15(rollup@3.22.1)(vite@4.3.8):
     resolution: {integrity: sha512-oxeZCljacA/slhGFbDNlBqdhDU9fgdHL84i7Nz7DnaAIE7DhTiW2djanw3d/BKuZtduKUY82vRUQ4iaG917t2A==}
     engines: {node: '>=14'}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0
     dependencies:
       '@antfu/utils': 0.7.2
-      '@rollup/pluginutils': 5.0.2(rollup@3.22.0)
+      '@rollup/pluginutils': 5.0.2(rollup@3.22.1)
       debug: 4.3.4
       fs-extra: 11.1.0
       kolorist: 1.7.0
@@ -9255,11 +9255,11 @@ packages:
       workbox-build: ^6.5.4
       workbox-window: ^6.5.4
     dependencies:
-      '@rollup/plugin-replace': 5.0.2(rollup@3.22.0)
+      '@rollup/plugin-replace': 5.0.2(rollup@3.22.1)
       debug: 4.3.4
       fast-glob: 3.2.12
       pretty-bytes: 6.1.0
-      rollup: 3.22.0
+      rollup: 3.22.1
       vite: 4.3.8(@types/node@18.14.6)
       workbox-build: 6.5.4
       workbox-window: 6.5.4
@@ -9331,7 +9331,7 @@ packages:
       '@types/node': 18.14.6
       esbuild: 0.17.16
       postcss: 8.4.23
-      rollup: 3.22.0
+      rollup: 3.22.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
