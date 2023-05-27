@@ -65,8 +65,8 @@ devDependencies:
     specifier: 2.0.0
     version: 2.0.0(@typescript-eslint/eslint-plugin@5.59.7)(eslint@8.41.0)
   jsdom:
-    specifier: 22.0.0
-    version: 22.0.0
+    specifier: 22.1.0
+    version: 22.1.0
   motion:
     specifier: 10.16.2
     version: 10.16.2
@@ -129,7 +129,7 @@ devDependencies:
     version: 4.2.0(typescript@5.0.4)(vite@4.3.9)
   vitest:
     specifier: 0.31.1
-    version: 0.31.1(jsdom@22.0.0)
+    version: 0.31.1(jsdom@22.1.0)
   workbox-window:
     specifier: 6.6.0
     version: 6.6.0
@@ -5645,8 +5645,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom@22.0.0:
-    resolution: {integrity: sha512-p5ZTEb5h+O+iU02t0GfEjAnkdYPrQSkfuTSMkMYyIoMvUNEHsbG0bHHbfXIcfTqD2UfvjQX7mmgiFsyRwGscVw==}
+  /jsdom@22.1.0:
+    resolution: {integrity: sha512-/9AVW7xNbsBv6GfWho4TTNjEo9fe6Zhf9O7s0Fhhr3u+awPwAJMKwAMXnkk5vBxflqLW9hTHX/0cs+P3gW+cQw==}
     engines: {node: '>=16'}
     peerDependencies:
       canvas: ^2.5.0
@@ -9347,7 +9347,7 @@ packages:
       vite: 4.3.9(@types/node@18.14.6)
     dev: true
 
-  /vitest@0.31.1(jsdom@22.0.0):
+  /vitest@0.31.1(jsdom@22.1.0):
     resolution: {integrity: sha512-/dOoOgzoFk/5pTvg1E65WVaobknWREN15+HF+0ucudo3dDG/vCZoXTQrjIfEaWvQXmqScwkRodrTbM/ScMpRcQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -9392,7 +9392,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      jsdom: 22.0.0
+      jsdom: 22.1.0
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
