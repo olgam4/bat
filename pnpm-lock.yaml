@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 devDependencies:
   '@iconify-json/carbon':
@@ -71,8 +75,8 @@ devDependencies:
     specifier: 10.16.2
     version: 10.16.2
   pnpm:
-    specifier: 8.5.1
-    version: 8.5.1
+    specifier: 8.6.0
+    version: 8.6.0
   postcss:
     specifier: 8.4.24
     version: 8.4.24
@@ -6968,8 +6972,8 @@ packages:
       pathe: 1.1.0
     dev: true
 
-  /pnpm@8.5.1:
-    resolution: {integrity: sha512-W6elL7Nww0a/MCICkzpkbxW6f99TQuX4DuJoDjWp39X08PKDkEpg4cgj3d6EtgYADcdQWl/eM8NdlLJVE3RgpA==}
+  /pnpm@8.6.0:
+    resolution: {integrity: sha512-uMaWGXlvG+m5NIJaR4JEEenChbg+1AP4zVpqs4PEcZg4uH+lXMTd/X/lirKZA+TC0w0d+++y3btINcwyKsuwAA==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
