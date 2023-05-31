@@ -27,8 +27,8 @@ devDependencies:
     specifier: 0.8.2
     version: 0.8.2(solid-js@1.7.6)
   '@solidjs/testing-library':
-    specifier: 0.7.0
-    version: 0.7.0(solid-js@1.7.6)
+    specifier: 0.7.1
+    version: 0.7.1(solid-js@1.7.6)
   '@tauri-apps/cli':
     specifier: 1.3.1
     version: 1.3.1
@@ -2546,8 +2546,8 @@ packages:
       solid-js: 1.7.6
     dev: true
 
-  /@solidjs/testing-library@0.7.0(solid-js@1.7.6):
-    resolution: {integrity: sha512-mTSINHdcLc6rn9xWWJfzPkY0zyKtLb7QAM2CouVw2QvNZ0mgfk3z2tpaprismlE/YLn+I3ij4BqiV3ocvI+hIQ==}
+  /@solidjs/testing-library@0.7.1(solid-js@1.7.6):
+    resolution: {integrity: sha512-TRDsCx2R4LZYOEZ36EjmYn9O+de7o3U/D30YMlcyaagu3OlNGJubidBIdeOE5HcVIE2ojHRo6CHWdQAisUVrzg==}
     engines: {node: '>= 14'}
     peerDependencies:
       solid-js: '>=1.0.0'
