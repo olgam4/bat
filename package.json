@@ -40,7 +40,7 @@
     "pnpm": "8.6.2",
     "postcss": "8.4.24",
     "postcss-import": "15.1.0",
-    "postcss-preset-env": "8.4.2",
+    "postcss-preset-env": "8.5.0",
     "rollup": "3.25.1",
     "solid-js": "1.7.6",
     "solid-start": "0.2.26",
