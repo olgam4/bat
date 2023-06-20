@@ -27,8 +27,8 @@ devDependencies:
     specifier: 0.8.2
     version: 0.8.2(solid-js@1.7.6)
   '@solidjs/testing-library':
-    specifier: 0.7.1
-    version: 0.7.1(solid-js@1.7.6)
+    specifier: 0.8.1
+    version: 0.8.1(@solidjs/router@0.8.2)(solid-js@1.7.6)
   '@tauri-apps/cli':
     specifier: 1.4.0
     version: 1.4.0
@@ -2546,12 +2546,14 @@ packages:
       solid-js: 1.7.6
     dev: true
 
-  /@solidjs/testing-library@0.7.1(solid-js@1.7.6):
-    resolution: {integrity: sha512-TRDsCx2R4LZYOEZ36EjmYn9O+de7o3U/D30YMlcyaagu3OlNGJubidBIdeOE5HcVIE2ojHRo6CHWdQAisUVrzg==}
+  /@solidjs/testing-library@0.8.1(@solidjs/router@0.8.2)(solid-js@1.7.6):
+    resolution: {integrity: sha512-5B4s/gV0gT7om2Rf1Ps68WwOn4NRWBsSvD8Cavzq8f4RY24epiu7J+32PFAE3bEfhD1KGdb/eoLr4LIybxhT1Q==}
     engines: {node: '>= 14'}
     peerDependencies:
+      '@solidjs/router': '>=0.6.0'
       solid-js: '>=1.0.0'
     dependencies:
+      '@solidjs/router': 0.8.2(solid-js@1.7.6)
       '@testing-library/dom': 9.3.1
       solid-js: 1.7.6
     dev: true
