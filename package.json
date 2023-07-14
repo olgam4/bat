@@ -34,7 +34,7 @@
     "cssnano": "6.0.1",
     "eslint": "8.45.0",
     "eslint-plugin-import": "2.27.5",
-    "eslint-plugin-unused-imports": "2.0.0",
+    "eslint-plugin-unused-imports": "3.0.0",
     "jsdom": "22.1.0",
     "motion": "10.16.2",
     "pnpm": "8.6.9",
