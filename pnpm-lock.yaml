@@ -75,8 +75,8 @@ devDependencies:
     specifier: 10.16.2
     version: 10.16.2
   pnpm:
-    specifier: 8.6.8
-    version: 8.6.8
+    specifier: 8.6.9
+    version: 8.6.9
   postcss:
     specifier: 8.4.26
     version: 8.4.26
@@ -7298,8 +7298,8 @@ packages:
       pathe: 1.1.1
     dev: true
 
-  /pnpm@8.6.8:
-    resolution: {integrity: sha512-OtrCRUE7VqRyKly9E3gfExZHOAHtFDpmulyVFKrnl3v/n2xJckdueVumWJqUA5FHxcRP/T42r8P8CDr9duPP9w==}
+  /pnpm@8.6.9:
+    resolution: {integrity: sha512-LPEaCGvlV4dVGeJeHqi/pCR/SETooqmScv2wcr0gTqGUebpkt1w9TIEX0awLMhLO29p7pcXfz5ZO59B70Tnc0w==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
