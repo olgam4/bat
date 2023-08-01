@@ -21,8 +21,8 @@ devDependencies:
     specifier: 1.4.0
     version: 1.4.0(solid-js@1.7.8)
   '@solidjs/meta':
-    specifier: 0.28.5
-    version: 0.28.5(solid-js@1.7.8)
+    specifier: 0.28.6
+    version: 0.28.6(solid-js@1.7.8)
   '@solidjs/router':
     specifier: 0.8.2
     version: 0.8.2(solid-js@1.7.8)
@@ -94,7 +94,7 @@ devDependencies:
     version: 1.7.8
   solid-start:
     specifier: 0.2.26
-    version: 0.2.26(@solidjs/meta@0.28.5)(@solidjs/router@0.8.2)(solid-js@1.7.8)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.8)
+    version: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.2)(solid-js@1.7.8)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.8)
   solid-start-deno:
     specifier: 0.2.26
     version: 0.2.26(solid-start@0.2.26)(vite@4.4.8)
@@ -2804,8 +2804,8 @@ packages:
       solid-js: 1.7.8
     dev: true
 
-  /@solidjs/meta@0.28.5(solid-js@1.7.8):
-    resolution: {integrity: sha512-52luJR6hVNMA1K8Od5OD0d8WVz/svqZG4is8lrDimiUGxdia3DzuLF+pK56dnEzbNt9cA42qVFL134U9LkC9Gg==}
+  /@solidjs/meta@0.28.6(solid-js@1.7.8):
+    resolution: {integrity: sha512-mplUfmp7tjGgDTiVbEAqkWDLpr0ZNyR1+OOETNyJt759MqPzh979X3oJUk8SZisGII0BNycmHDIGc0Shqx7bIg==}
     peerDependencies:
       solid-js: '>=1.4.0'
     dependencies:
@@ -8717,7 +8717,7 @@ packages:
       '@rollup/plugin-json': 6.0.0(rollup@3.27.0)
       '@rollup/plugin-node-resolve': 15.0.2(rollup@3.27.0)
       rollup: 3.27.0
-      solid-start: 0.2.26(@solidjs/meta@0.28.5)(@solidjs/router@0.8.2)(solid-js@1.7.8)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.8)
+      solid-start: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.2)(solid-js@1.7.8)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.8)
       terser: 5.16.5
       vite: 4.4.8(@types/node@18.14.6)
     dev: true
@@ -8735,12 +8735,12 @@ packages:
       rollup: 3.27.0
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.2.26(@solidjs/meta@0.28.5)(@solidjs/router@0.8.2)(solid-js@1.7.8)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.8)
+      solid-start: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.2)(solid-js@1.7.8)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.8)
       undici: 5.22.1
       vite: 4.4.8(@types/node@18.14.6)
     dev: true
 
-  /solid-start@0.2.26(@solidjs/meta@0.28.5)(@solidjs/router@0.8.2)(solid-js@1.7.8)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.8):
+  /solid-start@0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.2)(solid-js@1.7.8)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.8):
     resolution: {integrity: sha512-kne2HZlnSMzsirdnvNs1CsDqBl0L0uvKKt1t4de1CH7JIngyqoMcER97jTE0Ejr84KknANaKAdvJAzZcL7Ueng==}
     hasBin: true
     peerDependencies:
@@ -8780,7 +8780,7 @@ packages:
       '@babel/preset-env': 7.20.2(@babel/core@7.21.0)
       '@babel/preset-typescript': 7.21.0(@babel/core@7.21.0)
       '@babel/template': 7.20.7
-      '@solidjs/meta': 0.28.5(solid-js@1.7.8)
+      '@solidjs/meta': 0.28.6(solid-js@1.7.8)
       '@solidjs/router': 0.8.2(solid-js@1.7.8)
       '@types/cookie': 0.5.1
       chokidar: 3.5.3
