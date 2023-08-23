@@ -1,6 +1,6 @@
 const tp = {
   '404': '404 ala kama lukin',
-  about: 'tan',
+  about: 'sona',
   hello: 'toki ale {{name}}',
   name: 'sitelen nimi',
   goback: 'toma kama',
