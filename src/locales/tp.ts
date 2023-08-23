@@ -4,7 +4,7 @@ const tp = {
   hello: 'toki ale {{name}}',
   name: 'sitelen nimi',
   goback: 'toma kama',
-  batman: 'tan nanpa wan commits mi li lon ala lon mama',
+  batman: 'tan commit wan li jo ala e mama',
   secret: 'sina lukin e sitelen ala',
   close: 'pini',
   calling: 'kama toki...',
