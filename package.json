@@ -50,7 +50,7 @@
     "tailwindcss": "3.3.3",
     "tailwindcss-plugin-icons": "2.1.1",
     "taze": "0.11.2",
-    "typescript": "5.1.6",
+    "typescript": "5.2.2",
     "undici": "5.23.0",
     "unplugin-auto-import": "0.16.6",
     "vite": "4.4.9",
