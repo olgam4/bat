@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@iconify-json/carbon':
-    specifier: 1.1.20
-    version: 1.1.20
+    specifier: 1.1.21
+    version: 1.1.21
   '@mdx-js/rollup':
     specifier: 2.3.0
     version: 2.3.0(rollup@3.28.1)
@@ -2196,8 +2196,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon@1.1.20:
-    resolution: {integrity: sha512-ed/3FDCjicQARWaSGIDZpaF+rWmxoSqrmHYZV2aEicufp0yciG44y9OEmArxxr/0U6bEC3zJbKMSOSw4CKeBJg==}
+  /@iconify-json/carbon@1.1.21:
+    resolution: {integrity: sha512-bK2cMVM4noBU+FGlay433flpXLRzQu0ED095iAnoO6ka3yb4uz0lvb8acpN5gthyGLJ89C4HpfIbQZLQnMKQww==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
