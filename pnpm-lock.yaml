@@ -18,8 +18,8 @@ devDependencies:
     specifier: 5.0.2
     version: 5.0.2(rollup@3.29.0)
   '@solid-primitives/i18n':
-    specifier: 1.4.1
-    version: 1.4.1(solid-js@1.7.11)
+    specifier: 2.0.0
+    version: 2.0.0(solid-js@1.7.11)
   '@solidjs/meta':
     specifier: 0.28.6
     version: 0.28.6(solid-js@1.7.11)
@@ -2701,20 +2701,11 @@ packages:
     resolution: {integrity: sha512-XJfwUVUKDHF5ugKwIcxEgc9k8b7HbznCp6eUfWgu710hMPNIO4aw4/zB5RogDQz8nd6gyCDpU9O/m6qYEWY6yQ==}
     dev: true
 
-  /@solid-primitives/context@0.2.1(solid-js@1.7.11):
-    resolution: {integrity: sha512-XIIwCOWpRKDersgkR9LNFXaJHIV8QlCFo/tq5bV0cAOZklcwOFcqi2bN+uWgEIQSWGjWXU2kc1H1/TzgYzVDlg==}
+  /@solid-primitives/i18n@2.0.0(solid-js@1.7.11):
+    resolution: {integrity: sha512-2sfhiUGl3eCPrDnPpQapbKnZ2iVo1IY6aI5vJTozc2fIf/yEM2+LlCY4PwQTf8vkM5B0Pf3jA+7vC70fR6xbmg==}
     peerDependencies:
       solid-js: ^1.6.12
     dependencies:
-      solid-js: 1.7.11
-    dev: true
-
-  /@solid-primitives/i18n@1.4.1(solid-js@1.7.11):
-    resolution: {integrity: sha512-lUUb/hmI77O9oMH8Jj4pPta/pAV21gRgN52UJ7cCXVdv1QkiyzX586gDDU+Tj8NsK/U6OrmMk2tClPwqHAk/xA==}
-    peerDependencies:
-      solid-js: ^1.6.12
-    dependencies:
-      '@solid-primitives/context': 0.2.1(solid-js@1.7.11)
       solid-js: 1.7.11
     dev: true
 
