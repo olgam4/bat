@@ -24,11 +24,11 @@ devDependencies:
     specifier: 0.28.6
     version: 0.28.6(solid-js@1.7.11)
   '@solidjs/router':
-    specifier: 0.8.2
-    version: 0.8.2(solid-js@1.7.11)
+    specifier: 0.8.3
+    version: 0.8.3(solid-js@1.7.11)
   '@solidjs/testing-library':
     specifier: 0.8.4
-    version: 0.8.4(@solidjs/router@0.8.2)(solid-js@1.7.11)
+    version: 0.8.4(@solidjs/router@0.8.3)(solid-js@1.7.11)
   '@tauri-apps/cli':
     specifier: 1.4.0
     version: 1.4.0
@@ -94,7 +94,7 @@ devDependencies:
     version: 1.7.11
   solid-start:
     specifier: 0.2.26
-    version: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.2)(solid-js@1.7.11)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9)
+    version: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.7.11)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9)
   solid-start-deno:
     specifier: 0.2.26
     version: 0.2.26(solid-start@0.2.26)(vite@4.4.9)
@@ -2760,22 +2760,22 @@ packages:
       solid-js: 1.7.11
     dev: true
 
-  /@solidjs/router@0.8.2(solid-js@1.7.11):
-    resolution: {integrity: sha512-gUKW+LZqxtX6y/Aw6JKyy4gQ9E7dLqp513oB9pSYJR1HM5c56Pf7eijzyXX+b3WuXig18Cxqah4tMtF0YGu80w==}
+  /@solidjs/router@0.8.3(solid-js@1.7.11):
+    resolution: {integrity: sha512-oJuqQo10rVTiQYhe1qXIG1NyZIZ2YOwHnlLc8Xx+g/iJhFCJo1saLOIrD/Dkh2fpIaIny5ZMkz1cYYqoTYGJbg==}
     peerDependencies:
       solid-js: ^1.5.3
     dependencies:
       solid-js: 1.7.11
     dev: true
 
-  /@solidjs/testing-library@0.8.4(@solidjs/router@0.8.2)(solid-js@1.7.11):
+  /@solidjs/testing-library@0.8.4(@solidjs/router@0.8.3)(solid-js@1.7.11):
     resolution: {integrity: sha512-HHCAlBd4P4TY03tXmoBwTO6FFM7w33LeT8Skab941eLO9l5RN7OxKEBw2fiMYvSFL2h2U7L4+W5N03iC8GbB6Q==}
     engines: {node: '>= 14'}
     peerDependencies:
       '@solidjs/router': '>=0.6.0'
       solid-js: '>=1.0.0'
     dependencies:
-      '@solidjs/router': 0.8.2(solid-js@1.7.11)
+      '@solidjs/router': 0.8.3(solid-js@1.7.11)
       '@testing-library/dom': 9.3.1
       solid-js: 1.7.11
     dev: true
@@ -8594,7 +8594,7 @@ packages:
       '@rollup/plugin-json': 6.0.0(rollup@3.29.1)
       '@rollup/plugin-node-resolve': 15.0.2(rollup@3.29.1)
       rollup: 3.29.1
-      solid-start: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.2)(solid-js@1.7.11)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9)
+      solid-start: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.7.11)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9)
       terser: 5.16.5
       vite: 4.4.9(@types/node@18.14.6)
     dev: true
@@ -8612,12 +8612,12 @@ packages:
       rollup: 3.29.1
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.2)(solid-js@1.7.11)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9)
+      solid-start: 0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.7.11)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9)
       undici: 5.24.0
       vite: 4.4.9(@types/node@18.14.6)
     dev: true
 
-  /solid-start@0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.2)(solid-js@1.7.11)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9):
+  /solid-start@0.2.26(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.7.11)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9):
     resolution: {integrity: sha512-kne2HZlnSMzsirdnvNs1CsDqBl0L0uvKKt1t4de1CH7JIngyqoMcER97jTE0Ejr84KknANaKAdvJAzZcL7Ueng==}
     hasBin: true
     peerDependencies:
@@ -8658,7 +8658,7 @@ packages:
       '@babel/preset-typescript': 7.21.0(@babel/core@7.21.0)
       '@babel/template': 7.20.7
       '@solidjs/meta': 0.28.6(solid-js@1.7.11)
-      '@solidjs/router': 0.8.2(solid-js@1.7.11)
+      '@solidjs/router': 0.8.3(solid-js@1.7.11)
       '@types/cookie': 0.5.1
       chokidar: 3.5.3
       compression: 1.7.4
