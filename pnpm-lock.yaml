@@ -72,8 +72,8 @@ devDependencies:
     specifier: 22.1.0
     version: 22.1.0
   motion:
-    specifier: 10.16.2
-    version: 10.16.2
+    specifier: 10.16.4
+    version: 10.16.4
   pnpm:
     specifier: 8.7.6
     version: 8.7.6
@@ -2345,32 +2345,12 @@ packages:
       - supports-color
     dev: true
 
-  /@motionone/animation@10.15.1:
-    resolution: {integrity: sha512-mZcJxLjHor+bhcPuIFErMDNyrdb2vJur8lSfMCsuCB4UyV8ILZLvK+t+pg56erv8ud9xQGK/1OGPt10agPrCyQ==}
-    dependencies:
-      '@motionone/easing': 10.15.1
-      '@motionone/types': 10.15.1
-      '@motionone/utils': 10.15.1
-      tslib: 2.5.0
-    dev: true
-
   /@motionone/animation@10.16.3:
     resolution: {integrity: sha512-QUGWpLbMFLhyqKlngjZhjtxM8IqiJQjLK0DF+XOF6od9nhSvlaeEpOY/UMCRVcZn/9Tr2rZO22EkuCIjYdI74g==}
     dependencies:
       '@motionone/easing': 10.16.3
       '@motionone/types': 10.16.3
       '@motionone/utils': 10.16.3
-      tslib: 2.5.0
-    dev: true
-
-  /@motionone/dom@10.16.2:
-    resolution: {integrity: sha512-bnuHdNbge1FutZXv+k7xub9oPWcF0hsu8y1HTH/qg6av58YI0VufZ3ngfC7p2xhMJMnoh0LXFma2EGTgPeCkeg==}
-    dependencies:
-      '@motionone/animation': 10.15.1
-      '@motionone/generators': 10.15.1
-      '@motionone/types': 10.15.1
-      '@motionone/utils': 10.15.1
-      hey-listen: 1.0.8
       tslib: 2.5.0
     dev: true
 
@@ -2385,25 +2365,10 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@motionone/easing@10.15.1:
-    resolution: {integrity: sha512-6hIHBSV+ZVehf9dcKZLT7p5PEKHGhDwky2k8RKkmOvUoYP3S+dXsKupyZpqx5apjd9f+php4vXk4LuS+ADsrWw==}
-    dependencies:
-      '@motionone/utils': 10.15.1
-      tslib: 2.5.0
-    dev: true
-
   /@motionone/easing@10.16.3:
     resolution: {integrity: sha512-HWTMZbTmZojzwEuKT/xCdvoMPXjYSyQvuVM6jmM0yoGU6BWzsmYMeB4bn38UFf618fJCNtP9XeC/zxtKWfbr0w==}
     dependencies:
       '@motionone/utils': 10.16.3
-      tslib: 2.5.0
-    dev: true
-
-  /@motionone/generators@10.15.1:
-    resolution: {integrity: sha512-67HLsvHJbw6cIbLA/o+gsm7h+6D4Sn7AUrB/GPxvujse1cGZ38F5H7DzoH7PhX+sjvtDnt2IhFYF2Zp1QTMKWQ==}
-    dependencies:
-      '@motionone/types': 10.15.1
-      '@motionone/utils': 10.15.1
       tslib: 2.5.0
     dev: true
 
@@ -2428,27 +2393,15 @@ packages:
       solid-js: 1.7.12
     dev: true
 
-  /@motionone/svelte@10.16.2:
-    resolution: {integrity: sha512-38xsroKrfK+aHYhuQlE6eFcGy0EwrB43Q7RGjF73j/kRUTcLNu/LAaKiLLsN5lyqVzCgTBVt4TMT/ShWbTbc5Q==}
+  /@motionone/svelte@10.16.4:
+    resolution: {integrity: sha512-zRVqk20lD1xqe+yEDZhMYgftsuHc25+9JSo+r0a0OWUJFocjSV9D/+UGhX4xgJsuwB9acPzXLr20w40VnY2PQA==}
     dependencies:
-      '@motionone/dom': 10.16.2
+      '@motionone/dom': 10.16.4
       tslib: 2.5.0
-    dev: true
-
-  /@motionone/types@10.15.1:
-    resolution: {integrity: sha512-iIUd/EgUsRZGrvW0jqdst8st7zKTzS9EsKkP+6c6n4MPZoQHwiHuVtTQLD6Kp0bsBLhNzKIBlHXponn/SDT4hA==}
     dev: true
 
   /@motionone/types@10.16.3:
     resolution: {integrity: sha512-W4jkEGFifDq73DlaZs3HUfamV2t1wM35zN/zX7Q79LfZ2sc6C0R1baUHZmqc/K5F3vSw3PavgQ6HyHLd/MXcWg==}
-    dev: true
-
-  /@motionone/utils@10.15.1:
-    resolution: {integrity: sha512-p0YncgU+iklvYr/Dq4NobTRdAPv9PveRDUXabPEeOjBLSO/1FNB2phNTZxOxpi1/GZwYpAoECEa0Wam+nsmhSw==}
-    dependencies:
-      '@motionone/types': 10.15.1
-      hey-listen: 1.0.8
-      tslib: 2.5.0
     dev: true
 
   /@motionone/utils@10.16.3:
@@ -2459,10 +2412,10 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@motionone/vue@10.16.2:
-    resolution: {integrity: sha512-7/dEK/nWQXOkJ70bqb2KyNfSWbNvWqKKq1C8juj+0Mg/AorgD8O5wE3naddK0G+aXuNMqRuc4jlsYHHWHtIzVw==}
+  /@motionone/vue@10.16.4:
+    resolution: {integrity: sha512-z10PF9JV6SbjFq+/rYabM+8CVlMokgl8RFGvieSGNTmrkQanfHn+15XBrhG3BgUfvmTeSeyShfOHpG0i9zEdcg==}
     dependencies:
-      '@motionone/dom': 10.16.2
+      '@motionone/dom': 10.16.4
       tslib: 2.5.0
     dev: true
 
@@ -6885,15 +6838,15 @@ packages:
       ufo: 1.1.2
     dev: true
 
-  /motion@10.16.2:
-    resolution: {integrity: sha512-p+PurYqfUdcJZvtnmAqu5fJgV2kR0uLFQuBKtLeFVTrYEVllI99tiOTSefVNYuip9ELTEkepIIDftNdze76NAQ==}
+  /motion@10.16.4:
+    resolution: {integrity: sha512-wvBeT0sZNgU6Od1aimjywBikqzm5yE97+L9eM/AoLy01AXNPdcnSDVHB3CoR0dGdHMbp/S0A/PjsJfWg0+k8Mg==}
     dependencies:
-      '@motionone/animation': 10.15.1
-      '@motionone/dom': 10.16.2
-      '@motionone/svelte': 10.16.2
-      '@motionone/types': 10.15.1
-      '@motionone/utils': 10.15.1
-      '@motionone/vue': 10.16.2
+      '@motionone/animation': 10.16.3
+      '@motionone/dom': 10.16.4
+      '@motionone/svelte': 10.16.4
+      '@motionone/types': 10.16.3
+      '@motionone/utils': 10.16.3
+      '@motionone/vue': 10.16.4
     dev: true
 
   /mri@1.2.0:
