@@ -100,7 +100,7 @@ devDependencies:
     version: 0.2.26(solid-start@0.3.6)(vite@4.4.9)
   solid-start-static:
     specifier: 0.2.26
-    version: 0.2.26(solid-start@0.3.6)(undici@5.25.2)(vite@4.4.9)
+    version: 0.2.26(solid-start@0.3.6)(undici@5.25.3)(vite@4.4.9)
   solid-toast:
     specifier: 0.5.0
     version: 0.5.0(solid-js@1.7.12)
@@ -117,8 +117,8 @@ devDependencies:
     specifier: 5.2.2
     version: 5.2.2
   undici:
-    specifier: 5.25.2
-    version: 5.25.2
+    specifier: 5.25.3
+    version: 5.25.3
   unplugin-auto-import:
     specifier: 0.16.6
     version: 0.16.6(rollup@3.29.4)
@@ -2246,6 +2246,11 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
+  /@fastify/busboy@2.0.0:
+    resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
+    engines: {node: '>=14'}
+    dev: true
+
   /@gar/promisify@1.1.3:
     resolution: {integrity: sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==}
     dev: true
@@ -3805,13 +3810,6 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       run-applescript: 5.0.0
-    dev: true
-
-  /busboy@1.6.0:
-    resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
-    engines: {node: '>=10.16.0'}
-    dependencies:
-      streamsearch: 1.1.0
     dev: true
 
   /bytes@3.0.0:
@@ -8778,7 +8776,7 @@ packages:
       vite: 4.4.9(@types/node@18.14.6)
     dev: true
 
-  /solid-start-static@0.2.26(solid-start@0.3.6)(undici@5.25.2)(vite@4.4.9):
+  /solid-start-static@0.2.26(solid-start@0.3.6)(undici@5.25.3)(vite@4.4.9):
     resolution: {integrity: sha512-lQj2sj2HUFxNLzUm8pTGX1D78usVad8RS4r5tGdJzeshgldNGqYN+vZS+cQSMnBrIQBV3ch8J1e3LPQx2IDtxA==}
     peerDependencies:
       solid-start: '*'
@@ -8792,7 +8790,7 @@ packages:
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
       solid-start: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.7.12)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.4.9)
-      undici: 5.25.2
+      undici: 5.25.3
       vite: 4.4.9(@types/node@18.14.6)
     dev: true
 
@@ -8862,9 +8860,9 @@ packages:
       sirv: 2.0.3
       solid-js: 1.7.12
       solid-start-deno: 0.2.26(solid-start@0.3.6)(vite@4.4.9)
-      solid-start-static: 0.2.26(solid-start@0.3.6)(undici@5.25.2)(vite@4.4.9)
+      solid-start-static: 0.2.26(solid-start@0.3.6)(undici@5.25.3)(vite@4.4.9)
       terser: 5.20.0
-      undici: 5.25.2
+      undici: 5.25.3
       vite: 4.4.9(@types/node@18.14.6)
       vite-plugin-inspect: 0.7.38(rollup@3.29.4)(vite@4.4.9)
       vite-plugin-solid: 2.7.0(solid-js@1.7.12)(vite@4.4.9)
@@ -8981,11 +8979,6 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       internal-slot: 1.0.5
-    dev: true
-
-  /streamsearch@1.1.0:
-    resolution: {integrity: sha512-Mcc5wHehp9aXz1ax6bZUyY5afg9u2rv5cqQI3mRrYkGC8rW2hM02jWuwjtL++LS5qinSyhj2QfLyNsuc+VsExg==}
-    engines: {node: '>=10.0.0'}
     dev: true
 
   /string-width@4.2.3:
@@ -9525,11 +9518,11 @@ packages:
       jiti: 1.18.2
     dev: true
 
-  /undici@5.25.2:
-    resolution: {integrity: sha512-tch8RbCfn1UUH1PeVCXva4V8gDpGAud/w0WubD6sHC46vYQ3KDxL+xv1A2UxK0N6jrVedutuPHxe1XIoqerwMw==}
+  /undici@5.25.3:
+    resolution: {integrity: sha512-7lmhlz3K1+IKB6IUjkdzV2l0jKY8/0KguEMdEpzzXCug5pEGIp3DxUg0DEN65DrVoxHiRKpPORC/qzX+UglSkQ==}
     engines: {node: '>=14.0'}
     dependencies:
-      busboy: 1.6.0
+      '@fastify/busboy': 2.0.0
     dev: true
 
   /unicode-canonical-property-names-ecmascript@2.0.0:
