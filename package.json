@@ -22,7 +22,7 @@
     "@solidjs/meta": "0.28.6",
     "@solidjs/router": "0.8.3",
     "@solidjs/testing-library": "0.8.4",
-    "@tauri-apps/cli": "1.5.4",
+    "@tauri-apps/cli": "1.5.5",
     "@testing-library/dom": "9.3.3",
     "@testing-library/jest-dom": "6.1.4",
     "@testing-library/user-event": "14.5.1",
