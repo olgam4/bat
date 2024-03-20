@@ -94,13 +94,13 @@ devDependencies:
     version: 1.8.4
   solid-start:
     specifier: 0.3.6
-    version: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.8.4)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.5.0)
+    version: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.8.4)(solid-start-deno@0.2.26)(solid-start-static@0.3.11)(vite@4.5.0)
   solid-start-deno:
     specifier: 0.2.26
     version: 0.2.26(solid-start@0.3.6)(vite@4.5.0)
   solid-start-static:
-    specifier: 0.2.26
-    version: 0.2.26(solid-start@0.3.6)(undici@5.27.0)(vite@4.5.0)
+    specifier: 0.3.11
+    version: 0.3.11(solid-start@0.3.6)(vite@4.5.0)
   solid-toast:
     specifier: 0.5.0
     version: 0.5.0(solid-js@1.8.4)
@@ -2689,6 +2689,24 @@ packages:
       rollup: 3.29.4
     dev: true
 
+  /@rollup/plugin-commonjs@24.1.0(rollup@3.29.4):
+    resolution: {integrity: sha512-eSL45hjhCWI0jCCXcNtLVqM5N1JlBGvlFfY0m6oOYnLCJ6N0qEXoZql4sY2MOUArzhH4SA/qBpTxvvZp2Sc+DQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.68.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.2(rollup@3.29.4)
+      commondir: 1.0.1
+      estree-walker: 2.0.2
+      glob: 8.1.0
+      is-reference: 1.2.1
+      magic-string: 0.27.0
+      rollup: 3.29.4
+    dev: true
+
   /@rollup/plugin-json@6.0.0(rollup@3.29.4):
     resolution: {integrity: sha512-i/4C5Jrdr1XUarRhVu27EEwjt4GObltD7c+MkCIpO2QIbojw8MUs+CCTqOphQi3Qtg1FLmYt+l+6YeoIf51J7w==}
     engines: {node: '>=14.0.0'}
@@ -2722,6 +2740,24 @@ packages:
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.78.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.0.2(rollup@3.29.4)
+      '@types/resolve': 1.20.2
+      deepmerge: 4.3.0
+      is-builtin-module: 3.2.1
+      is-module: 1.0.0
+      resolve: 1.22.8
+      rollup: 3.29.4
+    dev: true
+
+  /@rollup/plugin-node-resolve@15.2.3(rollup@3.29.4):
+    resolution: {integrity: sha512-j/lym8nf5E21LwBT4Df1VD6hRO2L2iwUeUmP7litikRsVp1H6NWx20NEp0Y7su+7XGc476GnXXc4kFeZNGmaSQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.78.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       rollup:
         optional: true
@@ -8720,17 +8756,8 @@ packages:
       local-access: 1.1.0
       sade: 1.8.1
       semiver: 1.1.0
-      sirv: 2.0.2
+      sirv: 2.0.3
       tinydate: 1.3.0
-    dev: true
-
-  /sirv@2.0.2:
-    resolution: {integrity: sha512-4Qog6aE29nIjAOKe/wowFTxOdmbEZKb+3tsLljaBRzJwtqto0BChD2zzH0LhgCSXiI+V7X+Y45v14wBZQ1TK3w==}
-    engines: {node: '>= 10'}
-    dependencies:
-      '@polka/url': 1.0.0-next.21
-      mrmime: 1.0.1
-      totalist: 3.0.0
     dev: true
 
   /sirv@2.0.3:
@@ -8793,8 +8820,8 @@ packages:
       solid-js: 1.8.4
     dev: true
 
-  /solid-ssr@1.6.3:
-    resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
+  /solid-ssr@1.7.2:
+    resolution: {integrity: sha512-1yxDK8RKYl4FBeaWrc4rRf3JdC7HQtPG+azpujB1k2V3GTexkcUVM8dCxWpiBsozpkfAmrZhjGklpW00N5lIGw==}
     dev: true
 
   /solid-start-deno@0.2.26(solid-start@0.3.6)(vite@4.5.0):
@@ -8807,30 +8834,28 @@ packages:
       '@rollup/plugin-json': 6.0.0(rollup@3.29.4)
       '@rollup/plugin-node-resolve': 15.0.2(rollup@3.29.4)
       rollup: 3.29.4
-      solid-start: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.8.4)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.5.0)
+      solid-start: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.8.4)(solid-start-deno@0.2.26)(solid-start-static@0.3.11)(vite@4.5.0)
       terser: 5.16.5
       vite: 4.5.0(@types/node@18.14.6)
     dev: true
 
-  /solid-start-static@0.2.26(solid-start@0.3.6)(undici@5.27.0)(vite@4.5.0):
-    resolution: {integrity: sha512-lQj2sj2HUFxNLzUm8pTGX1D78usVad8RS4r5tGdJzeshgldNGqYN+vZS+cQSMnBrIQBV3ch8J1e3LPQx2IDtxA==}
+  /solid-start-static@0.3.11(solid-start@0.3.6)(vite@4.5.0):
+    resolution: {integrity: sha512-s44mUYeU+SxMjVVcmV3jKJSRrlLtwLZiAwqExnEbbc++oIw1+h9mMsEUHY9RF49TxvSAiM45Q4Z2sXTAQ3HNNQ==}
     peerDependencies:
       solid-start: '*'
-      undici: ^5.8.0
       vite: '*'
     dependencies:
-      '@rollup/plugin-commonjs': 24.0.1(rollup@3.29.4)
+      '@rollup/plugin-commonjs': 24.1.0(rollup@3.29.4)
       '@rollup/plugin-json': 6.0.0(rollup@3.29.4)
-      '@rollup/plugin-node-resolve': 15.0.2(rollup@3.29.4)
+      '@rollup/plugin-node-resolve': 15.2.3(rollup@3.29.4)
       rollup: 3.29.4
       sirv-cli: 2.0.2
-      solid-ssr: 1.6.3
-      solid-start: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.8.4)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.5.0)
-      undici: 5.27.0
+      solid-ssr: 1.7.2
+      solid-start: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.8.4)(solid-start-deno@0.2.26)(solid-start-static@0.3.11)(vite@4.5.0)
       vite: 4.5.0(@types/node@18.14.6)
     dev: true
 
-  /solid-start@0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.8.4)(solid-start-deno@0.2.26)(solid-start-static@0.2.26)(vite@4.5.0):
+  /solid-start@0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.8.4)(solid-start-deno@0.2.26)(solid-start-static@0.3.11)(vite@4.5.0):
     resolution: {integrity: sha512-lFf4DqExY3f5Hl/N7e1GXdow/mFYCp5EQoEja6jusr/CeoITZBRPaPEcn8jEoubPnRVGqLPkL2gJJuBZBio8mQ==}
     hasBin: true
     peerDependencies:
@@ -8896,7 +8921,7 @@ packages:
       sirv: 2.0.3
       solid-js: 1.8.4
       solid-start-deno: 0.2.26(solid-start@0.3.6)(vite@4.5.0)
-      solid-start-static: 0.2.26(solid-start@0.3.6)(undici@5.27.0)(vite@4.5.0)
+      solid-start-static: 0.3.11(solid-start@0.3.6)(vite@4.5.0)
       terser: 5.20.0
       undici: 5.27.0
       vite: 4.5.0(@types/node@18.14.6)
@@ -10290,6 +10315,7 @@ packages:
 
   /workbox-google-analytics@7.0.0:
     resolution: {integrity: sha512-MEYM1JTn/qiC3DbpvP2BVhyIH+dV/5BjHk756u9VbwuAhu0QHyKscTnisQuz21lfRpOwiS9z4XdqeVAKol0bzg==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 7.0.0
       workbox-core: 7.0.0
