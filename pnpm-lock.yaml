@@ -27,8 +27,8 @@ devDependencies:
     specifier: 0.8.3
     version: 0.8.3(solid-js@1.8.4)
   '@solidjs/testing-library':
-    specifier: 0.8.4
-    version: 0.8.4(@solidjs/router@0.8.3)(solid-js@1.8.4)
+    specifier: 0.8.10
+    version: 0.8.10(@solidjs/router@0.8.3)(solid-js@1.8.4)
   '@tauri-apps/cli':
     specifier: 1.5.6
     version: 1.5.6
@@ -1443,7 +1443,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.19.4
-      '@babel/helper-validator-identifier': 7.19.1
+      '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
     dev: true
 
@@ -2867,15 +2867,18 @@ packages:
       solid-js: 1.8.4
     dev: true
 
-  /@solidjs/testing-library@0.8.4(@solidjs/router@0.8.3)(solid-js@1.8.4):
-    resolution: {integrity: sha512-HHCAlBd4P4TY03tXmoBwTO6FFM7w33LeT8Skab941eLO9l5RN7OxKEBw2fiMYvSFL2h2U7L4+W5N03iC8GbB6Q==}
+  /@solidjs/testing-library@0.8.10(@solidjs/router@0.8.3)(solid-js@1.8.4):
+    resolution: {integrity: sha512-qdeuIerwyq7oQTIrrKvV0aL9aFeuwTd86VYD3afdq5HYEwoox1OBTJy4y8A3TFZr8oAR0nujYgCzY/8wgHGfeQ==}
     engines: {node: '>= 14'}
     peerDependencies:
-      '@solidjs/router': '>=0.6.0'
+      '@solidjs/router': '>=0.9.0'
       solid-js: '>=1.0.0'
+    peerDependenciesMeta:
+      '@solidjs/router':
+        optional: true
     dependencies:
       '@solidjs/router': 0.8.3(solid-js@1.8.4)
-      '@testing-library/dom': 9.3.3
+      '@testing-library/dom': 10.4.0
       solid-js: 1.8.4
     dev: true
 
@@ -2993,6 +2996,20 @@ packages:
       '@tauri-apps/cli-win32-arm64-msvc': 1.5.6
       '@tauri-apps/cli-win32-ia32-msvc': 1.5.6
       '@tauri-apps/cli-win32-x64-msvc': 1.5.6
+    dev: true
+
+  /@testing-library/dom@10.4.0:
+    resolution: {integrity: sha512-pemlzrSESWbdAloYml3bAJMEfNh1Z7EduzqPKprCH5S341frlpYnUEW0H72dLxa6IsYr+mPno20GiSm+h9dEdQ==}
+    engines: {node: '>=18'}
+    dependencies:
+      '@babel/code-frame': 7.22.13
+      '@babel/runtime': 7.21.0
+      '@types/aria-query': 5.0.1
+      aria-query: 5.3.0
+      chalk: 4.1.2
+      dom-accessibility-api: 0.5.16
+      lz-string: 1.5.0
+      pretty-format: 27.5.1
     dev: true
 
   /@testing-library/dom@9.3.3:
@@ -3569,6 +3586,12 @@ packages:
     resolution: {integrity: sha512-R5iJ5lkuHybztUfuOAznmboyjWq8O6sqNqtK7CLOqdydi54VNbORp49mb14KbWgG1QD3JFO9hJdZ+y4KutfdOQ==}
     dependencies:
       deep-equal: 2.2.0
+    dev: true
+
+  /aria-query@5.3.0:
+    resolution: {integrity: sha512-b0P0sZPKtyu8HkeRAfCq0IfURZK+SuwMjY1UXGBU27wpAiTwQAIlq56IbIO+ytk/JjS1fMR14ee5WBBfKi5J6A==}
+    dependencies:
+      dequal: 2.0.3
     dev: true
 
   /array-buffer-byte-length@1.0.0:
@@ -6075,7 +6098,7 @@ packages:
     resolution: {integrity: sha512-Kijeg9Dag6CKtIDA7O21zNTACqD5MD/8HfIV8pdD94vFyFuer52SigdC3IQMhab3vACxXMiFk+yMHNdbqtyTGA==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@babel/code-frame': 7.18.6
+      '@babel/code-frame': 7.22.13
       '@jest/types': 29.5.0
       '@types/stack-utils': 2.0.1
       chalk: 4.1.2
