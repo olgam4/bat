@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@iconify-json/carbon": "1.1.21",
-    "@mdx-js/rollup": "2.3.0",
+    "@mdx-js/rollup": "3.1.0",
     "@motionone/solid": "10.16.4",
     "@rollup/plugin-replace": "5.0.7",
     "@solid-primitives/i18n": "2.0.0",
