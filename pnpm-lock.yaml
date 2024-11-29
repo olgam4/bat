@@ -72,8 +72,8 @@ devDependencies:
     specifier: 22.1.0
     version: 22.1.0
   motion:
-    specifier: 10.16.4
-    version: 10.16.4
+    specifier: 10.18.0
+    version: 10.18.0
   pnpm:
     specifier: 8.10.0
     version: 8.10.0
@@ -2444,6 +2444,15 @@ packages:
       tslib: 2.5.0
     dev: true
 
+  /@motionone/animation@10.18.0:
+    resolution: {integrity: sha512-9z2p5GFGCm0gBsZbi8rVMOAJCtw1WqBTIPw3ozk06gDvZInBPIsQcHgYogEJ4yuHJ+akuW8g1SEIOpTOvYs8hw==}
+    dependencies:
+      '@motionone/easing': 10.18.0
+      '@motionone/types': 10.17.1
+      '@motionone/utils': 10.18.0
+      tslib: 2.5.0
+    dev: true
+
   /@motionone/dom@10.16.4:
     resolution: {integrity: sha512-HPHlVo/030qpRj9R8fgY50KTN4Ko30moWRTA3L3imrsRBmob93cTYmodln49HYFbQm01lFF7X523OkKY0DX6UA==}
     dependencies:
@@ -2455,10 +2464,28 @@ packages:
       tslib: 2.5.0
     dev: true
 
+  /@motionone/dom@10.18.0:
+    resolution: {integrity: sha512-bKLP7E0eyO4B2UaHBBN55tnppwRnaE3KFfh3Ps9HhnAkar3Cb69kUCJY9as8LrccVYKgHA+JY5dOQqJLOPhF5A==}
+    dependencies:
+      '@motionone/animation': 10.18.0
+      '@motionone/generators': 10.18.0
+      '@motionone/types': 10.17.1
+      '@motionone/utils': 10.18.0
+      hey-listen: 1.0.8
+      tslib: 2.5.0
+    dev: true
+
   /@motionone/easing@10.16.3:
     resolution: {integrity: sha512-HWTMZbTmZojzwEuKT/xCdvoMPXjYSyQvuVM6jmM0yoGU6BWzsmYMeB4bn38UFf618fJCNtP9XeC/zxtKWfbr0w==}
     dependencies:
       '@motionone/utils': 10.16.3
+      tslib: 2.5.0
+    dev: true
+
+  /@motionone/easing@10.18.0:
+    resolution: {integrity: sha512-VcjByo7XpdLS4o9T8t99JtgxkdMcNWD3yHU/n6CLEz3bkmKDRZyYQ/wmSf6daum8ZXqfUAgFeCZSpJZIMxaCzg==}
+    dependencies:
+      '@motionone/utils': 10.18.0
       tslib: 2.5.0
     dev: true
 
@@ -2467,6 +2494,14 @@ packages:
     dependencies:
       '@motionone/types': 10.16.3
       '@motionone/utils': 10.16.3
+      tslib: 2.5.0
+    dev: true
+
+  /@motionone/generators@10.18.0:
+    resolution: {integrity: sha512-+qfkC2DtkDj4tHPu+AFKVfR/C30O1vYdvsGYaR13W/1cczPrrcjdvYCj0VLFuRMN+lP1xvpNZHCRNM4fBzn1jg==}
+    dependencies:
+      '@motionone/types': 10.17.1
+      '@motionone/utils': 10.18.0
       tslib: 2.5.0
     dev: true
 
@@ -2483,15 +2518,12 @@ packages:
       solid-js: 1.8.4
     dev: true
 
-  /@motionone/svelte@10.16.4:
-    resolution: {integrity: sha512-zRVqk20lD1xqe+yEDZhMYgftsuHc25+9JSo+r0a0OWUJFocjSV9D/+UGhX4xgJsuwB9acPzXLr20w40VnY2PQA==}
-    dependencies:
-      '@motionone/dom': 10.16.4
-      tslib: 2.5.0
-    dev: true
-
   /@motionone/types@10.16.3:
     resolution: {integrity: sha512-W4jkEGFifDq73DlaZs3HUfamV2t1wM35zN/zX7Q79LfZ2sc6C0R1baUHZmqc/K5F3vSw3PavgQ6HyHLd/MXcWg==}
+    dev: true
+
+  /@motionone/types@10.17.1:
+    resolution: {integrity: sha512-KaC4kgiODDz8hswCrS0btrVrzyU2CSQKO7Ps90ibBVSQmjkrt2teqta6/sOG59v7+dPnKMAg13jyqtMKV2yJ7A==}
     dev: true
 
   /@motionone/utils@10.16.3:
@@ -2502,10 +2534,11 @@ packages:
       tslib: 2.5.0
     dev: true
 
-  /@motionone/vue@10.16.4:
-    resolution: {integrity: sha512-z10PF9JV6SbjFq+/rYabM+8CVlMokgl8RFGvieSGNTmrkQanfHn+15XBrhG3BgUfvmTeSeyShfOHpG0i9zEdcg==}
+  /@motionone/utils@10.18.0:
+    resolution: {integrity: sha512-3XVF7sgyTSI2KWvTf6uLlBJ5iAgRgmvp3bpuOiQJvInd4nZ19ET8lX5unn30SlmRH7hXbBbH+Gxd0m0klJ3Xtw==}
     dependencies:
-      '@motionone/dom': 10.16.4
+      '@motionone/types': 10.17.1
+      hey-listen: 1.0.8
       tslib: 2.5.0
     dev: true
 
@@ -7506,15 +7539,13 @@ packages:
       ufo: 1.5.4
     dev: true
 
-  /motion@10.16.4:
-    resolution: {integrity: sha512-wvBeT0sZNgU6Od1aimjywBikqzm5yE97+L9eM/AoLy01AXNPdcnSDVHB3CoR0dGdHMbp/S0A/PjsJfWg0+k8Mg==}
+  /motion@10.18.0:
+    resolution: {integrity: sha512-MVAZZmwM/cp77BrNe1TxTMldxRPjwBNHheU5aPToqT4rJdZxLiADk58H+a0al5jKLxkB0OdgNq6DiVn11cjvIQ==}
     dependencies:
-      '@motionone/animation': 10.16.3
-      '@motionone/dom': 10.16.4
-      '@motionone/svelte': 10.16.4
-      '@motionone/types': 10.16.3
-      '@motionone/utils': 10.16.3
-      '@motionone/vue': 10.16.4
+      '@motionone/animation': 10.18.0
+      '@motionone/dom': 10.18.0
+      '@motionone/types': 10.17.1
+      '@motionone/utils': 10.18.0
     dev: true
 
   /mri@1.2.0:
