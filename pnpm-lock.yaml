@@ -66,8 +66,8 @@ devDependencies:
     specifier: 2.31.0
     version: 2.31.0(@typescript-eslint/parser@6.9.0)(eslint@8.57.1)
   eslint-plugin-unused-imports:
-    specifier: 3.0.0
-    version: 3.0.0(@typescript-eslint/eslint-plugin@6.9.0)(eslint@8.57.1)
+    specifier: 3.2.0
+    version: 3.2.0(@typescript-eslint/eslint-plugin@6.9.0)(eslint@8.57.1)
   jsdom:
     specifier: 22.1.0
     version: 22.1.0
@@ -5183,12 +5183,12 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-unused-imports@3.0.0(@typescript-eslint/eslint-plugin@6.9.0)(eslint@8.57.1):
-    resolution: {integrity: sha512-sduiswLJfZHeeBJ+MQaG+xYzSWdRXoSw61DpU13mzWumCkR0ufD0HmO4kdNokjrkluMHpj/7PJeN35pgbhW3kw==}
+  /eslint-plugin-unused-imports@3.2.0(@typescript-eslint/eslint-plugin@6.9.0)(eslint@8.57.1):
+    resolution: {integrity: sha512-6uXyn6xdINEpxE1MtDjxQsyXB37lfyO2yKGVVgtD7WEWQGORSOZjgrD6hBhvGv4/SO+TOlS+UnC6JppRqbuwGQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': ^6.0.0
-      eslint: ^8.0.0
+      '@typescript-eslint/eslint-plugin': 6 - 7
+      eslint: '8'
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
         optional: true
@@ -9685,13 +9685,13 @@ packages:
   /string.prototype.matchall@4.0.8:
     resolution: {integrity: sha512-6zOCOcJ+RJAQshcTvXPHoxoQGONa3e/Lqx90wUA+wEzX78sg5Bo+1tQo4N0pohS0erG9qtCqJDjNCQBjeWVxyg==}
     dependencies:
-      call-bind: 1.0.2
-      define-properties: 1.2.0
-      es-abstract: 1.22.1
-      get-intrinsic: 1.2.1
+      call-bind: 1.0.7
+      define-properties: 1.2.1
+      es-abstract: 1.23.5
+      get-intrinsic: 1.2.4
       has-symbols: 1.0.3
-      internal-slot: 1.0.5
-      regexp.prototype.flags: 1.5.0
+      internal-slot: 1.0.7
+      regexp.prototype.flags: 1.5.3
       side-channel: 1.0.4
     dev: true
 
