@@ -31,7 +31,7 @@
     "@typescript-eslint/parser": "6.9.0",
     "autoprefixer": "10.4.20",
     "c8": "8.0.1",
-    "cssnano": "6.0.1",
+    "cssnano": "6.1.2",
     "eslint": "8.52.0",
     "eslint-plugin-import": "2.29.0",
     "eslint-plugin-unused-imports": "3.0.0",
