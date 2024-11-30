@@ -57,7 +57,7 @@
     "vite-plugin-pwa": "0.16.5",
     "vite-tsconfig-paths": "4.3.2",
     "vitest": "0.34.5",
-    "workbox-window": "7.0.0"
+    "workbox-window": "7.3.0"
   },
   "peerDependencies": {
     "undici": "5.28.4"
