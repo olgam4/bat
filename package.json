@@ -41,7 +41,7 @@
     "postcss": "8.4.49",
     "postcss-import": "15.1.0",
     "postcss-preset-env": "9.6.0",
-    "rollup": "3.29.5",
+    "rollup": "4.28.1",
     "solid-js": "1.9.3",
     "solid-start": "0.3.6",
     "solid-start-deno": "0.3.11",
