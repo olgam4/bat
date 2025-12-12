@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@iconify-json/carbon':
-    specifier: 1.2.4
-    version: 1.2.4
+    specifier: 1.2.15
+    version: 1.2.15
   '@mdx-js/rollup':
     specifier: 3.1.0
     version: 3.1.0(acorn@8.14.0)(rollup@3.29.5)
@@ -2355,8 +2355,8 @@ packages:
     deprecated: Use @eslint/object-schema instead
     dev: true
 
-  /@iconify-json/carbon@1.2.4:
-    resolution: {integrity: sha512-DhW2jjMVGwV0DLHc0cmDYohdtGxMra8UuwgjHrryPy+rQX4gXhJwCBBVP2h2UG/92AoRCTn7zUJve4WvY5MLYg==}
+  /@iconify-json/carbon@1.2.15:
+    resolution: {integrity: sha512-9tW0nZY5QtKkMhuYzW09BM1345SyXNuA+gx2ub0j/fnfHOD5XVimMJ/D76H3tTez25NJbPYCLIQoFhvJc1HVBQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -9756,6 +9756,7 @@ packages:
   /source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
     dependencies:
       whatwg-url: 7.1.0
     dev: true
