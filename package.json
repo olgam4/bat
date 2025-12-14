@@ -38,7 +38,7 @@
     "jsdom": "22.1.0",
     "motion": "10.18.0",
     "pnpm": "8.15.9",
-    "postcss": "8.4.49",
+    "postcss": "8.5.6",
     "postcss-import": "15.1.0",
     "postcss-preset-env": "9.6.0",
     "rollup": "3.29.5",
