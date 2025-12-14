@@ -93,14 +93,14 @@ devDependencies:
     specifier: 1.9.10
     version: 1.9.10
   solid-start:
-    specifier: 0.3.6
-    version: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.9.10)(solid-start-deno@0.3.11)(solid-start-static@0.2.26)(vite@4.5.14)
+    specifier: 0.3.11
+    version: 0.3.11(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.9.10)(solid-start-deno@0.3.11)(solid-start-static@0.2.26)(vite@4.5.14)
   solid-start-deno:
     specifier: 0.3.11
-    version: 0.3.11(solid-start@0.3.6)(vite@4.5.14)
+    version: 0.3.11(solid-start@0.3.11)(vite@4.5.14)
   solid-start-static:
     specifier: 0.2.26
-    version: 0.2.26(solid-start@0.3.6)(undici@5.29.0)(vite@4.5.14)
+    version: 0.2.26(solid-start@0.3.11)(undici@5.29.0)(vite@4.5.14)
   solid-toast:
     specifier: 0.5.0
     version: 0.5.0(solid-js@1.9.10)
@@ -175,10 +175,6 @@ packages:
     resolution: {integrity: sha512-vy9fM3pIxZmX07dL+VX1aZe7ynZ+YyB0jY+jE6r3hOK6GNY2t6W8rzpFC4tgpbXUYABkFQwgJq2XYXlxbXAI0g==}
     dev: true
 
-  /@antfu/utils@0.7.5:
-    resolution: {integrity: sha512-dlR6LdS+0SzOAPx/TPRhnoi7hE251OVeT2Snw0RguNbBSbjUHdWr0l3vcUUDg26rEysT89kCbtw1lVorBXLLCg==}
-    dev: true
-
   /@apideck/better-ajv-errors@0.3.6(ajv@8.12.0):
     resolution: {integrity: sha512-P+ZygBLZtkp0qqOAJJVX4oX/sFo5JR3eBWwwuqHHhK0GIgQOKWrAfiAaWX0aArHkRWHMuggFEgAZNxVPwPZYaA==}
     engines: {node: '>=10'}
@@ -237,13 +233,6 @@ packages:
       jsesc: 2.5.2
     dev: true
 
-  /@babel/helper-annotate-as-pure@7.18.6:
-    resolution: {integrity: sha512-duORpUiYrEpzKIop6iNbjnwKLAKnJ47csTyRACyEmWj0QdUrm5aqNJGHSSEQSUAvNW0ojX0dOmK9dZduvkfeXA==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/types': 7.22.19
-    dev: true
-
   /@babel/helper-annotate-as-pure@7.22.5:
     resolution: {integrity: sha512-LvBTxu8bQSQkcyKOU+a1btnNFQ1dMAd0R6PyW3arXes06F6QLWLIrd681bxRPIXlrMGR3XYnW9JyML7dP3qgxg==}
     engines: {node: '>=6.9.0'}
@@ -264,7 +253,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.22.20
       '@babel/helper-validator-option': 7.22.15
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       lru-cache: 5.1.1
       semver: 6.3.1
     dev: true
@@ -285,17 +274,6 @@ packages:
       '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.6
       semver: 6.3.1
-    dev: true
-
-  /@babel/helper-create-regexp-features-plugin@7.21.0(@babel/core@7.22.20):
-    resolution: {integrity: sha512-N+LaFW/auRSWdx7SHD/HiARwXQju1vXTW4fKr4u5SgBUTm51OKEjKgj+cs00ggW3kEvNqwErnlwuq7Y3xBe4eg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/core': 7.22.20
-      '@babel/helper-annotate-as-pure': 7.18.6
-      regexpu-core: 5.3.1
     dev: true
 
   /@babel/helper-create-regexp-features-plugin@7.22.15(@babel/core@7.22.20):
@@ -356,7 +334,7 @@ packages:
     resolution: {integrity: sha512-0NFvs3VkuSYbFi1x2Vd6tKrywq+z/cLeYC/RJNFrIX/30Bf5aiGYbtvGXolEktzJH8o5E5KJ3tT+nkxuuZFVlA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.21.2
+      '@babel/types': 7.22.19
     dev: true
 
   /@babel/helper-module-imports@7.22.15:
@@ -437,11 +415,6 @@ packages:
       '@babel/types': 7.22.19
     dev: true
 
-  /@babel/helper-string-parser@7.19.4:
-    resolution: {integrity: sha512-nHtDoQcuqFmwYNYPz3Rah5ph2p8PFeFCsZk9A/48dPc/rGocJ5J3hAAZ7pb76VWX3fZKu+uEr/FhH5jLx7umrw==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-string-parser@7.22.5:
     resolution: {integrity: sha512-mM4COjgZox8U+JcXQwPijIZLElkgEpO5rsERVDJTc2qfCDfERyob6k5WegS14SX18IIjv+XD+GrqNumY5JRCDw==}
     engines: {node: '>=6.9.0'}
@@ -484,14 +457,6 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
       js-tokens: 4.0.0
-    dev: true
-
-  /@babel/parser@7.21.2:
-    resolution: {integrity: sha512-URpaIJQwEkEC2T9Kn+Ai6Xe/02iNaVCuT/PtoRz3GPVJVDpPd7mLo+VddTbhCRU9TXqW5mSrQfXZyi8kDKOVpQ==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.21.2
     dev: true
 
   /@babel/parser@7.22.16:
@@ -718,7 +683,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.22.20
-      '@babel/helper-create-regexp-features-plugin': 7.21.0(@babel/core@7.22.20)
+      '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.22.20)
       '@babel/helper-plugin-utils': 7.22.5
     dev: true
 
@@ -1419,15 +1384,6 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/types@7.21.2:
-    resolution: {integrity: sha512-3wRZSs7jiFaB8AjxiiD+VqN5DTG2iRvJGQ+qYFrs/654lg6kGTQWIOFjlBo5RaXuAZjBmP3+OQH4dmhqiiyYxw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.19.4
-      '@babel/helper-validator-identifier': 7.22.20
-      to-fast-properties: 2.0.0
     dev: true
 
   /@babel/types@7.22.19:
@@ -2413,7 +2369,7 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       '@jridgewell/set-array': 1.1.2
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
   /@jridgewell/gen-mapping@0.3.2:
@@ -3238,8 +3194,8 @@ packages:
   /@types/babel__core@7.20.0:
     resolution: {integrity: sha512-+n8dL/9GWblDO0iU6eZAwEIJVr5DWigtle+Q6HLOrh/pdbXOhOtqzq8VPPE2zvNJzSKY4vH/z3iT3tn0A3ypiQ==}
     dependencies:
-      '@babel/parser': 7.21.2
-      '@babel/types': 7.21.2
+      '@babel/parser': 7.22.16
+      '@babel/types': 7.22.19
       '@types/babel__generator': 7.6.4
       '@types/babel__template': 7.4.1
       '@types/babel__traverse': 7.18.3
@@ -3248,20 +3204,20 @@ packages:
   /@types/babel__generator@7.6.4:
     resolution: {integrity: sha512-tFkciB9j2K755yrTALxD44McOrk+gfpIpvC3sxHjRawj6PfnQxrse4Clq5y/Rq+G3mrBurMax/lG8Qn2t9mSsg==}
     dependencies:
-      '@babel/types': 7.21.2
+      '@babel/types': 7.22.19
     dev: true
 
   /@types/babel__template@7.4.1:
     resolution: {integrity: sha512-azBFKemX6kMg5Io+/rdGT0dkGreboUVR0Cdm3fz9QJWpaQGJRQXl7C+6hOTCZcMll7KFyEQpgbYI2lHdsS4U7g==}
     dependencies:
-      '@babel/parser': 7.21.2
-      '@babel/types': 7.21.2
+      '@babel/parser': 7.22.16
+      '@babel/types': 7.22.19
     dev: true
 
   /@types/babel__traverse@7.18.3:
     resolution: {integrity: sha512-1kbcJ40lLB7MHsj39U4Sh1uTd2E7rLEa79kmDpI6cy+XiXsteB3POdQomoq4FxszMrO3ZYchkhYJw7A2862b3w==}
     dependencies:
-      '@babel/types': 7.21.2
+      '@babel/types': 7.22.19
     dev: true
 
   /@types/chai-subset@1.3.3:
@@ -3904,7 +3860,7 @@ packages:
       '@babel/core': 7.22.20
       '@babel/helper-module-imports': 7.18.6
       '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.22.20)
-      '@babel/types': 7.21.2
+      '@babel/types': 7.22.19
       html-entities: 2.3.3
       validate-html-nesting: 1.2.1
     dev: true
@@ -4190,7 +4146,7 @@ packages:
   /caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       caniuse-lite: 1.0.30001684
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
@@ -4264,21 +4220,6 @@ packages:
 
   /check-error@1.0.2:
     resolution: {integrity: sha512-BrgHpW9NURQgzoNyjfq0Wu6VFO6D7IZEmJNdtgNqpzGG8RuNFHt2jQxWlAs4HMe119chBnv+34syEZtc6IhLtA==}
-    dev: true
-
-  /chokidar@3.5.3:
-    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
-    engines: {node: '>= 8.10.0'}
-    dependencies:
-      anymatch: 3.1.3
-      braces: 3.0.2
-      glob-parent: 5.1.2
-      is-binary-path: 2.1.0
-      is-glob: 4.0.3
-      normalize-path: 3.0.0
-      readdirp: 3.6.0
-    optionalDependencies:
-      fsevents: 2.3.2
     dev: true
 
   /chokidar@3.6.0:
@@ -4446,7 +4387,7 @@ packages:
   /core-js-compat@3.32.2:
     resolution: {integrity: sha512-+GjlguTDINOijtVRUxrQOv3kfu9rl+qPNdX2LTbJ/ZyVTuxK+ksVSAGX1nHstu4hrv1En/uPTtWgq2gI5wt4AQ==}
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
     dev: true
 
   /cross-spawn@7.0.3:
@@ -7245,14 +7186,14 @@ packages:
     resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
     engines: {node: '>=12'}
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
   /magic-string@0.30.1:
     resolution: {integrity: sha512-mbVKXPmS0z0G4XqFDCTllmDQ6coZzn94aMlb0o/A4HEHJCKcanlDZwYJgwnkmgD3jyWhUgj9VsPrfd972yPffA==}
     engines: {node: '>=12'}
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
   /magic-string@0.30.14:
@@ -8603,7 +8544,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       caniuse-api: 3.0.0
       colord: 2.9.3
       postcss: 8.5.6
@@ -8616,7 +8557,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
     dev: true
@@ -8847,7 +8788,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       caniuse-api: 3.0.0
       cssnano-utils: 4.0.2(postcss@8.5.6)
       postcss: 8.5.6
@@ -8882,7 +8823,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       cssnano-utils: 4.0.2(postcss@8.5.6)
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
@@ -8985,7 +8926,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       postcss: 8.5.6
       postcss-value-parser: 4.2.0
     dev: true
@@ -9144,7 +9085,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       caniuse-api: 3.0.0
       postcss: 8.5.6
     dev: true
@@ -9937,17 +9878,8 @@ packages:
       local-access: 1.1.0
       sade: 1.8.1
       semiver: 1.1.0
-      sirv: 2.0.2
+      sirv: 2.0.3
       tinydate: 1.3.0
-    dev: true
-
-  /sirv@2.0.2:
-    resolution: {integrity: sha512-4Qog6aE29nIjAOKe/wowFTxOdmbEZKb+3tsLljaBRzJwtqto0BChD2zzH0LhgCSXiI+V7X+Y45v14wBZQ1TK3w==}
-    engines: {node: '>= 10'}
-    dependencies:
-      '@polka/url': 1.0.0-next.21
-      mrmime: 1.0.1
-      totalist: 3.0.0
     dev: true
 
   /sirv@2.0.3:
@@ -10006,8 +9938,8 @@ packages:
       solid-js: ^1.3
     dependencies:
       '@babel/generator': 7.22.15
-      '@babel/helper-module-imports': 7.18.6
-      '@babel/types': 7.21.2
+      '@babel/helper-module-imports': 7.22.15
+      '@babel/types': 7.22.19
       solid-js: 1.9.10
     dev: true
 
@@ -10015,7 +9947,7 @@ packages:
     resolution: {integrity: sha512-ieG1NemdbGOOfKrCZdUNktfQJlrYSg4Nr2PG2CSoO/KCHs2PBIe3PsjLenvbiTop0qAQgHkSf2pNgcz5VoJzaw==}
     dev: true
 
-  /solid-start-deno@0.3.11(solid-start@0.3.6)(vite@4.5.14):
+  /solid-start-deno@0.3.11(solid-start@0.3.11)(vite@4.5.14):
     resolution: {integrity: sha512-d6++wIjxbnVwUB6p1BUPDiZglGvtNK4Wv3NnBTkkGwmaN4L4DGPnkV3UPj1og9Cvp7Xy5K2q8TFIwkscLhrE6w==}
     peerDependencies:
       solid-start: '*'
@@ -10025,12 +9957,12 @@ packages:
       '@rollup/plugin-json': 6.0.0(rollup@3.29.5)
       '@rollup/plugin-node-resolve': 15.2.3(rollup@3.29.5)
       rollup: 3.29.5
-      solid-start: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.9.10)(solid-start-deno@0.3.11)(solid-start-static@0.2.26)(vite@4.5.14)
+      solid-start: 0.3.11(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.9.10)(solid-start-deno@0.3.11)(solid-start-static@0.2.26)(vite@4.5.14)
       terser: 5.20.0
       vite: 4.5.14(@types/node@18.14.6)
     dev: true
 
-  /solid-start-static@0.2.26(solid-start@0.3.6)(undici@5.29.0)(vite@4.5.14):
+  /solid-start-static@0.2.26(solid-start@0.3.11)(undici@5.29.0)(vite@4.5.14):
     resolution: {integrity: sha512-lQj2sj2HUFxNLzUm8pTGX1D78usVad8RS4r5tGdJzeshgldNGqYN+vZS+cQSMnBrIQBV3ch8J1e3LPQx2IDtxA==}
     peerDependencies:
       solid-start: '*'
@@ -10043,18 +9975,18 @@ packages:
       rollup: 3.29.5
       sirv-cli: 2.0.2
       solid-ssr: 1.6.3
-      solid-start: 0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.9.10)(solid-start-deno@0.3.11)(solid-start-static@0.2.26)(vite@4.5.14)
+      solid-start: 0.3.11(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.9.10)(solid-start-deno@0.3.11)(solid-start-static@0.2.26)(vite@4.5.14)
       undici: 5.29.0
       vite: 4.5.14(@types/node@18.14.6)
     dev: true
 
-  /solid-start@0.3.6(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.9.10)(solid-start-deno@0.3.11)(solid-start-static@0.2.26)(vite@4.5.14):
-    resolution: {integrity: sha512-lFf4DqExY3f5Hl/N7e1GXdow/mFYCp5EQoEja6jusr/CeoITZBRPaPEcn8jEoubPnRVGqLPkL2gJJuBZBio8mQ==}
+  /solid-start@0.3.11(@solidjs/meta@0.28.6)(@solidjs/router@0.8.3)(solid-js@1.9.10)(solid-start-deno@0.3.11)(solid-start-static@0.2.26)(vite@4.5.14):
+    resolution: {integrity: sha512-zVv1CI/Zwr3nBgRLqp0xxXZh9TGSqFcBTdcDwDT89HeVnL3ly2+bZGfXd3K9cEAJ/H9JUSmEyr0EzZfGhjZ/Yg==}
     hasBin: true
     peerDependencies:
-      '@solidjs/meta': ^0.28.0
+      '@solidjs/meta': ^0.29.1
       '@solidjs/router': ^0.8.2
-      solid-js: ^1.6.2
+      solid-js: ^1.8.4
       solid-start-aws: '*'
       solid-start-cloudflare-pages: '*'
       solid-start-cloudflare-workers: '*'
@@ -10092,7 +10024,7 @@ packages:
       '@solidjs/router': 0.8.3(solid-js@1.9.10)
       '@types/cookie': 0.5.1
       '@types/debug': 4.1.7
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       compression: 1.7.4
       connect: 3.7.0
       debug: 4.3.4
@@ -10101,11 +10033,11 @@ packages:
       es-module-lexer: 1.3.1
       esbuild: 0.17.19
       esbuild-plugin-solid: 0.5.0(esbuild@0.17.19)(solid-js@1.9.10)
-      fast-glob: 3.3.1
+      fast-glob: 3.3.2
       get-port: 6.1.2
       micromorph: 0.3.1
       parse-multipart-data: 1.5.0
-      picocolors: 1.0.0
+      picocolors: 1.1.1
       rollup: 3.29.5
       rollup-plugin-visualizer: 5.9.2(rollup@3.29.5)
       rollup-route-manifest: 1.0.0(rollup@3.29.5)
@@ -10113,8 +10045,8 @@ packages:
       set-cookie-parser: 2.6.0
       sirv: 2.0.3
       solid-js: 1.9.10
-      solid-start-deno: 0.3.11(solid-start@0.3.6)(vite@4.5.14)
-      solid-start-static: 0.2.26(solid-start@0.3.6)(undici@5.29.0)(vite@4.5.14)
+      solid-start-deno: 0.3.11(solid-start@0.3.11)(vite@4.5.14)
+      solid-start-static: 0.2.26(solid-start@0.3.11)(undici@5.29.0)(vite@4.5.14)
       terser: 5.20.0
       undici: 5.29.0
       vite: 4.5.14(@types/node@18.14.6)
@@ -10415,7 +10347,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.24.2
+      browserslist: 4.28.1
       postcss: 8.5.6
       postcss-selector-parser: 6.1.2
     dev: true
@@ -11169,7 +11101,7 @@ packages:
       '@nuxt/kit':
         optional: true
     dependencies:
-      '@antfu/utils': 0.7.5
+      '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.3(rollup@3.29.5)
       debug: 4.3.4
       error-stack-parser-es: 0.1.1
