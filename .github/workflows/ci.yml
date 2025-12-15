@@ -16,7 +16,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v2.4.1
+      - uses: pnpm/action-setup@v4.2.0
         name: Install pnpm
         id: pnpm-install
         with:
