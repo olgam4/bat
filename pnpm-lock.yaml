@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@iconify-json/carbon':
-    specifier: 1.2.19
-    version: 1.2.19
+    specifier: 1.2.23
+    version: 1.2.23
   '@mdx-js/rollup':
     specifier: 3.1.1
     version: 3.1.1(acorn@8.14.0)(rollup@3.30.0)
@@ -2355,8 +2355,8 @@ packages:
     deprecated: Use @eslint/object-schema instead
     dev: true
 
-  /@iconify-json/carbon@1.2.19:
-    resolution: {integrity: sha512-l89XjtEeSA5fxlxPTNSU9AA+rxaz/Dn0X/ux0/3awR+tAayY8iJqWQu3AKxhchfx3LB/fX1Nv3ZppZzrBAt7aA==}
+  /@iconify-json/carbon@1.2.23:
+    resolution: {integrity: sha512-7apXetbRmEiWDXIQyikFJZyq7pCVBKHYRzmeLdtT7wWoHYdWHwnFcBAzpuLoSh+ZEAfXZapSWEe8iuS6dUqf+Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
